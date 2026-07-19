@@ -1,0 +1,541 @@
+{
+  "id": "future",
+  "title_hu": "Jövő idő: will vs. going to",
+  "subtitle_hu": "Melyiket mikor?",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "will: döntés a beszéd pillanatában, jóslat, ígéret",
+      "body_hu": "A „will + alapige” szerkezetet spontán döntésekre, jóslatokra, ígéretekre és ajánlatokra használjuk. Rövid alak: 'll, tagadás: won't.",
+      "examples": [
+        {
+          "en": "It's cold. I'll close the window.",
+          "hu": "Hideg van. Becsukom az ablakot. (spontán)"
+        },
+        {
+          "en": "I think it will rain tomorrow.",
+          "hu": "Szerintem holnap esni fog. (jóslat)"
+        },
+        {
+          "en": "I won't tell anyone.",
+          "hu": "Nem mondom el senkinek. (ígéret)"
+        }
+      ]
+    },
+    {
+      "heading_hu": "going to: terv, szándék, látható jel",
+      "body_hu": "A „be going to + alapige” előre eltervezett szándékot fejez ki, vagy olyan jóslatot, amire látható JELE van a jelenben.",
+      "examples": [
+        {
+          "en": "I am going to study medicine.",
+          "hu": "Orvosnak készülök. (terv)"
+        },
+        {
+          "en": "Look at those clouds! It's going to rain.",
+          "hu": "Nézd a felhőket! Esni fog. (jel)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ help you with your homework tonight.",
+      "options": [
+        "am going to",
+        "will",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Előre eltervezett szándékot fejez ki, ezért 'am going to'."
+    },
+    {
+      "prompt_hu": "Look at those dark clouds! It ___ rain soon.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel (sötét felhők) van a jelenben, így 'is going to'."
+    },
+    {
+      "prompt_hu": "I promise I ___ never forget you.",
+      "options": [
+        "am going to",
+        "will",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ígéret, ezért 'will' használandó."
+    },
+    {
+      "prompt_hu": "We ___ meet our friends at the cinema tomorrow. We already bought tickets.",
+      "options": [
+        "will",
+        "are going to",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre megkötött terv, hiszen már jegyek vannak, így 'are going to'."
+    },
+    {
+      "prompt_hu": "My phone battery is very low. It ___ die soon.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel (alacsony akkumulátor), ezért 'is going to'."
+    },
+    {
+      "prompt_hu": "Would you like some coffee? I ___ make you a cup.",
+      "options": [
+        "am going to",
+        "will",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Spontán ajánlat a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The meeting starts at 3 PM and I ___ be there.",
+      "options": [
+        "am going to",
+        "will",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Spontán ígéret vagy szándék a beszéd pillanatában, 'will' megfelelő."
+    },
+    {
+      "prompt_hu": "Sarah has packed her suitcase. She ___ travel to Italy next week.",
+      "options": [
+        "will",
+        "is going to",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre eltervezett terv, már felkészült rá, így 'is going to'."
+    },
+    {
+      "prompt_hu": "I think Barcelona ___ win the match tonight.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Személyes jóslat a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The sky is clear and the sun is shining. It ___ be a beautiful day.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel a jelenben (tiszta ég, ragyogó nap), ezért 'is going to'."
+    },
+    {
+      "prompt_hu": "I've decided I ___ quit my job next month.",
+      "options": [
+        "will",
+        "am going to",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Spontán döntés a beszéd pillanatában, bár előre gondolt, 'will' megfelelő."
+    },
+    {
+      "prompt_hu": "He is wearing his trainers and has his gym bag. He ___ exercise.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Látható jelek (edzőcipő, sportitaska), előre tervezett, így 'is going to'."
+    },
+    {
+      "prompt_hu": "Careful! You ___ drop that glass!",
+      "options": [
+        "are going to",
+        "will",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Látható jel a jelenben (előjel a balesetről), ezért 'are going to'."
+    },
+    {
+      "prompt_hu": "I just found out that I ___ have twins.",
+      "options": [
+        "will",
+        "am going to",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Döntés vagy jóslat a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The train ___ leave at 8:15 AM according to the schedule.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ütemezés, általános igazság a jövőről, ezért 'will'."
+    },
+    {
+      "prompt_hu": "She has registered for the course. She ___ study French this autumn.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre eltervezett szándék, regisztrálva van, így 'is going to'."
+    },
+    {
+      "prompt_hu": "The doctor says you ___ recover within two weeks.",
+      "options": [
+        "are going to",
+        "will",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Szakmai jóslat a beszéd pillanatában, 'will' megfelelő."
+    },
+    {
+      "prompt_hu": "Look at him! He ___ propose to his girlfriend!",
+      "options": [
+        "will",
+        "is going to",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel a pillanatban (készülődés, előjel), így 'is going to'."
+    },
+    {
+      "prompt_hu": "I haven't decided yet, but maybe I ___ apply for the job.",
+      "options": [
+        "am going to",
+        "will",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Lehetséges, de még nem döntött el, ezért 'will' (jóslat)."
+    },
+    {
+      "prompt_hu": "We have booked the hotel and flights. We ___ take a holiday in Greece.",
+      "options": [
+        "will",
+        "are going to",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre eltervezett, foglalt, így 'are going to'."
+    },
+    {
+      "prompt_hu": "If you don't study, you ___ fail the exam.",
+      "options": [
+        "are going to",
+        "will",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Feltételes jóslat a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The baby is crying and has a fever. She ___ get sick.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jelek (sírás, láz), ezért 'is going to'."
+    },
+    {
+      "prompt_hu": "Don't worry! I ___ call you as soon as I arrive.",
+      "options": [
+        "am going to",
+        "will",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Spontán ígéret a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The paint is wet. It ___ take a few hours to dry.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Általános igazság, műszaki tény, ezért 'will'."
+    },
+    {
+      "prompt_hu": "He has a reservation. He ___ stay at the Hilton Hotel.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre megkötött terv (foglalás), így 'is going to'."
+    },
+    {
+      "prompt_hu": "I think that movie ___ be very popular.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Személyes jóslat a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "She looks angry. She ___ shout at him.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel az arcán, előjel a cselekedetre, így 'is going to'."
+    },
+    {
+      "prompt_hu": "The conference ___ begin at 9 AM tomorrow.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ütemezés, közlekedés, nem előre tervezett, ezért 'will'."
+    },
+    {
+      "prompt_hu": "My parents have invited us for dinner. We ___ eat at their house on Sunday.",
+      "options": [
+        "will",
+        "are going to",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre meghívtak, terv, így 'are going to'."
+    },
+    {
+      "prompt_hu": "I can smell smoke. Something ___ burn in the kitchen!",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható/hallható jel a jelenben, ezért 'is going to'."
+    },
+    {
+      "prompt_hu": "According to the forecast, it ___ snow tomorrow.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Meteorológiai jóslat, nem személyes, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The students have prepared their presentations. They ___ show them today.",
+      "options": [
+        "are going to",
+        "will",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Előre felkészültek, terv, így 'are going to'."
+    },
+    {
+      "prompt_hu": "You can't go out looking like that! People ___ laugh at you.",
+      "options": [
+        "will",
+        "are going to",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Jóslat a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The price of petrol ___ increase next month, according to the news.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közlekedési/gazdasági tény, nem személyes terv, ezért 'will'."
+    },
+    {
+      "prompt_hu": "She has a dentist appointment at 2 PM. She ___ see the dentist.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre foglalt, tervezett, így 'is going to'."
+    },
+    {
+      "prompt_hu": "I just realized I forgot my keys. This ___ be a problem.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Döntés a beszéd pillanatában, így 'will'."
+    },
+    {
+      "prompt_hu": "The construction workers are here and ready to start. They ___ build a new wall.",
+      "options": [
+        "will",
+        "are going to",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel (munkások jelen vannak), tervezett, így 'is going to'."
+    },
+    {
+      "prompt_hu": "I swear I ___ never lie to you again.",
+      "options": [
+        "am going to",
+        "will",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Komoly ígéret, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The software update is downloaded and ready. It ___ install now.",
+      "options": [
+        "is going to",
+        "will",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel (letöltve), előjel a cselekvésre, így 'is going to'."
+    },
+    {
+      "prompt_hu": "Experts say the economy ___ grow by 3% this year.",
+      "options": [
+        "will",
+        "is going to",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szakmai jóslat, nem személyes terv, ezért 'will'."
+    },
+    {
+      "prompt_hu": "She has already bought her wedding dress. She ___ marry him in June.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre eltervezett, már vásárolt dolgok, így 'is going to'."
+    },
+    {
+      "prompt_hu": "The bridge looks unstable. It ___ collapse!",
+      "options": [
+        "will",
+        "is going to",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel a jelenben (instabil kinézet), ezért 'is going to'."
+    },
+    {
+      "prompt_hu": "I'm too tired. I ___ take a nap.",
+      "options": [
+        "am going to",
+        "will",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Spontán döntés a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The package is here and I have the tool to open it. I ___ unpack it.",
+      "options": [
+        "will",
+        "is going to",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Látható jel (csomag itt van, szerszám kész), így 'is going to'."
+    },
+    {
+      "prompt_hu": "He has been offered a new job. He ___ move to London.",
+      "options": [
+        "is going to",
+        "will",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre tervezett, ajánlat már teljesült, így 'is going to'."
+    },
+    {
+      "prompt_hu": "Nothing can stop me now! I ___ achieve my dreams.",
+      "options": [
+        "will",
+        "am going to",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "决定pillanatában, ígéret/szándék, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The battery indicator shows 1%. The phone ___ turn off soon.",
+      "options": [
+        "is going to",
+        "will",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Látható jel (alacsony akkumulátor), előjel a kikapcsolódásra, így 'is going to'."
+    },
+    {
+      "prompt_hu": "She has enrolled in the university. She ___ study medicine.",
+      "options": [
+        "will",
+        "is going to",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Előre eltervezett, regisztrálva van, így 'is going to'."
+    },
+    {
+      "prompt_hu": "I promise this ___ never happen again.",
+      "options": [
+        "am going to",
+        "will",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Komoly ígéret a beszéd pillanatában, ezért 'will'."
+    },
+    {
+      "prompt_hu": "The tickets are sold out and the concert starts in an hour. We ___ miss this opportunity.",
+      "options": [
+        "will",
+        "are going to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Spontán döntés a beszéd pillanatában, nincs előre eltervezett szándék."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "used_to",
+  "title_hu": "used to: múltbeli szokások",
+  "subtitle_hu": "I used to smoke – régen szoktam",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "used to + alapige = régen (de már nem)",
+      "body_hu": "A 'used to' olyan múltbeli szokást vagy állapotot ír le, ami MÁR NEM igaz. Utána alapalak áll.",
+      "examples": [
+        {
+          "en": "I used to play tennis.",
+          "hu": "Régen teniszeztem (már nem)."
+        },
+        {
+          "en": "She used to live in Paris.",
+          "hu": "Régen Párizsban élt."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Kérdés és tagadás: did … use to",
+      "body_hu": "Kérdés és tagadás segédigével: 'did' + use to (d nélkül!). Didn't use to / Did you use to…?",
+      "examples": [
+        {
+          "en": "I didn't use to like coffee.",
+          "hu": "Régen nem szerettem a kávét."
+        },
+        {
+          "en": "Did you use to smoke?",
+          "hu": "Régen dohányoztál?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ to live in London.",
+      "options": [
+        "used",
+        "use",
+        "am used"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás: 'used to + alapige'."
+    },
+    {
+      "prompt_hu": "She used to ___ long hair.",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'used to' után alapalak."
+    },
+    {
+      "prompt_hu": "They ___ use to eat meat.",
+      "options": [
+        "didn't",
+        "don't",
+        "weren't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadás: 'didn't use to'."
+    },
+    {
+      "prompt_hu": "He ___ to play football every weekend.",
+      "options": [
+        "used",
+        "uses",
+        "use"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'used to' múltbeli szokást fejez ki, ezért 'used to' szükséges."
+    },
+    {
+      "prompt_hu": "We ___ to drink coffee in the mornings.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás, ezért 'used to' helyes."
+    },
+    {
+      "prompt_hu": "___ you use to visit your grandparents?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' segédige szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "She didn't ___ to like spicy food.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet van, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "My father ___ to work as a teacher.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás vagy foglalkozás, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "They ___ to spend their summers at the lake.",
+      "options": [
+        "used",
+        "use",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a már nem fennálló múltbeli szokást."
+    },
+    {
+      "prompt_hu": "I didn't ___ to enjoy reading books.",
+      "options": [
+        "use",
+        "used",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ they use to play in the park?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokás megkérdezésére."
+    },
+    {
+      "prompt_hu": "You ___ to be very shy.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli jellemzés vagy szokás, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "We didn't ___ to have a car.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ you use to go to the cinema often?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' segédige helyes múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "He ___ to smoke cigarettes.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás, amely már nem létezik, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "She didn't ___ to wear glasses.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "They ___ to live in a small apartment.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a múltbeli életkörülményt, ami már megváltozott."
+    },
+    {
+      "prompt_hu": "I didn't ___ to like ice cream.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ she use to sing in a choir?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' segédige szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "My mother ___ to cook Italian food.",
+      "options": [
+        "used",
+        "use",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás vagy tevékenység, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "You didn't ___ to study so much.",
+      "options": [
+        "use",
+        "used",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ we use to take the bus every day?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokás megkérdezésére."
+    },
+    {
+      "prompt_hu": "He ___ to have long hair.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a múltbeli fizikai jellegzetességet, ami megváltozott."
+    },
+    {
+      "prompt_hu": "They didn't ___ to have a dog.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ you use to go camping in the mountains?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' segédige helyes múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "I ___ to wake up early in the morning.",
+      "options": [
+        "used",
+        "use",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás, amely már nem igaz, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "She didn't ___ to exercise regularly.",
+      "options": [
+        "use",
+        "used",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ they use to attend church every Sunday?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "My brother ___ to be afraid of the dark.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a múltbeli állapotot, ami már nem fennáll."
+    },
+    {
+      "prompt_hu": "You didn't ___ to like vegetables.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ he use to work in that factory?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' segédige helyes múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "They ___ to travel abroad every summer.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás, amely ismétlődő volt, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "I didn't ___ to understand English well.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ she use to teach French?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "He ___ to ride his bike to school.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a múltbeli szokást, amely már nem gyakorlódik."
+    },
+    {
+      "prompt_hu": "We didn't ___ to have air conditioning.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ you use to collect stamps?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "My sister ___ to dance ballet.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokás vagy tevékenység, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "They didn't ___ to speak Spanish.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ we use to live in the countryside?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "I ___ to like cartoon movies.",
+      "options": [
+        "used",
+        "use",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a múltbeli preferenciát, amely már megváltozott."
+    },
+    {
+      "prompt_hu": "She didn't ___ to cook dinner every night.",
+      "options": [
+        "use",
+        "used",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ they use to go fishing?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "My grandfather ___ to work as a farmer.",
+      "options": [
+        "used",
+        "use",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli foglalkozás vagy szokás, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "You didn't ___ to go to bed late.",
+      "options": [
+        "use",
+        "used",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "___ she use to play the piano?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' szükséges múltbeli szokások megkérdezésére."
+    },
+    {
+      "prompt_hu": "He ___ to eat a big breakfast.",
+      "options": [
+        "used",
+        "use",
+        "using"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Used to' fejezi ki a múltbeli napi szokást, amely már nem történik."
+    },
+    {
+      "prompt_hu": "We didn't ___ to have a television.",
+      "options": [
+        "use",
+        "used",
+        "uses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'didn't use to' szerkezet, 'use' alapalakban."
+    },
+    {
+      "prompt_hu": "I ___ to be very talkative, but now I prefer to listen.",
+      "options": [
+        "used",
+        "didn't use",
+        "did use"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múltbeli szokást vagy állapotot fejez ki, amit már nem igaz, ezért 'used to'."
+    },
+    {
+      "prompt_hu": "___ they use to go to the beach every summer when they were young?",
+      "options": [
+        "Do",
+        "Did",
+        "Were"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli 'used to' kérdésbe 'did' segédigét használjuk, az 'use to' alapalakban marad."
+    }
+  ]
+}

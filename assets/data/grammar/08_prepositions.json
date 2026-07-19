@@ -1,0 +1,546 @@
+{
+  "id": "prepositions",
+  "title_hu": "Elöljárók: in / on / at",
+  "subtitle_hu": "Hely és idő",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Hely: in / on / at",
+      "body_hu": "in = zárt téren belül (in a room, in a city). on = felületen (on the table, on the wall). at = konkrét pontnál (at the door, at the bus stop).",
+      "examples": [
+        {
+          "en": "The keys are in the drawer.",
+          "hu": "A kulcsok a fiókban vannak."
+        },
+        {
+          "en": "The picture is on the wall.",
+          "hu": "A kép a falon van."
+        },
+        {
+          "en": "I'm waiting at the station.",
+          "hu": "Az állomásnál várok."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Idő: in / on / at",
+      "body_hu": "in = hónap, év, évszak, napszak (in May, in 2020, in the morning). on = nap, dátum (on Monday, on 5th May). at = óra, pontos időpont (at 7 o'clock, at night).",
+      "examples": [
+        {
+          "en": "I was born in 1990.",
+          "hu": "1990-ben születtem."
+        },
+        {
+          "en": "See you on Friday.",
+          "hu": "Pénteken találkozunk."
+        },
+        {
+          "en": "The film starts at 8 p.m.",
+          "hu": "A film este 8-kor kezdődik."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "The book is ___ the shelf.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Felületen lévő tárgy 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "I will meet you ___ the station tomorrow.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét ponthoz érkezéskor 'at'."
+    },
+    {
+      "prompt_hu": "She was born ___ 1995.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Év előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "The picture is hanging ___ the wall.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Felület 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "They arrived ___ midnight.",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Pontos időpont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "I usually have breakfast ___ the kitchen.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Zárt tér 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "The cat is sleeping ___ my lap.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Felület 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "Let's meet ___ noon.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Pontos időpont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "She lives ___ London.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Város nevei előtt 'in'."
+    },
+    {
+      "prompt_hu": "The lamp stands ___ the corner of the room.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Szoba sarkában (zárt tér belseje) 'in the corner'."
+    },
+    {
+      "prompt_hu": "My birthday is ___ July.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Hónap előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "I saw him ___ Monday morning.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Nap és napszak kombináció 'on'."
+    },
+    {
+      "prompt_hu": "The keys are ___ the table.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felületen lévő tárgy 'on'."
+    },
+    {
+      "prompt_hu": "She is ___ the office right now.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Zárt tér 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "We go swimming ___ summer.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Évszak előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "The film starts ___ 8 p.m.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Óra előtt 'at' elöljáró."
+    },
+    {
+      "prompt_hu": "I will call you ___ Sunday.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Nap előtt 'on' elöljáró."
+    },
+    {
+      "prompt_hu": "The children are playing ___ the park.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Zárt vagy nagy tér 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "He is waiting ___ the bus stop.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét pont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "I work ___ the morning.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Napszak előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "The painting is ___ the museum.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Épület belseje 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "My apartment is ___ the fifth floor.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Emelet 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "The package arrived ___ Saturday.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Nap előtt 'on' elöljáró."
+    },
+    {
+      "prompt_hu": "I usually sleep ___ night.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Napszak 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "She is standing ___ the door.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét pont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "The poster is ___ your bedroom wall.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Falfelület 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "They will arrive ___ the spring.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Évszak előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "I read the news ___ breakfast time.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Pontos időpont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "The restaurant is ___ the city centre.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Város része 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "I saw her ___ Friday afternoon.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Nap és napszak kombináció 'on'."
+    },
+    {
+      "prompt_hu": "The bird is ___ the tree.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Fa belseje 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "Let's eat ___ noon.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Pontos időpont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "The address is written ___ the envelope.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Felület 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "I graduated ___ 2019.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Év előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "She works ___ the hospital.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Épület belseje 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "The flowers are ___ the vase.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Edény belsejében lévő tárgy 'in'."
+    },
+    {
+      "prompt_hu": "I always have lunch ___ 1 o'clock.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Óra előtt 'at' elöljáró."
+    },
+    {
+      "prompt_hu": "The map is ___ my desk.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Asztal felülete 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "We celebrate Christmas ___ December.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Hónap előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "He is standing ___ the window.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét pont 'at' elöljáróval."
+    },
+    {
+      "prompt_hu": "The concert is ___ Tuesday evening.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Nap és napszak kombináció 'on'."
+    },
+    {
+      "prompt_hu": "I found my watch ___ the drawer.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Fiók belseje 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "She arrived at the office ___ 9 a.m.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Pontos óra előtt 'at'."
+    },
+    {
+      "prompt_hu": "The flowers bloom ___ spring.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Évszak előtt 'in' elöljáró."
+    },
+    {
+      "prompt_hu": "I met him ___ the conference last month.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendezvény 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "The sign is ___ the top of the building.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felület 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "I will see you ___ the weekend.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Weekend 'on' elöljáróval."
+    },
+    {
+      "prompt_hu": "The children are ___ the school playground.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Nagyobb tér 'in' elöljáróval."
+    },
+    {
+      "prompt_hu": "The keys are ___ the desk ___ the bedroom.",
+      "options": [
+        "on, in",
+        "in, on",
+        "at, in"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'on' a felületre utal (asztal), az 'in' pedig a zárt térre (szoba)."
+    },
+    {
+      "prompt_hu": "I have a meeting ___ 3 p.m. ___ Friday.",
+      "options": [
+        "at, on",
+        "in, at",
+        "on, at"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'at' a pontos időpontra (3 p.m.), az 'on' pedig a napra (Friday) utal."
+    }
+  ]
+}

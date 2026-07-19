@@ -1,0 +1,538 @@
+{
+  "id": "have_got",
+  "title_hu": "have got: birtoklás kifejezése",
+  "subtitle_hu": "I've got – nekem van",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "have got = van (nekem)",
+      "body_hu": "A 'have got' birtoklást fejez ki, gyakori a brit beszélt nyelvben. he/she/it után 'has got'. Rövid alak: I've got, she's got.",
+      "examples": [
+        {
+          "en": "I have got a new phone.",
+          "hu": "Van egy új telefonom."
+        },
+        {
+          "en": "She has got two sisters.",
+          "hu": "Van két nővére."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Kérdés és tagadás",
+      "body_hu": "Kérdés: Have you got…? / Has he got…? Tagadás: haven't got / hasn't got. A 'got' végig ugyanaz marad.",
+      "examples": [
+        {
+          "en": "Have you got a car?",
+          "hu": "Van autód?"
+        },
+        {
+          "en": "He hasn't got any money.",
+          "hu": "Nincs pénze."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ got a headache.",
+      "options": [
+        "have",
+        "has",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Első személyben 'have got'."
+    },
+    {
+      "prompt_hu": "She ___ got three children.",
+      "options": [
+        "have",
+        "has",
+        "haves"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "he/she/it után 'has got'."
+    },
+    {
+      "prompt_hu": "___ you got a minute?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdés 'you'-val: 'Have you got…?'."
+    },
+    {
+      "prompt_hu": "He ___ got a new bicycle.",
+      "options": [
+        "have",
+        "has",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "He/she/it után 'has got' használatos."
+    },
+    {
+      "prompt_hu": "We ___ got plenty of time.",
+      "options": [
+        "has",
+        "have",
+        "hadn't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "We (többes szám) után 'have got' a helyes."
+    },
+    {
+      "prompt_hu": "They ___ got any experience.",
+      "options": [
+        "haven't",
+        "hasn't",
+        "don't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám tagadásában 'haven't got'."
+    },
+    {
+      "prompt_hu": "___ she got a passport?",
+      "options": [
+        "Does",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'has got' + she után 'Has' kérdőszó."
+    },
+    {
+      "prompt_hu": "I've ___ a problem to discuss.",
+      "options": [
+        "have",
+        "got",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "I've got = I have got, rövid alakban 'got' jön."
+    },
+    {
+      "prompt_hu": "You ___ got a brother, haven't you?",
+      "options": [
+        "have",
+        "has",
+        "had"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "You (te/ti) után 'have got' a forma."
+    },
+    {
+      "prompt_hu": "She hasn't ___ a car.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban hasn't után 'got' következik."
+    },
+    {
+      "prompt_hu": "___ they got the keys?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben többes szám után 'Have' kérdőszó."
+    },
+    {
+      "prompt_hu": "It ___ got a nice design.",
+      "options": [
+        "have",
+        "has",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "It (3. személyű egyes szám) után 'has got'."
+    },
+    {
+      "prompt_hu": "We haven't ___ enough money.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' marad a szerkezet végén."
+    },
+    {
+      "prompt_hu": "___ you got any questions?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "You-val kérdésben 'Have got' a helyes kérdőforma."
+    },
+    {
+      "prompt_hu": "Mary's ___ a beautiful garden.",
+      "options": [
+        "have",
+        "has",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Mary (3. személyű egyes szám) után 'has got'."
+    },
+    {
+      "prompt_hu": "They've ___ three dogs at home.",
+      "options": [
+        "have",
+        "got",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "They've got = they have got, rövid alakban 'got' jön."
+    },
+    {
+      "prompt_hu": "He hasn't ___ a laptop.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "hasn't után 'got' követi a szerkezetben."
+    },
+    {
+      "prompt_hu": "___ I got the right answer?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "I-vel kérdésben 'Have got' a forma."
+    },
+    {
+      "prompt_hu": "She's ___ a new phone.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "She's got = She has got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "You haven't ___ any siblings.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' marad az igazi szerkezetben."
+    },
+    {
+      "prompt_hu": "___ he got a driving license?",
+      "options": [
+        "Has",
+        "Have",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "He-vel kérdésben 'Has got' a kérdőforma."
+    },
+    {
+      "prompt_hu": "We've ___ the tickets for tonight.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "We've got = We have got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "It hasn't ___ enough space.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "hasn't után 'got' jön a szerkezetben."
+    },
+    {
+      "prompt_hu": "___ we got everything we need?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "We-vel kérdésben 'Have got' a forma."
+    },
+    {
+      "prompt_hu": "Tom ___ got a guitar.",
+      "options": [
+        "have",
+        "has",
+        "hadn't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tom (3. személyű egyes szám) után 'has got'."
+    },
+    {
+      "prompt_hu": "They haven't ___ the instructions.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' következik a szerkezetben."
+    },
+    {
+      "prompt_hu": "I ___ got any concerns about this.",
+      "options": [
+        "have",
+        "hasn't",
+        "haven't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "I-vel tagadásban 'have not got' vagy röviden 'haven't got'."
+    },
+    {
+      "prompt_hu": "___ it got all the features?",
+      "options": [
+        "Has",
+        "Have",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "It-tel kérdésben 'Has got' a kérdőforma."
+    },
+    {
+      "prompt_hu": "You've ___ a wonderful opportunity.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "You've got = You have got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "She hasn't ___ the email yet.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "hasn't után 'got' marad az igazi alakban."
+    },
+    {
+      "prompt_hu": "___ they got any friends here?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "They-vel kérdésben 'Have got' a forma."
+    },
+    {
+      "prompt_hu": "He's ___ a terrible headache today.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "He's got = He has got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "We haven't ___ a choice.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' követi a szerkezetet."
+    },
+    {
+      "prompt_hu": "___ you got the time?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "You-val kérdésben 'Have got' a helyes forma."
+    },
+    {
+      "prompt_hu": "It ___ got any colour.",
+      "options": [
+        "have",
+        "hasn't",
+        "has"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "It (3. személyű egyes szám) után tagadásban 'hasn't got'."
+    },
+    {
+      "prompt_hu": "I've ___ some news to share.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "I've got = I have got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "They don't ___ any problems with us.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "don't után 'have' jön (nem have got szerkezet)."
+    },
+    {
+      "prompt_hu": "___ she got a job offer?",
+      "options": [
+        "Has",
+        "Have",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "She-vel kérdésben 'Has got' a forma."
+    },
+    {
+      "prompt_hu": "You haven't ___ the complete picture.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' marad a szerkezetben."
+    },
+    {
+      "prompt_hu": "He ___ got any reason to worry.",
+      "options": [
+        "have",
+        "hasn't",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "He-vel tagadásban 'hasn't got' a helyes forma."
+    },
+    {
+      "prompt_hu": "___ I got your permission?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "I-vel kérdésben 'Have got' a forma."
+    },
+    {
+      "prompt_hu": "She's ___ the best score this year.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "She's got = She has got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "They haven't ___ a single complaint.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' jön az igazi szerkezetben."
+    },
+    {
+      "prompt_hu": "___ he got any allergies?",
+      "options": [
+        "Has",
+        "Have",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "He-vel kérdésben 'Has got' a kérdőforma."
+    },
+    {
+      "prompt_hu": "We've ___ everything organized for tomorrow.",
+      "options": [
+        "have",
+        "got",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "We've got = We have got, rövid alakban 'got'."
+    },
+    {
+      "prompt_hu": "It hasn't ___ the right size.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "hasn't után 'got' követi a szerkezetet."
+    },
+    {
+      "prompt_hu": "___ they got the results yet?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "They-vel kérdésben 'Have got' a forma."
+    },
+    {
+      "prompt_hu": "I haven't ___ time for this now.",
+      "options": [
+        "got",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "haven't után 'got' marad a szerkezetben."
+    },
+    {
+      "prompt_hu": "She ___ got a background in science.",
+      "options": [
+        "haven't",
+        "hasn't",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "She (3. személyű egyes szám) után tagadásban 'hasn't got'."
+    },
+    {
+      "prompt_hu": "___ you got a pet at home?",
+      "options": [
+        "Have",
+        "Has",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'you' után 'Have' használunk, nem 'Has'."
+    }
+  ]
+}

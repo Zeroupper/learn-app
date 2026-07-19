@@ -1,0 +1,538 @@
+{
+  "id": "adjectives",
+  "title_hu": "Melléknevek: helyük és használatuk",
+  "subtitle_hu": "a big red car – jelzők a mondatban",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "A melléknév a főnév előtt áll",
+      "body_hu": "Az angol melléknév a főnév ELŐTT áll és nem kap többes -s-t: two big houses, nem 'bigs'.",
+      "examples": [
+        {
+          "en": "a beautiful garden",
+          "hu": "egy szép kert"
+        },
+        {
+          "en": "three small dogs",
+          "hu": "három kicsi kutya"
+        }
+      ]
+    },
+    {
+      "heading_hu": "Melléknév a 'be' ige után",
+      "body_hu": "A melléknév a létige (be) után is állhat, állítmányként.",
+      "examples": [
+        {
+          "en": "The house is old.",
+          "hu": "A ház régi."
+        },
+        {
+          "en": "These apples are sweet.",
+          "hu": "Ezek az almák édesek."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "She has a ___ house.",
+      "options": [
+        "big",
+        "bigs",
+        "big's"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév nem kap többes -s-t."
+    },
+    {
+      "prompt_hu": "The flowers are very ___.",
+      "options": [
+        "beauty",
+        "beautiful",
+        "beautifully"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'be' után melléknév: 'beautiful'."
+    },
+    {
+      "prompt_hu": "They are ___ students.",
+      "options": [
+        "good",
+        "goods",
+        "well"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Melléknév főnév előtt, -s nélkül."
+    },
+    {
+      "prompt_hu": "He has a ___ car.",
+      "options": [
+        "red",
+        "reds",
+        "redly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap -s végzést."
+    },
+    {
+      "prompt_hu": "She wears a ___ dress.",
+      "options": [
+        "blue",
+        "blues",
+        "bluely"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt álló alakban nem változik meg."
+    },
+    {
+      "prompt_hu": "The book is ___ .",
+      "options": [
+        "interesting",
+        "interestingly",
+        "interesteds"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után állítmányként a melléknév áll."
+    },
+    {
+      "prompt_hu": "These apples are ___ .",
+      "options": [
+        "sweet",
+        "sweetly",
+        "sweets"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév használatos."
+    },
+    {
+      "prompt_hu": "I like ___ coffee.",
+      "options": [
+        "hot",
+        "hots",
+        "hotly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt áll és nem változik."
+    },
+    {
+      "prompt_hu": "The weather is ___ today.",
+      "options": [
+        "cold",
+        "colds",
+        "coldly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után álló melléknév nem kap -s-t."
+    },
+    {
+      "prompt_hu": "She has ___ eyes.",
+      "options": [
+        "green",
+        "greens",
+        "greenish"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem flektálódik."
+    },
+    {
+      "prompt_hu": "That is a ___ idea.",
+      "options": [
+        "good",
+        "goods",
+        "goodly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt álló pozícióban nem változik."
+    },
+    {
+      "prompt_hu": "The movie is ___ .",
+      "options": [
+        "boring",
+        "boringly",
+        "borings"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév áll."
+    },
+    {
+      "prompt_hu": "He bought ___ shoes.",
+      "options": [
+        "expensive",
+        "expensives",
+        "expensively"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap többes -s-t."
+    },
+    {
+      "prompt_hu": "The sky is ___ .",
+      "options": [
+        "clear",
+        "clearlys",
+        "clears"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után álló melléknév nem változik."
+    },
+    {
+      "prompt_hu": "They have a ___ garden.",
+      "options": [
+        "beautiful",
+        "beautifuls",
+        "beautifulys"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt áll és nem flektálódik."
+    },
+    {
+      "prompt_hu": "This water is ___ .",
+      "options": [
+        "dirty",
+        "dirtys",
+        "dirtily"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév használatos."
+    },
+    {
+      "prompt_hu": "She has a ___ smile.",
+      "options": [
+        "bright",
+        "brights",
+        "brightly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap -s végzést."
+    },
+    {
+      "prompt_hu": "The road is ___ .",
+      "options": [
+        "long",
+        "longs",
+        "longly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után áll az állítmányi melléknév."
+    },
+    {
+      "prompt_hu": "He wears a ___ shirt.",
+      "options": [
+        "white",
+        "whites",
+        "whitey"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem változik."
+    },
+    {
+      "prompt_hu": "The music is ___ .",
+      "options": [
+        "loud",
+        "louds",
+        "loudly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév áll."
+    },
+    {
+      "prompt_hu": "I drink ___ milk.",
+      "options": [
+        "cold",
+        "colds",
+        "coldness"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt álló helyzetben nem flektálódik."
+    },
+    {
+      "prompt_hu": "This room is ___ .",
+      "options": [
+        "small",
+        "smalls",
+        "smally"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után az állítmány melléknév."
+    },
+    {
+      "prompt_hu": "They have ___ children.",
+      "options": [
+        "three",
+        "threes",
+        "threely"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A számnév (számlálójellegű melléknév) a főnév előtt áll és nem változik."
+    },
+    {
+      "prompt_hu": "The building is ___ .",
+      "options": [
+        "tall",
+        "talls",
+        "taller"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév használatos, nem fokozás."
+    },
+    {
+      "prompt_hu": "She has ___ hair.",
+      "options": [
+        "long",
+        "longs",
+        "longness"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap -s-t."
+    },
+    {
+      "prompt_hu": "The sun is ___ .",
+      "options": [
+        "bright",
+        "brights",
+        "brightness"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után álló melléknév nem kap végzést."
+    },
+    {
+      "prompt_hu": "He reads ___ books.",
+      "options": [
+        "interesting",
+        "interestings",
+        "interestedly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem flektálódik."
+    },
+    {
+      "prompt_hu": "The table is ___ .",
+      "options": [
+        "round",
+        "rounds",
+        "roundly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév áll."
+    },
+    {
+      "prompt_hu": "They drink ___ tea.",
+      "options": [
+        "warm",
+        "warms",
+        "warmly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap végzést."
+    },
+    {
+      "prompt_hu": "This pen is ___ .",
+      "options": [
+        "black",
+        "blacks",
+        "blackly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után az állítmányi melléknév."
+    },
+    {
+      "prompt_hu": "She has a ___ voice.",
+      "options": [
+        "soft",
+        "softs",
+        "softly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem flektálódik."
+    },
+    {
+      "prompt_hu": "The room feels ___ .",
+      "options": [
+        "warm",
+        "warms",
+        "warmness"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév használatos."
+    },
+    {
+      "prompt_hu": "He has ___ eyes.",
+      "options": [
+        "dark",
+        "darks",
+        "darkly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt áll és nem kap -s-t."
+    },
+    {
+      "prompt_hu": "The lake is ___ .",
+      "options": [
+        "deep",
+        "deeps",
+        "deeply"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után álló melléknév nem változik."
+    },
+    {
+      "prompt_hu": "They wear ___ clothes.",
+      "options": [
+        "warm",
+        "warms",
+        "warmish"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem flektálódik."
+    },
+    {
+      "prompt_hu": "The box is ___ .",
+      "options": [
+        "heavy",
+        "heavys",
+        "heavily"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév áll."
+    },
+    {
+      "prompt_hu": "She has a ___ face.",
+      "options": [
+        "happy",
+        "happys",
+        "happily"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap -s végzést."
+    },
+    {
+      "prompt_hu": "The coffee tastes ___ .",
+      "options": [
+        "bitter",
+        "bitters",
+        "bitterly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után az állítmányi melléknév."
+    },
+    {
+      "prompt_hu": "He has ___ hands.",
+      "options": [
+        "clean",
+        "cleans",
+        "cleanly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem flektálódik."
+    },
+    {
+      "prompt_hu": "The air is ___ .",
+      "options": [
+        "fresh",
+        "freshs",
+        "freshly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév használatos."
+    },
+    {
+      "prompt_hu": "They have a ___ apartment.",
+      "options": [
+        "modern",
+        "moderns",
+        "modernly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt áll és nem kap végzést."
+    },
+    {
+      "prompt_hu": "This soup is ___ .",
+      "options": [
+        "hot",
+        "hots",
+        "hotness"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév áll."
+    },
+    {
+      "prompt_hu": "She has ___ shoes.",
+      "options": [
+        "comfortable",
+        "comfortables",
+        "comfortably"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem flektálódik."
+    },
+    {
+      "prompt_hu": "The window is ___ .",
+      "options": [
+        "open",
+        "opens",
+        "openly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után az állítmányi melléknév."
+    },
+    {
+      "prompt_hu": "He reads a ___ newspaper.",
+      "options": [
+        "daily",
+        "dailys",
+        "dailily"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt nem kap -s-t."
+    },
+    {
+      "prompt_hu": "The floor is ___ .",
+      "options": [
+        "clean",
+        "cleans",
+        "cleanness"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév használatos."
+    },
+    {
+      "prompt_hu": "They have ___ neighbors.",
+      "options": [
+        "friendly",
+        "friendlys",
+        "friendlily"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt áll és nem flektálódik."
+    },
+    {
+      "prompt_hu": "The view is ___ .",
+      "options": [
+        "wonderful",
+        "wonderfuls",
+        "wonderfully"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után melléknév áll."
+    },
+    {
+      "prompt_hu": "The cookies taste ___ .",
+      "options": [
+        "sweet",
+        "sweetly",
+        "sweeten"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'taste' ige után melléknév áll, nem határozó."
+    },
+    {
+      "prompt_hu": "We have ___ friends in this city.",
+      "options": [
+        "good",
+        "goods",
+        "goodly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A melléknév a főnév előtt áll és nem kap -s-t."
+    }
+  ]
+}

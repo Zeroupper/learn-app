@@ -1,0 +1,537 @@
+{
+  "id": "have_to_should",
+  "title_hu": "Kötelezettség és tanács: have to / should",
+  "subtitle_hu": "Kell / kellene",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "have to = kell (külső kötelezettség)",
+      "body_hu": "A 'have to' szükségszerűséget, szabályt fejez ki. he/she/it után 'has to'. Tagadás: don't/doesn't have to = nem kell (nem kötelező).",
+      "examples": [
+        {
+          "en": "I have to work on Monday.",
+          "hu": "Hétfőn dolgoznom kell."
+        },
+        {
+          "en": "She has to wear a uniform.",
+          "hu": "Egyenruhát kell hordania."
+        }
+      ]
+    },
+    {
+      "heading_hu": "should = kellene (tanács)",
+      "body_hu": "A 'should' tanácsot, ajánlást ad. Utána alapalak 'to' nélkül. Tagadás: shouldn't.",
+      "examples": [
+        {
+          "en": "You should see a doctor.",
+          "hu": "Orvoshoz kellene menned."
+        },
+        {
+          "en": "You shouldn't smoke.",
+          "hu": "Nem kellene dohányoznod."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ to get up early tomorrow.",
+      "options": [
+        "have",
+        "has",
+        "should"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'I' után 'have to'."
+    },
+    {
+      "prompt_hu": "She ___ to wear glasses.",
+      "options": [
+        "have",
+        "has",
+        "should"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "he/she/it után 'has to'."
+    },
+    {
+      "prompt_hu": "You ___ eat more vegetables.",
+      "options": [
+        "should",
+        "should to",
+        "shoulds"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' után alapalak 'to' nélkül."
+    },
+    {
+      "prompt_hu": "He ___ have a passport to travel abroad.",
+      "options": [
+        "should",
+        "has to",
+        "must"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Külső szabály: nemzetközi utazáshoz szükséges az útlevél."
+    },
+    {
+      "prompt_hu": "You ___ be more careful with your money.",
+      "options": [
+        "have to",
+        "should",
+        "must"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács: a 'should' ajánlást ad."
+    },
+    {
+      "prompt_hu": "Students ___ do their homework every day.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: az iskolában ez a szabály."
+    },
+    {
+      "prompt_hu": "We ___ apologize for being late.",
+      "options": [
+        "have to",
+        "should",
+        "will"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács: udvarias ajánlás."
+    },
+    {
+      "prompt_hu": "She ___ take medicine if she is sick.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács az egészségről."
+    },
+    {
+      "prompt_hu": "They ___ pay their rent on time.",
+      "options": [
+        "should",
+        "have to",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: szerződéses szabály."
+    },
+    {
+      "prompt_hu": "You ___ drink more water every day.",
+      "options": [
+        "has to",
+        "should",
+        "must"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács az egészséghez."
+    },
+    {
+      "prompt_hu": "I ___ go to work at eight o'clock.",
+      "options": [
+        "should",
+        "have to",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: munkarend."
+    },
+    {
+      "prompt_hu": "He ___ be kind to animals.",
+      "options": [
+        "has to",
+        "should",
+        "can"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a viselkedésről."
+    },
+    {
+      "prompt_hu": "We ___ wear uniforms at school.",
+      "options": [
+        "should",
+        "have to",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Iskolai szabály: kötelezettség."
+    },
+    {
+      "prompt_hu": "She ___ not spend all her money on clothes.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "You ___ wash your hands before eating.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács az egészséghez és higiéniához."
+    },
+    {
+      "prompt_hu": "I ___ call my parents every week.",
+      "options": [
+        "should",
+        "have to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a családi kapcsolatok fenntartásáról."
+    },
+    {
+      "prompt_hu": "The children ___ not stay up too late.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a gyerekeknek: 'shouldn't'."
+    },
+    {
+      "prompt_hu": "Employees ___ follow company rules.",
+      "options": [
+        "should",
+        "have to",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: munkahelyi szabály."
+    },
+    {
+      "prompt_hu": "You ___ check the weather before going out.",
+      "options": [
+        "has to",
+        "should",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a gyakorlati felkészüléshez."
+    },
+    {
+      "prompt_hu": "He ___ wear a tie to the meeting.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: a 'should' szuggesztív."
+    },
+    {
+      "prompt_hu": "We ___ pay taxes to the government.",
+      "options": [
+        "should",
+        "have to",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: törvényi szabály."
+    },
+    {
+      "prompt_hu": "She ___ visit the doctor regularly.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács az egészség megőrzéséhez."
+    },
+    {
+      "prompt_hu": "You ___ not ignore your friend's problems.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "I ___ arrive at the airport three hours early.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a repülőtérre érkezésről."
+    },
+    {
+      "prompt_hu": "They ___ submit their project by Friday.",
+      "options": [
+        "should",
+        "have to",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: határidő."
+    },
+    {
+      "prompt_hu": "He ___ exercise more to stay healthy.",
+      "options": [
+        "has to",
+        "should",
+        "will"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács az egészségről."
+    },
+    {
+      "prompt_hu": "You ___ not forget your keys at home.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "Drivers ___ obey traffic lights.",
+      "options": [
+        "should",
+        "have to",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: közlekedési szabály."
+    },
+    {
+      "prompt_hu": "She ___ tell the truth about what happened.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács az őszinte viselkedésről."
+    },
+    {
+      "prompt_hu": "I ___ charge my phone battery tonight.",
+      "options": [
+        "has to",
+        "should",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a gyakorlati felkészüléshez."
+    },
+    {
+      "prompt_hu": "You ___ not talk during the exam.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "The company ___ follow health and safety rules.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: jogszabály."
+    },
+    {
+      "prompt_hu": "He ___ learn English to get a better job.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a karrierről."
+    },
+    {
+      "prompt_hu": "We ___ save money for emergencies.",
+      "options": [
+        "has to",
+        "should",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a pénzügyi tervezésről."
+    },
+    {
+      "prompt_hu": "You ___ not share your password with anyone.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "Patients ___ take their medication on time.",
+      "options": [
+        "should",
+        "have to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács az egészségről."
+    },
+    {
+      "prompt_hu": "I ___ lock the door when I leave.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a biztonságról."
+    },
+    {
+      "prompt_hu": "They ___ not waste water.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "She ___ practice piano every day to improve.",
+      "options": [
+        "has to",
+        "should",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a zenei fejlődésről."
+    },
+    {
+      "prompt_hu": "You ___ read the instructions before using the machine.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a biztonságról."
+    },
+    {
+      "prompt_hu": "He ___ not interrupt people when they are talking.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "Athletes ___ train regularly to stay fit.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: ha atléta vagy, ez szükséges."
+    },
+    {
+      "prompt_hu": "I ___ apologize for my mistake.",
+      "options": [
+        "has to",
+        "should",
+        "will"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a helyes viselkedésről."
+    },
+    {
+      "prompt_hu": "You ___ check your email regularly at work.",
+      "options": [
+        "should",
+        "has to",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a munkavégzésről."
+    },
+    {
+      "prompt_hu": "She ___ not eat junk food all the time.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "Parents ___ help their children with homework.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács a szülői szerepről."
+    },
+    {
+      "prompt_hu": "They ___ reduce their carbon footprint.",
+      "options": [
+        "has to",
+        "should",
+        "will"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tanács a környezetvédelemről."
+    },
+    {
+      "prompt_hu": "You ___ not arrive late to important meetings.",
+      "options": [
+        "should",
+        "have to",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tanács: 'shouldn't' = nem kellene."
+    },
+    {
+      "prompt_hu": "I ___ complete this project before tomorrow.",
+      "options": [
+        "should",
+        "has to",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kötelezettség: határidő."
+    },
+    {
+      "prompt_hu": "Workers ___ follow safety procedures on the construction site.",
+      "options": [
+        "should",
+        "have to"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A munkahely biztonsági szabályai külső kötelezettség, ezért 'have to' kell."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "possessives",
+  "title_hu": "Birtoklás: my / your és a birtokos 's",
+  "subtitle_hu": "Kié? – birtokos névmások és a 's",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Birtokos névmások: my, your, his, her, our, their",
+      "body_hu": "A birtokos névmás a főnév ELŐTT áll és megmondja, kié a dolog. Nem változik többes számban: my book, my books.",
+      "examples": [
+        {
+          "en": "This is my bag.",
+          "hu": "Ez az én táskám."
+        },
+        {
+          "en": "Their house is big.",
+          "hu": "Az ő házuk nagy."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Birtokos 's (Saxon genitive)",
+      "body_hu": "Élőlény/ember birtoklását 's-szel fejezzük ki: a birtokos + 's + a birtok. Többes -s végű szónál csak aposztróf: the boys' room.",
+      "examples": [
+        {
+          "en": "This is John's car.",
+          "hu": "Ez János autója."
+        },
+        {
+          "en": "The dog's tail is long.",
+          "hu": "A kutya farka hosszú."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "This is ___ book, not yours.",
+      "options": [
+        "my",
+        "me",
+        "mine's"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Birtokos névmás főnév előtt: 'my'."
+    },
+    {
+      "prompt_hu": "That is ___ car; it belongs to Peter.",
+      "options": [
+        "Peter",
+        "Peters",
+        "Peter's"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Emberi birtokos: Peter + 's."
+    },
+    {
+      "prompt_hu": "The children lost ___ toys.",
+      "options": [
+        "their",
+        "there",
+        "theirs"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Birtokos névmás főnév előtt: 'their'."
+    },
+    {
+      "prompt_hu": "This is ___ pencil.",
+      "options": [
+        "my",
+        "me",
+        "I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'my' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Where is ___ bag?",
+      "options": [
+        "your",
+        "you",
+        "yours"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'your' áll a főnév előtt."
+    },
+    {
+      "prompt_hu": "He lost ___ keys.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'his' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "She likes ___ new dress.",
+      "options": [
+        "her",
+        "hers",
+        "she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'her' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "We found ___ dog in the park.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'our' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "They packed ___ suitcases.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'their' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Is this ___ phone?",
+      "options": [
+        "your",
+        "yours",
+        "you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'your' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "___sister is a teacher.",
+      "options": [
+        "My",
+        "Me",
+        "I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'My' a főnév előtt áll mondatkezdéskor."
+    },
+    {
+      "prompt_hu": "John's father is ___ boss.",
+      "options": [
+        "my",
+        "mine",
+        "me"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'my' a főnév 'boss' előtt áll."
+    },
+    {
+      "prompt_hu": "Can I borrow ___ pen?",
+      "options": [
+        "your",
+        "you",
+        "yours"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'your' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The cat licks ___ paws.",
+      "options": [
+        "its",
+        "it",
+        "it's"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'its' az állat birtoklására utal."
+    },
+    {
+      "prompt_hu": "This is Peter's house. ___ house is very big.",
+      "options": [
+        "His",
+        "Him",
+        "He"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'His' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Emma's backpack is here. Where is ___?",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'yours' a birtokos névmás abszolút formája mondatvégi pozícióban."
+    },
+    {
+      "prompt_hu": "That is ___ bicycle, not mine.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'his' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Sarah and Tom lost ___ tickets.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'their' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The teacher collected ___ homework.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'our' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Is this ___ laptop?",
+      "options": [
+        "her",
+        "hers",
+        "she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'her' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Tom's car is blue. ___ car is red.",
+      "options": [
+        "My",
+        "Me",
+        "I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'My' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The students forgot ___ books.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'their' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Can you help me with ___ project?",
+      "options": [
+        "your",
+        "yours",
+        "you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'your' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Maria's mother is a doctor. ___ mother works at the hospital.",
+      "options": [
+        "Her",
+        "Hers",
+        "She"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'Her' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The book belongs to Alex. It is ___ book.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'his' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Jane and I shared ___ lunch.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'our' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The children's room is upstairs. ___ room is very clean.",
+      "options": [
+        "Their",
+        "Theirs",
+        "Them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'Their' a főnév előtt áll mondatkezdéskor."
+    },
+    {
+      "prompt_hu": "That pencil is not mine. It is ___.",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'yours' az abszolút birtokos névmás mondatvégi pozícióban."
+    },
+    {
+      "prompt_hu": "My brother's jacket is ___ jacket, not mine.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'his' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The girl's shoes are purple. ___ shoes are very nice.",
+      "options": [
+        "Her",
+        "Hers",
+        "She"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'Her' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "We lost ___ keys in the car.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'our' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "They are very proud of ___ children.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'their' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The dog wagged ___ tail.",
+      "options": [
+        "its",
+        "it",
+        "it's"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'its' az állat birtoklására utal."
+    },
+    {
+      "prompt_hu": "This is Samuel's bicycle. ___ bicycle is very fast.",
+      "options": [
+        "His",
+        "Him",
+        "He"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'His' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "I cannot find ___ wallet anywhere.",
+      "options": [
+        "my",
+        "me",
+        "I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'my' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Rachel's phone is here. Where is ___?",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'yours' az abszolút birtokos névmás mondatvégi pozícióban."
+    },
+    {
+      "prompt_hu": "He loves ___ new apartment.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'his' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The teacher praised ___ work.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'our' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "She called ___ friend yesterday.",
+      "options": [
+        "her",
+        "hers",
+        "she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'her' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The boys's room is messy. ___ room needs cleaning.",
+      "options": [
+        "Their",
+        "Theirs",
+        "Them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'Their' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "This is Anna and Paul's garden. ___ garden is beautiful.",
+      "options": [
+        "Their",
+        "Theirs",
+        "Them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'Their' a főnév előtt áll közös birtoklás esetén."
+    },
+    {
+      "prompt_hu": "The book belongs to Mike. It is ___.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'his' az abszolút birtokos névmás mondatvégi pozícióban."
+    },
+    {
+      "prompt_hu": "We forgot ___ umbrellas at school.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'our' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "They are looking for ___ cat.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'their' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The bird fixed ___ nest.",
+      "options": [
+        "its",
+        "it",
+        "it's"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'its' az állat birtoklására utal."
+    },
+    {
+      "prompt_hu": "I gave ___ report to the manager.",
+      "options": [
+        "my",
+        "me",
+        "I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'my' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "Can she bring ___ sister to the party?",
+      "options": [
+        "her",
+        "hers",
+        "she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'her' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "The student forgot ___ assignment.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A birtokos névmás 'his' a főnév előtt áll."
+    },
+    {
+      "prompt_hu": "That is not my pen. It is ___.",
+      "options": [
+        "hers",
+        "her",
+        "she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'hers' az abszolút birtokos névmás mondatvégi pozícióban."
+    },
+    {
+      "prompt_hu": "The teacher loves ___ students very much.",
+      "options": [
+        "her",
+        "his",
+        "their"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Többes szám 3. személyben a birtokos névmás 'their'."
+    }
+  ]
+}

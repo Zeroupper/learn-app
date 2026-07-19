@@ -1,0 +1,546 @@
+{
+  "id": "pronouns",
+  "title_hu": "Személyes névmások: he / she / it",
+  "subtitle_hu": "A magyar „ő” háromféle angolul",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "A nagy különbség",
+      "body_hu": "A magyarban egyetlen „ő” van, az angolban viszont a 3. személy nemtől függ: he = ő (férfi), she = ő (nő), it = az (tárgy, állat, elvont dolog). Ez a magyar anyanyelvűek egyik leggyakoribb hibája!",
+      "examples": [
+        {
+          "en": "He is my brother.",
+          "hu": "Ő a bátyám. (férfi)"
+        },
+        {
+          "en": "She is my mother.",
+          "hu": "Ő az anyám. (nő)"
+        },
+        {
+          "en": "It is a cat.",
+          "hu": "Ez egy macska. (állat/tárgy)"
+        }
+      ]
+    },
+    {
+      "heading_hu": "Tárgyeset: him / her / it",
+      "body_hu": "Amikor a névmás a mondat tárgya (valakit/valamit), az alak megváltozik: he → him, she → her, it → it.",
+      "examples": [
+        {
+          "en": "I know him.",
+          "hu": "Ismerem őt. (férfit)"
+        },
+        {
+          "en": "I saw her.",
+          "hu": "Láttam őt. (nőt)"
+        },
+        {
+          "en": "I like it.",
+          "hu": "Tetszik (nekem)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "My brother is here. ___ is very tall.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi családtag, ezért 'he'."
+    },
+    {
+      "prompt_hu": "The cat is sleeping. ___ is very cute.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Животное (macska) tárgy, nem él a nemnek, ezért 'it'."
+    },
+    {
+      "prompt_hu": "I have a sister. ___ works as a doctor.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Nő családtag, ezért 'she'."
+    },
+    {
+      "prompt_hu": "Do you know Tom? ___ is my friend.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi név (Tom), ezért 'he'."
+    },
+    {
+      "prompt_hu": "This is a table. ___ is made of wood.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (table), ezért 'it'."
+    },
+    {
+      "prompt_hu": "I like Maria. ___ is very kind.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Női név (Maria), ezért 'she'."
+    },
+    {
+      "prompt_hu": "The dog is barking. ___ is very loud.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állat, ezért 'it'."
+    },
+    {
+      "prompt_hu": "My teacher is Mr. Johnson. ___ teaches English.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi (Mr.), ezért 'he'."
+    },
+    {
+      "prompt_hu": "I see Peter. ___ is coming to the party.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi név (Peter), ezért 'he'."
+    },
+    {
+      "prompt_hu": "This book is interesting. ___ has many pages.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (book), ezért 'it'."
+    },
+    {
+      "prompt_hu": "My mother is at home. ___ is cooking dinner.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Nő családtag (mother), ezért 'she'."
+    },
+    {
+      "prompt_hu": "The car is red. ___ is very fast.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (car), ezért 'it'."
+    },
+    {
+      "prompt_hu": "Anna is my friend. ___ likes pizza.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Női név (Anna), ezért 'she'."
+    },
+    {
+      "prompt_hu": "I know Paul. ___ is from London.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi név (Paul), ezért 'he'."
+    },
+    {
+      "prompt_hu": "The phone is on the table. ___ is ringing.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (phone), ezért 'it'."
+    },
+    {
+      "prompt_hu": "My father is a teacher. ___ works at school.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi családtag (father), ezért 'he'."
+    },
+    {
+      "prompt_hu": "The window is open. ___ is very big.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (window), ezért 'it'."
+    },
+    {
+      "prompt_hu": "Lucy is a nurse. ___ helps people.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Női név (Lucy), ezért 'she'."
+    },
+    {
+      "prompt_hu": "I meet John at the bus stop. ___ is always late.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi név (John), ezért 'he'."
+    },
+    {
+      "prompt_hu": "The tree is very old. ___ is in the garden.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (tree), ezért 'it'."
+    },
+    {
+      "prompt_hu": "I know ___ very well.",
+      "options": [
+        "he",
+        "him",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "Do you see ___? He is over there.",
+      "options": [
+        "he",
+        "him",
+        "her"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "I love ___. She is wonderful.",
+      "options": [
+        "she",
+        "her",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'she' → 'her'."
+    },
+    {
+      "prompt_hu": "Can you help ___? He is lost.",
+      "options": [
+        "he",
+        "him",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "Look at ___! It is beautiful.",
+      "options": [
+        "he",
+        "she",
+        "it"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgyeset, tárgy: 'it'."
+    },
+    {
+      "prompt_hu": "I see ___. She is my sister.",
+      "options": [
+        "she",
+        "her",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'she' → 'her'."
+    },
+    {
+      "prompt_hu": "Do you know ___? He works here.",
+      "options": [
+        "he",
+        "him",
+        "she"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "I like ___. It is very good.",
+      "options": [
+        "he",
+        "she",
+        "it"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgyeset, tárgy: 'it'."
+    },
+    {
+      "prompt_hu": "Can you call ___? She is my friend.",
+      "options": [
+        "she",
+        "her",
+        "he"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'she' → 'her'."
+    },
+    {
+      "prompt_hu": "I found ___. He is my dog.",
+      "options": [
+        "he",
+        "him",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "My brother is a pilot. ___ flies planes.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi (brother), ezért 'he'."
+    },
+    {
+      "prompt_hu": "The bicycle is broken. ___ needs repair.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (bicycle), ezért 'it'."
+    },
+    {
+      "prompt_hu": "Sarah is a painter. ___ paints beautiful pictures.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Női név (Sarah), ezért 'she'."
+    },
+    {
+      "prompt_hu": "I like Tom. ___ is my best friend.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi név (Tom), ezért 'he'."
+    },
+    {
+      "prompt_hu": "The door is closed. ___ is locked.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (door), ezért 'it'."
+    },
+    {
+      "prompt_hu": "My aunt is a doctor. ___ is very smart.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Nő családtag (aunt), ezért 'she'."
+    },
+    {
+      "prompt_hu": "I see Michael. ___ is waving at me.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Férfi név (Michael), ezért 'he'."
+    },
+    {
+      "prompt_hu": "The apple is red. ___ looks delicious.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgy (apple), ezért 'it'."
+    },
+    {
+      "prompt_hu": "Please give me ___. He asked for it.",
+      "options": [
+        "he",
+        "him",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "I want to talk to ___. She is here.",
+      "options": [
+        "she",
+        "her",
+        "he"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'she' → 'her'."
+    },
+    {
+      "prompt_hu": "Can you pass ___? It is on the shelf.",
+      "options": [
+        "he",
+        "she",
+        "it"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgyeset, tárgy: 'it'."
+    },
+    {
+      "prompt_hu": "I am waiting for ___. He is coming soon.",
+      "options": [
+        "he",
+        "him",
+        "she"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "Do you remember ___? She was at the party.",
+      "options": [
+        "she",
+        "her",
+        "he"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'she' → 'her'."
+    },
+    {
+      "prompt_hu": "Let me help ___. It is too heavy.",
+      "options": [
+        "he",
+        "she",
+        "it"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgyeset, tárgy: 'it'."
+    },
+    {
+      "prompt_hu": "I want to see ___. He is my cousin.",
+      "options": [
+        "he",
+        "him",
+        "it"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "She called ___. He picked up the phone.",
+      "options": [
+        "he",
+        "him",
+        "she"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'he' → 'him'."
+    },
+    {
+      "prompt_hu": "I like ___ very much. It is my favorite.",
+      "options": [
+        "he",
+        "she",
+        "it"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tárgyeset, tárgy: 'it'."
+    },
+    {
+      "prompt_hu": "I know ___ well. She is nice.",
+      "options": [
+        "she",
+        "her",
+        "he"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tárgyeset: 'she' → 'her'."
+    },
+    {
+      "prompt_hu": "Paul is ___ friend.",
+      "options": [
+        "she",
+        "he",
+        "my"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Személyes birtokos névmás szükséges."
+    },
+    {
+      "prompt_hu": "The cat and ___ are playing in the garden.",
+      "options": [
+        "he",
+        "it",
+        "them"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állat (cat) egyes szám, ezért 'it'."
+    }
+  ]
+}

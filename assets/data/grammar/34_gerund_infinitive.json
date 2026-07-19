@@ -1,0 +1,538 @@
+{
+  "id": "gerund_infinitive",
+  "title_hu": "Gerund és infinitív: igevonzatok",
+  "subtitle_hu": "stop doing vs stop to do – jelentésváltás",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Igevonzatok: -ing vagy to",
+      "body_hu": "Egyes igék -ing-et (avoid, suggest, mind), mások to-infinitívet (agree, refuse, manage) vonzanak. Elöljáró után mindig -ing.",
+      "examples": [
+        {
+          "en": "I avoid driving at night.",
+          "hu": "Kerülöm az éjszakai vezetést."
+        },
+        {
+          "en": "He agreed to help.",
+          "hu": "Beleegyezett, hogy segít."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Jelentésváltó igék: stop, remember, try",
+      "body_hu": "Néhány ige mindkettőt vonzza, de MÁS jelentéssel. stop doing = abbahagy; stop to do = megáll, hogy megtegyen valamit.",
+      "examples": [
+        {
+          "en": "I stopped smoking.",
+          "hu": "Leszoktam a dohányzásról."
+        },
+        {
+          "en": "I stopped to smoke.",
+          "hu": "Megálltam rágyújtani."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "He suggested ___ a taxi.",
+      "options": [
+        "taking",
+        "to take",
+        "take"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'suggest' után -ing."
+    },
+    {
+      "prompt_hu": "She refused ___ the money.",
+      "options": [
+        "taking",
+        "to take",
+        "take"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'refuse' után 'to + alapige'."
+    },
+    {
+      "prompt_hu": "Remember ___ the door when you leave.",
+      "options": [
+        "locking",
+        "to lock",
+        "lock"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'remember to do' = jövőbeli teendő."
+    },
+    {
+      "prompt_hu": "I appreciate ___ your help with this project.",
+      "options": [
+        "to receive",
+        "receiving",
+        "receive"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'appreciate' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "They agreed ___ meet us at the restaurant.",
+      "options": [
+        "to",
+        "ing",
+        "-"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'agree' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "He avoided ___ the question during the interview.",
+      "options": [
+        "to answer",
+        "answering",
+        "answer"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'avoid' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "She managed ___ finish the report on time.",
+      "options": [
+        "to",
+        "ing",
+        "-"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'manage' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "We stopped ___ a break after working for hours.",
+      "options": [
+        "to take",
+        "taking",
+        "take"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'stop to do' kifejezés azt jelenti, hogy megállunk valaminek a céljából."
+    },
+    {
+      "prompt_hu": "Don't forget ___ your keys before leaving.",
+      "options": [
+        "to take",
+        "taking",
+        "take"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'forget' ige to-infinitívet vonz, ha jövőbeli cselekvésről van szó."
+    },
+    {
+      "prompt_hu": "I tried ___ the new restaurant last week.",
+      "options": [
+        "to visit",
+        "visiting",
+        "visit"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'try' ige to-infinitívet vonz, ha erőfeszítésről van szó."
+    },
+    {
+      "prompt_hu": "They denied ___ in the accident.",
+      "options": [
+        "to be involved",
+        "being involved",
+        "be involved"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'deny' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "He suggested ___ earlier to avoid traffic.",
+      "options": [
+        "to leave",
+        "leaving",
+        "leave"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'suggest' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "Can you imagine ___ in Paris?",
+      "options": [
+        "to live",
+        "living",
+        "live"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'imagine' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "She refused ___ my apology.",
+      "options": [
+        "to accept",
+        "accepting",
+        "accept"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'refuse' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "I mind ___ the children this afternoon.",
+      "options": [
+        "to watch",
+        "watching",
+        "watch"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'mind' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "They decided ___ abroad for their vacation.",
+      "options": [
+        "to go",
+        "going",
+        "go"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'decide' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "He keeps ___ me about the deadline.",
+      "options": [
+        "to remind",
+        "reminding",
+        "remind"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'keep' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "We enjoy ___ on weekends.",
+      "options": [
+        "to hike",
+        "hiking",
+        "hike"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'enjoy' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "After ___ dinner, they went for a walk.",
+      "options": [
+        "to finish",
+        "finishing",
+        "finish"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'after' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "Before ___ the house, they cleaned it thoroughly.",
+      "options": [
+        "to sell",
+        "selling",
+        "sell"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'before' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "He risked ___ his job by speaking up.",
+      "options": [
+        "to lose",
+        "losing",
+        "lose"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'risk' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "I failed ___ the exam on my first try.",
+      "options": [
+        "to pass",
+        "passing",
+        "pass"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'fail' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "She postponed ___ the meeting until next week.",
+      "options": [
+        "to have",
+        "having",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'postpone' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "Instead of ___ at home, we went out.",
+      "options": [
+        "to stay",
+        "staying",
+        "stay"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'instead of' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "I don't mind ___ the extra work.",
+      "options": [
+        "to do",
+        "doing",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'mind' iga -ing-et vonz."
+    },
+    {
+      "prompt_hu": "They admitted ___ the mistake in the document.",
+      "options": [
+        "to make",
+        "making",
+        "make"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'admit' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "He promised ___ home early.",
+      "options": [
+        "to come",
+        "coming",
+        "come"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'promise' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "We discussed ___ a new office.",
+      "options": [
+        "to open",
+        "opening",
+        "open"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'discuss' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "She hesitated ___ the difficult question.",
+      "options": [
+        "to answer",
+        "answering",
+        "answer"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'hesitate' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "I finished ___ the novel last night.",
+      "options": [
+        "to read",
+        "reading",
+        "read"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'finish' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "They considered ___ a new car.",
+      "options": [
+        "to buy",
+        "buying",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'consider' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "He insisted ___ pay for dinner.",
+      "options": [
+        "to",
+        "ing",
+        "-"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'insist' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "Without ___ hard, you won't succeed.",
+      "options": [
+        "to work",
+        "working",
+        "work"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'without' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "She resisted ___ to his demands.",
+      "options": [
+        "to give",
+        "giving",
+        "give"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'resist' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "They planned ___ in Italy for two weeks.",
+      "options": [
+        "to stay",
+        "staying",
+        "stay"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'plan' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "I recall ___ him at the conference.",
+      "options": [
+        "to meet",
+        "meeting",
+        "meet"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'recall' ige -ing-et vonz múltbeli eseménynél."
+    },
+    {
+      "prompt_hu": "He attempted ___ the problem alone.",
+      "options": [
+        "to solve",
+        "solving",
+        "solve"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'attempt' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "By ___ regularly, you'll improve your skills.",
+      "options": [
+        "to practice",
+        "practicing",
+        "practice"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'by' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "She delayed ___ the news to her family.",
+      "options": [
+        "to tell",
+        "telling",
+        "tell"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'delay' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "They aimed ___ the target successfully.",
+      "options": [
+        "to hit",
+        "hitting",
+        "hit"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'aim' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "I stopped ___ once I understood the topic.",
+      "options": [
+        "to worry",
+        "worrying",
+        "worry"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'stop doing' kifejezés azt jelenti, hogy véglegesen abbahagyjuk valamit."
+    },
+    {
+      "prompt_hu": "He couldn't afford ___ a vacation this year.",
+      "options": [
+        "to take",
+        "taking",
+        "take"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'afford' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "We began ___ the project in January.",
+      "options": [
+        "to work",
+        "working",
+        "work"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'begin' ige Both -ing-et és to-infinitívet vonzhat, de itt -ing helyesebb."
+    },
+    {
+      "prompt_hu": "She expects ___ the results tomorrow.",
+      "options": [
+        "to receive",
+        "receiving",
+        "receive"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'expect' ige to-infinitívet vonz."
+    },
+    {
+      "prompt_hu": "After ___ the exam, we felt relieved.",
+      "options": [
+        "to finish",
+        "finishing",
+        "finish"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'after' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "He tried ___ to understand, but it was too complex.",
+      "options": [
+        "to",
+        "ing",
+        "-"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'try' ige to-infinitívet vonz, ha erőfeszítésről van szó."
+    },
+    {
+      "prompt_hu": "They recommended ___ this restaurant to everyone.",
+      "options": [
+        "to visit",
+        "visiting",
+        "visit"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'recommend' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "I appreciate ___ your time and patience.",
+      "options": [
+        "to take",
+        "taking",
+        "take"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'appreciate' ige -ing-et vonz."
+    },
+    {
+      "prompt_hu": "Upon ___ the news, she started crying.",
+      "options": [
+        "to hear",
+        "hearing",
+        "hear"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró 'upon' után mindig -ing-et használunk."
+    },
+    {
+      "prompt_hu": "He tends ___ mistakes when he's tired.",
+      "options": [
+        "to make",
+        "making",
+        "make"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'tend' ige to-infinitívet vonz."
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "id": "countable_uncountable",
+  "title_hu": "Megszámlálható és nem: some / any / much / many",
+  "subtitle_hu": "Mennyiségek",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Megszámlálható vs. megszámlálhatatlan",
+      "body_hu": "Megszámlálható (countable): van többes száma (a book → books). Megszámlálhatatlan (uncountable): nincs többes száma, egyes számként kezeljük (water, money, information, rice). Ezek elé nem tehetünk „a/an”-t, se számot.",
+      "examples": [
+        {
+          "en": "three books",
+          "hu": "három könyv"
+        },
+        {
+          "en": "some water (NEM: a water)",
+          "hu": "egy kis víz"
+        },
+        {
+          "en": "Money is important.",
+          "hu": "A pénz fontos. (egyes számú ige!)"
+        }
+      ]
+    },
+    {
+      "heading_hu": "some / any",
+      "body_hu": "some → állító mondatban („valamennyi”). any → tagadásban és kérdésben. Mindkettő megszámlálhatóval (többes) és megszámlálhatatlannal is használható.",
+      "examples": [
+        {
+          "en": "I have some money.",
+          "hu": "Van egy kis pénzem."
+        },
+        {
+          "en": "I don't have any money.",
+          "hu": "Nincs pénzem."
+        },
+        {
+          "en": "Do you have any questions?",
+          "hu": "Van kérdésed?"
+        }
+      ]
+    },
+    {
+      "heading_hu": "much / many / a lot of",
+      "body_hu": "many → megszámlálhatóval (many books). much → megszámlálhatatlannal (much water), főleg kérdésben/tagadásban. a lot of → mindkettővel, állító mondatban.",
+      "examples": [
+        {
+          "en": "How many people are there?",
+          "hu": "Hány ember van ott?"
+        },
+        {
+          "en": "How much money do you need?",
+          "hu": "Mennyi pénzre van szükséged?"
+        },
+        {
+          "en": "I have a lot of friends.",
+          "hu": "Sok barátom van."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I have ___ apples in my bag.",
+      "options": [
+        "some",
+        "any",
+        "much"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondatban megszámlálhatóval 'some'."
+    },
+    {
+      "prompt_hu": "Do you have ___ milk for the coffee?",
+      "options": [
+        "some",
+        "much",
+        "many"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben megszámlálhatatlannal 'much'."
+    },
+    {
+      "prompt_hu": "There aren't ___ chairs in the classroom.",
+      "options": [
+        "many",
+        "much",
+        "a lot of"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban megszámlálhatóval 'many'."
+    },
+    {
+      "prompt_hu": "She drinks ___ water every day.",
+      "options": [
+        "many",
+        "much",
+        "some"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban megszámlálhatatlannal 'some'."
+    },
+    {
+      "prompt_hu": "Do you need ___ sugar for the tea?",
+      "options": [
+        "any",
+        "some",
+        "many"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "We have ___ friends from different countries.",
+      "options": [
+        "much",
+        "many",
+        "a lot"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban megszámlálhatóval 'many'."
+    },
+    {
+      "prompt_hu": "There isn't ___ information about the event.",
+      "options": [
+        "any",
+        "some",
+        "many"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "He ate ___ bread at breakfast.",
+      "options": [
+        "much",
+        "many",
+        "some"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban megszámlálhatatlannal 'some'."
+    },
+    {
+      "prompt_hu": "How ___ books did you read last month?",
+      "options": [
+        "much",
+        "many",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben megszámlálhatóval 'many'."
+    },
+    {
+      "prompt_hu": "I don't have ___ time to finish this work.",
+      "options": [
+        "many",
+        "much",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban megszámlálhatatlannal 'much'."
+    },
+    {
+      "prompt_hu": "There are ___ people waiting outside.",
+      "options": [
+        "much",
+        "any",
+        "many"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban többes számú szóval 'many'."
+    },
+    {
+      "prompt_hu": "Did you see ___ interesting films?",
+      "options": [
+        "any",
+        "some",
+        "much"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "We don't have ___ rice left.",
+      "options": [
+        "some",
+        "any",
+        "many"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "She has ___ experience in teaching.",
+      "options": [
+        "many",
+        "some",
+        "much"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban nem számolható szóval 'some' vagy 'much'."
+    },
+    {
+      "prompt_hu": "How ___ money do you need?",
+      "options": [
+        "many",
+        "much",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "There aren't ___ cars in the parking lot.",
+      "options": [
+        "any",
+        "much",
+        "some"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "They have ___ children and pets.",
+      "options": [
+        "much",
+        "some",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban többes számú szóval 'some'."
+    },
+    {
+      "prompt_hu": "Is there ___ juice in the fridge?",
+      "options": [
+        "many",
+        "some",
+        "much"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "I need ___ advice about my career.",
+      "options": [
+        "many",
+        "any",
+        "some"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban nem számolható szóval 'some'."
+    },
+    {
+      "prompt_hu": "We didn't buy ___ vegetables at the market.",
+      "options": [
+        "some",
+        "much",
+        "any"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "How ___ cups of tea do you drink daily?",
+      "options": [
+        "much",
+        "many",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben megszámlálhatóval 'many'."
+    },
+    {
+      "prompt_hu": "There is ___ salt in this soup.",
+      "options": [
+        "many",
+        "much",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "Do they have ___ problems at work?",
+      "options": [
+        "much",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "She doesn't eat ___ meat.",
+      "options": [
+        "many",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "We have ___ homework to do tonight.",
+      "options": [
+        "many",
+        "much",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "Are there ___ students in your class?",
+      "options": [
+        "much",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "I don't have ___ dollars in my wallet.",
+      "options": [
+        "much",
+        "any",
+        "many"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásban 'dollars' - megszámlálható, így 'many'."
+    },
+    {
+      "prompt_hu": "He wants ___ help with his project.",
+      "options": [
+        "many",
+        "some",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban nem számolható szóval 'some'."
+    },
+    {
+      "prompt_hu": "Did you find ___ mistakes in the test?",
+      "options": [
+        "any",
+        "some",
+        "much"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "There wasn't ___ rain last summer.",
+      "options": [
+        "many",
+        "much",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "She bought ___ souvenirs on vacation.",
+      "options": [
+        "much",
+        "many",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban többes számú szóval 'many'."
+    },
+    {
+      "prompt_hu": "Is there ___ chocolate left?",
+      "options": [
+        "many",
+        "any",
+        "much"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "They don't have ___ furniture in their apartment.",
+      "options": [
+        "any",
+        "much",
+        "many"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "I ate ___ bread and cheese for lunch.",
+      "options": [
+        "some",
+        "many",
+        "much"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondatban 'some' mindkettővel használható."
+    },
+    {
+      "prompt_hu": "How ___ luggage did you pack?",
+      "options": [
+        "many",
+        "much",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "We don't need ___ extra plates for the party.",
+      "options": [
+        "some",
+        "any",
+        "much"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "She has ___ interesting ideas for the project.",
+      "options": [
+        "much",
+        "many",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban többes számú szóval 'many'."
+    },
+    {
+      "prompt_hu": "Do you have ___ experience with computers?",
+      "options": [
+        "any",
+        "much",
+        "many"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "There wasn't ___ traffic on the highway.",
+      "options": [
+        "many",
+        "any",
+        "much"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "He bought ___ gifts for his family.",
+      "options": [
+        "much",
+        "any",
+        "many"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban többes számú szóval 'many'."
+    },
+    {
+      "prompt_hu": "Did you hear ___ complaints from the customers?",
+      "options": [
+        "any",
+        "some",
+        "much"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "I don't have ___ energy today.",
+      "options": [
+        "many",
+        "any",
+        "much"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "They have ___ reasons to celebrate.",
+      "options": [
+        "much",
+        "some",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Állító mondatban többes számú szóval 'some'."
+    },
+    {
+      "prompt_hu": "How ___ emails do you receive every day?",
+      "options": [
+        "much",
+        "many",
+        "any"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben beszámlálhatóval 'many'."
+    },
+    {
+      "prompt_hu": "There isn't ___ medicine left in the bottle.",
+      "options": [
+        "many",
+        "any",
+        "much"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásban nem számolható szóval 'much'."
+    },
+    {
+      "prompt_hu": "She has ___ paintings in her collection.",
+      "options": [
+        "much",
+        "any",
+        "many"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondatban többes számú szóval 'many'."
+    },
+    {
+      "prompt_hu": "Do they need ___ assistance with the move?",
+      "options": [
+        "any",
+        "much",
+        "many"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'any'."
+    },
+    {
+      "prompt_hu": "We didn't see ___ wildlife during the safari.",
+      "options": [
+        "some",
+        "any",
+        "much"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban 'any'."
+    },
+    {
+      "prompt_hu": "Can I have ___ information about the flight times?",
+      "options": [
+        "some",
+        "any",
+        "many"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérésben (Can I have...) 'some'-et használunk polite kérésnél, nem 'any'-t."
+    },
+    {
+      "prompt_hu": "How ___ sugar do you want in your coffee?",
+      "options": [
+        "many",
+        "much",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Sugar' nem megszámlálható, ezért 'much'-ot használunk a kérdésben."
+    }
+  ]
+}

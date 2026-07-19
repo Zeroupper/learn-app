@@ -1,0 +1,560 @@
+{
+  "id": "to_be",
+  "title_hu": "A „to be” ige (vagyok, vagy, van…)",
+  "subtitle_hu": "am / is / are",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "A három alak",
+      "body_hu": "A „to be” (lenni) ige a jelenben három alakot vesz fel: I → am, he/she/it → is, we/you/they → are. Magyarul a „van” gyakran elmarad, angolul viszont KÖTELEZŐ kitenni!",
+      "examples": [
+        {
+          "en": "I am tired.",
+          "hu": "Fáradt vagyok."
+        },
+        {
+          "en": "She is a teacher.",
+          "hu": "Ő tanár."
+        },
+        {
+          "en": "They are at home.",
+          "hu": "Otthon vannak."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Rövid alakok és tagadás",
+      "body_hu": "A beszélt nyelvben összevonjuk: I'm, you're, he's, she's, it's, we're, they're. Tagadáshoz a „not” szót tesszük az ige után: is not = isn't, are not = aren't.",
+      "examples": [
+        {
+          "en": "I'm happy.",
+          "hu": "Boldog vagyok."
+        },
+        {
+          "en": "He isn't here.",
+          "hu": "Ő nincs itt."
+        },
+        {
+          "en": "We aren't ready.",
+          "hu": "Nem vagyunk készen."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Kérdés",
+      "body_hu": "Kérdésnél az igét előrehozzuk az alany elé (nincs szükség segédigére).",
+      "examples": [
+        {
+          "en": "Are you a student?",
+          "hu": "Diák vagy?"
+        },
+        {
+          "en": "Is she your sister?",
+          "hu": "Ő a nővéred?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ a student.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'I' személyes névmás után az 'am' alakot használjuk."
+    },
+    {
+      "prompt_hu": "He ___ a teacher.",
+      "options": [
+        "are",
+        "am",
+        "is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A he/she/it után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "They ___ happy.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A többes szám 3. személyhez az 'are' tartozik."
+    },
+    {
+      "prompt_hu": "She ___ from London.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A she után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "It ___ a beautiful day.",
+      "options": [
+        "are",
+        "am",
+        "is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Az it után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "We ___ in the park.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A we után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "You ___ my friend.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A you után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "I ___ not tired.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásnál is az 'am' használható az 'I' után."
+    },
+    {
+      "prompt_hu": "He ___ not here.",
+      "options": [
+        "are",
+        "am",
+        "is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásnál is az 'is' használható a he után."
+    },
+    {
+      "prompt_hu": "They ___ not students.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Tagadásnál is az 'are' használható a they után."
+    },
+    {
+      "prompt_hu": "___ you ready?",
+      "options": [
+        "Am",
+        "Are",
+        "Is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; you után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "___ he a doctor?",
+      "options": [
+        "Are",
+        "Is",
+        "Am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; he után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "___ they happy?",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; they után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "___ I late?",
+      "options": [
+        "Are",
+        "Is",
+        "Am"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; I után az 'am' alakot használjuk."
+    },
+    {
+      "prompt_hu": "I'm ___ engineer.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó előtt 'an' szükséges."
+    },
+    {
+      "prompt_hu": "She's ___ nurse.",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó előtt 'a' szükséges."
+    },
+    {
+      "prompt_hu": "We aren't ___ late.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Adjektívum után nem szükséges a névelő."
+    },
+    {
+      "prompt_hu": "They are ___ happy today.",
+      "options": [
+        "the",
+        "a",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Adjektívum előtt nincs névelő."
+    },
+    {
+      "prompt_hu": "You're ___ good student.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó előtt 'a' szükséges."
+    },
+    {
+      "prompt_hu": "It isn't ___ problem.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó előtt 'a' szükséges."
+    },
+    {
+      "prompt_hu": "___ my name Peter?",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyű alany ('my name'), ezért 'Is'."
+    },
+    {
+      "prompt_hu": "I ___ a student and she ___ a teacher.",
+      "options": [
+        "am, is",
+        "are, is",
+        "is, am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "I után 'am', she után 'is' szükséges."
+    },
+    {
+      "prompt_hu": "He ___ not a businessman.",
+      "options": [
+        "am",
+        "are",
+        "is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "He után az 'is' alakot használjuk tagadásban is."
+    },
+    {
+      "prompt_hu": "You ___ very kind.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "You után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "___ she from Germany?",
+      "options": [
+        "Am",
+        "Are",
+        "Is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; she után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "It ___ cold today.",
+      "options": [
+        "are",
+        "am",
+        "is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "It után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "We ___ not busy.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "We után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "She and I ___ good friends.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Az alany többes számú ('She and I' = we), ezért 'are'."
+    },
+    {
+      "prompt_hu": "They ___ from France.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "They után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "She ___ very intelligent.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "She után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "___ you students?",
+      "options": [
+        "Is",
+        "Am",
+        "Are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; you után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "He isn't ___ pianist.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'pianist' mássalhangzó-hanggal kezdődik, ezért 'a'."
+    },
+    {
+      "prompt_hu": "I ___ happy today.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "I után az 'am' alakot használjuk."
+    },
+    {
+      "prompt_hu": "You aren't ___ wrong.",
+      "options": [
+        "the",
+        "a",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Adjektívum után nem szükséges a névelő."
+    },
+    {
+      "prompt_hu": "We're ___ friends.",
+      "options": [
+        "a",
+        "an",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Főnév többesszámában nem szükséges a névelő."
+    },
+    {
+      "prompt_hu": "They ___ not angry.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "They után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "___ it a cat?",
+      "options": [
+        "Are",
+        "Am",
+        "Is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; it után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "She's ___ artist.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó előtt 'an' szükséges."
+    },
+    {
+      "prompt_hu": "I'm not ___ doctor.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'doctor' mássalhangzó-hanggal kezdődik, ezért 'a'."
+    },
+    {
+      "prompt_hu": "You ___ my colleague.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "You után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "He ___ not ___ teacher.",
+      "options": [
+        "is, a",
+        "is, an",
+        "are, a"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "He után 'is' szükséges, 'teacher' előtt 'a' szükséges."
+    },
+    {
+      "prompt_hu": "We ___ from Spain.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "We után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "It ___ not ___ problem.",
+      "options": [
+        "is, a",
+        "is, an",
+        "are, a"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "It után 'is' szükséges, 'problem' előtt 'a' szükséges."
+    },
+    {
+      "prompt_hu": "___ they from the United States?",
+      "options": [
+        "Is",
+        "Am",
+        "Are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben az igét előrehozzuk; they után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "She ___ my sister.",
+      "options": [
+        "are",
+        "am",
+        "is"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "She után az 'is' alakot használjuk."
+    },
+    {
+      "prompt_hu": "I am ___ student.",
+      "options": [
+        "the",
+        "an",
+        "a"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A 'student' mássalhangzó-hanggal kezdődik, ezért 'a'."
+    },
+    {
+      "prompt_hu": "They aren't ___ expensive.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Adjektívum után nem szükséges a névelő."
+    },
+    {
+      "prompt_hu": "You ___ very talented.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "You után az 'are' alakot használjuk."
+    },
+    {
+      "prompt_hu": "We ___ in the same class.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'we' (mi) harmadik személyi többes, ezért 'are'."
+    },
+    {
+      "prompt_hu": "___ you and your friend ready for the exam?",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben az igét előrehozzuk, és 'you' többes számhoz 'Are' kell."
+    }
+  ]
+}

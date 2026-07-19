@@ -1,0 +1,564 @@
+{
+  "id": "questions",
+  "title_hu": "Kérdések: do / does / did",
+  "subtitle_hu": "Segédige a kérdésekhez",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Miért kell segédige?",
+      "body_hu": "A magyarban a kérdést hanglejtéssel jelezzük. Az angolban a legtöbb igénél KÖTELEZŐ segédige a kérdésben és a tagadásban: do / does (jelen), did (múlt). A főige ilyenkor alapalakban marad!",
+      "examples": [
+        {
+          "en": "Do you like coffee?",
+          "hu": "Szereted a kávét?"
+        },
+        {
+          "en": "Does she speak English?",
+          "hu": "Beszél angolul? (does + speak, nem speaks!)"
+        },
+        {
+          "en": "Did they arrive?",
+          "hu": "Megérkeztek?"
+        }
+      ]
+    },
+    {
+      "heading_hu": "do vs. does vs. did",
+      "body_hu": "does → he/she/it (jelen). do → I/you/we/they (jelen). did → mindenki (múlt). A -s vagy a múlt jele a segédigén van, ezért a főige alapalakban marad.",
+      "examples": [
+        {
+          "en": "Where do you live?",
+          "hu": "Hol laksz?"
+        },
+        {
+          "en": "What does he want?",
+          "hu": "Mit akar?"
+        },
+        {
+          "en": "When did you leave?",
+          "hu": "Mikor mentél el?"
+        }
+      ]
+    },
+    {
+      "heading_hu": "Tagadás",
+      "body_hu": "Ugyanez a segédige a tagadásban: don't / doesn't / didn't + alapige.",
+      "examples": [
+        {
+          "en": "I don't know.",
+          "hu": "Nem tudom."
+        },
+        {
+          "en": "She doesn't eat meat.",
+          "hu": "Nem eszik húst."
+        },
+        {
+          "en": "We didn't see it.",
+          "hu": "Nem láttuk."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "___ you like coffee?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ she play tennis on Sundays?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'She' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they go to school every day?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he eat breakfast in the morning?",
+      "options": [
+        "Does",
+        "Did",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ you watch TV yesterday?",
+      "options": [
+        "Do",
+        "Did",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ I need to bring anything?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'I' első személyre 'Do' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they understand English?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ it rain last week?",
+      "options": [
+        "Do",
+        "Did",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Last week' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ you know my sister?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ she remember your name?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'She' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ we have enough time?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'We' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he work here?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ you go to the gym?",
+      "options": [
+        "Does",
+        "Did",
+        "Do"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ she call you yesterday?",
+      "options": [
+        "Do",
+        "Did",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ it work properly?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'It' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they finish their homework?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A mondat múlt időt fejez ki, 'Did'."
+    },
+    {
+      "prompt_hu": "___ you want tea or coffee?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he like pizza?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they know the answer?",
+      "options": [
+        "Does",
+        "Did",
+        "Do"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ she sleep well last night?",
+      "options": [
+        "Do",
+        "Did",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Last night' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ you have any siblings?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ it rain yesterday?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Yesterday' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ he speak French?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ you like this song?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ they come from Italy?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ she see you yesterday?",
+      "options": [
+        "Do",
+        "Did",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ you play basketball?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he enjoy cooking?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they arrive on time?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A mondat múlt időt fejez ki, 'Did'."
+    },
+    {
+      "prompt_hu": "___ she have a cat?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'She' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ you understand the instructions?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ it taste good?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'It' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they attend school?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he buy milk yesterday?",
+      "options": [
+        "Do",
+        "Did",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ you need help?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ she wear glasses?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'She' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they read books?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ it make sense?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'It' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ you visit your grandparents?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he travel a lot?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ she arrive last week?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Last week' múlt időt jelez, múltban 'Did'."
+    },
+    {
+      "prompt_hu": "___ they swim in the pool?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'They' többes szám, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ you dance well?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'You' személyjelentés, jelen időben 'Do'."
+    },
+    {
+      "prompt_hu": "___ he paint pictures?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'He' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ it sound familiar?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'It' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ they explain it clearly?",
+      "options": [
+        "Did",
+        "Does",
+        "Do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A mondat múlt időt fejez ki, 'Did'."
+    },
+    {
+      "prompt_hu": "___ you remember what happened?",
+      "options": [
+        "Does",
+        "Do",
+        "Did"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A mondat múlt időt fejez ki, 'Did'."
+    },
+    {
+      "prompt_hu": "___ she collect stamps?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'She' harmadik személyre 'Does' jelen időben."
+    },
+    {
+      "prompt_hu": "___ your parents know about the party?",
+      "options": [
+        "Do",
+        "Does",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám 3. személyben (your parents) jelen időben 'Do' a segédige."
+    },
+    {
+      "prompt_hu": "___ the children eat their lunch yet?",
+      "options": [
+        "Did",
+        "Do",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 3. személyben (the children) jelen időben 'Do' a segédige."
+    }
+  ]
+}

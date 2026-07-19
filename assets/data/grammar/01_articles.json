@@ -1,0 +1,564 @@
+{
+  "id": "articles",
+  "title_hu": "Névelők: a / an / the",
+  "subtitle_hu": "Mikor melyiket használjuk?",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Határozatlan névelő: a / an",
+      "body_hu": "Az „a” és „an” a magyar „egy” névelőnek felel meg, és csak megszámlálható, egyes számú szó előtt áll. „an” áll magánhangzóval kezdődő szó előtt (a hangzás számít, nem a betű!), „a” minden más esetben.",
+      "examples": [
+        {
+          "en": "a dog",
+          "hu": "egy kutya"
+        },
+        {
+          "en": "an apple",
+          "hu": "egy alma"
+        },
+        {
+          "en": "an hour",
+          "hu": "egy óra (a „h” néma)"
+        },
+        {
+          "en": "a university",
+          "hu": "egy egyetem („juniversity”, j hanggal)"
+        }
+      ]
+    },
+    {
+      "heading_hu": "Határozott névelő: the",
+      "body_hu": "A „the” a magyar „a/az” névelőnek felel meg. Akkor használjuk, ha a hallgató tudja, melyik konkrét dologról van szó: már említettük, vagy egyértelmű. Egyes és többes számmal is állhat.",
+      "examples": [
+        {
+          "en": "the sun",
+          "hu": "a nap (csak egy van)"
+        },
+        {
+          "en": "I have a car. The car is red.",
+          "hu": "Van egy autóm. Az autó piros."
+        },
+        {
+          "en": "the books on the table",
+          "hu": "a könyvek az asztalon"
+        }
+      ]
+    },
+    {
+      "heading_hu": "Amikor nincs névelő",
+      "body_hu": "Általános értelemben vett többes számú vagy megszámlálhatatlan főnév előtt gyakran nincs névelő.",
+      "examples": [
+        {
+          "en": "Dogs are friendly.",
+          "hu": "A kutyák barátságosak. (általában)"
+        },
+        {
+          "en": "I like water.",
+          "hu": "Szeretem a vizet."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I need ___ apple for my lunch.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó előtt 'an'."
+    },
+    {
+      "prompt_hu": "He is ___ doctor at the hospital.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó előtt 'a'."
+    },
+    {
+      "prompt_hu": "She saw ___ elephant at the zoo.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Elephant' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "I have ___ dog and ___ cat at home.",
+      "options": [
+        "a dog and a cat",
+        "an dog and an cat",
+        "a dog and an cat"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mindkét szó mássalhangzó-hanggal kezdődik, ezért mindkettő előtt 'a'."
+    },
+    {
+      "prompt_hu": "There is ___ university near my house.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'u' itt 'yu' (mássalhangzó-) hanggal kezdődik, ezért 'a university'."
+    },
+    {
+      "prompt_hu": "The Nile is ___ long river in Africa.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő 'long' előtt 'a'."
+    },
+    {
+      "prompt_hu": "Can you pass me ___ salt?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét, jelen lévő dologra utalunk (add ide a sót), ezért 'the'."
+    },
+    {
+      "prompt_hu": "She is reading ___ book about history.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő 'book' előtt 'a'."
+    },
+    {
+      "prompt_hu": "I saw ___ interesting movie yesterday.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Interesting' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "He works as ___ engineer.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Engineer' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "Where is ___ bathroom in this building?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét, ismert dologról van szó, ezért 'the'."
+    },
+    {
+      "prompt_hu": "I bought ___ umbrella yesterday.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Umbrella' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "This is ___ nice garden.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'nice' mássalhangzó-hanggal kezdődik, ezért 'a'."
+    },
+    {
+      "prompt_hu": "She has ___ orange cat.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Orange' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "Do you know ___ answer to this question?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Konkrét, ismert válaszról van szó, ezért 'the'."
+    },
+    {
+      "prompt_hu": "I need ___ new laptop.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő 'new' előtt 'a'."
+    },
+    {
+      "prompt_hu": "He gave me ___ idea for my project.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'idea' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "What is ___ capital of France?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Egy konkrét város, ezért 'the'."
+    },
+    {
+      "prompt_hu": "I bought ___ ice cream at the shop.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'ice' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "She is ___ old friend of mine.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Old' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "There was ___ accident on the highway.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Accident' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "I like ___ flower from the garden.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes számú, mássalhangzó-hanggal kezdődő főnév előtt 'a'."
+    },
+    {
+      "prompt_hu": "He is wearing ___ blue shirt.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő 'blue' előtt 'a'."
+    },
+    {
+      "prompt_hu": "I saw ___ owl last night.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Owl' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "She bought ___ expensive dress for the party.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Expensive' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "Can you lend me ___ pen?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő 'pen' előtt 'a'."
+    },
+    {
+      "prompt_hu": "I would like to become ___ artist.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Artist' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "That is ___ excellent idea!",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Excellent' magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "I saw ___ bird on the tree.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Bird' 'b' betűvel kezdődik, de 'b' mássalhangzó-hang, azonban itt az 'i' magánhangzóval kezdődő szó következik... nem, 'bird' mássalhangzó-hanggal kezdődik."
+    },
+    {
+      "prompt_hu": "She drinks ___ coffee every morning.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Általános értelemben vett megszámlálhatatlan főnév előtt nincs névelő."
+    },
+    {
+      "prompt_hu": "He is ___ honest man.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó ('honest') előtt 'an' áll."
+    },
+    {
+      "prompt_hu": "I saw ___ movie you recommended last week.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Már említettük a filmet, ezért határozott névelő 'the' kell."
+    },
+    {
+      "prompt_hu": "They are looking for ___ house in the city.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Először említett, általános szinguláris főnév előtt 'a' áll."
+    },
+    {
+      "prompt_hu": "___ sun is very bright today.",
+      "options": [
+        "a",
+        "an",
+        "The"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Egyedüli, ismert dolog előtt (a Nap) határozott névelő 'The' kell."
+    },
+    {
+      "prompt_hu": "Do you play ___ instrument?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó ('instrument') előtt 'an' áll."
+    },
+    {
+      "prompt_hu": "I need ___ help with this project.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Megszámlálhatatlan főnév előtt nincs névelő."
+    },
+    {
+      "prompt_hu": "She is ___ university student.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó ('university') előtt 'a' áll, bár u-val kezdődik."
+    },
+    {
+      "prompt_hu": "That is ___ interesting story.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó ('interesting') előtt 'an' áll."
+    },
+    {
+      "prompt_hu": "I have ___ information about the meeting.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Az 'information' megszámlálhatatlan főnév, ezért általában nincs névelő."
+    },
+    {
+      "prompt_hu": "He wants to buy ___ new car.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egy nem meghatározott autóról van szó, ezért 'a' kell."
+    },
+    {
+      "prompt_hu": "Can I have ___ glass of water, please?",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egy konkrét pohár vizet kérünk, de még nem említett, ezért 'a' áll."
+    },
+    {
+      "prompt_hu": "She likes to eat ___ vegetables.",
+      "options": [
+        "a",
+        "the",
+        "–"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Általános értelemben vett többes számú főnév előtt nincs névelő."
+    },
+    {
+      "prompt_hu": "I found ___ lost wallet on the street.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó ('lost') előtt 'a' áll."
+    },
+    {
+      "prompt_hu": "___ teacher is explaining ___ lesson to the students.",
+      "options": [
+        "The / the",
+        "A / a",
+        "The / a"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Konkrét tanár és konkrét lecke, mindkettő előtt 'the' kell."
+    },
+    {
+      "prompt_hu": "He has ___ allergy to nuts.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó ('allergy') előtt 'an' áll."
+    },
+    {
+      "prompt_hu": "I bought ___ apple and ___ orange at the store.",
+      "options": [
+        "a / a",
+        "an / an",
+        "the / the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Mindkét főnév magánhangzó-hanggal kezdődik, ezért 'an'."
+    },
+    {
+      "prompt_hu": "This is ___ one and only chance.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyedüli dologra utalva, de első említésként 'a' áll."
+    },
+    {
+      "prompt_hu": "She worked at ___ office downtown.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mássalhangzó-hanggal kezdődő szó ('office') előtt 'a' áll."
+    },
+    {
+      "prompt_hu": "I saw ___ accident and ___ police arrived quickly.",
+      "options": [
+        "a / the",
+        "an / the",
+        "the / the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'accident' magánhangzóval kezdődik ('an'), a rendőrség konkrét és egyedi ('the')."
+    },
+    {
+      "prompt_hu": "They are watching ___ stars in ___ sky.",
+      "options": [
+        "the / the",
+        "a / a",
+        "the / a"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Mindkét ismert és konkrét dolog: az égbolt és annak csillagai, ezért mindkettő előtt 'the' kell."
+    }
+  ]
+}

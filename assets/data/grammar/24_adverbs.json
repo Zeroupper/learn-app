@@ -1,0 +1,538 @@
+{
+  "id": "adverbs",
+  "title_hu": "Határozók: gyakoriság és mód",
+  "subtitle_hu": "always, quickly – hogyan és milyen gyakran",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Gyakorisági határozók helye",
+      "body_hu": "always, usually, often, sometimes, never a főige ELŐTT, de a 'be' ige UTÁN állnak.",
+      "examples": [
+        {
+          "en": "She always drinks coffee.",
+          "hu": "Mindig kávét iszik."
+        },
+        {
+          "en": "He is never late.",
+          "hu": "Sosem késik."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Módhatározók: -ly végződés",
+      "body_hu": "A módhatározó azt mondja meg, HOGYAN történik valami; sok melléknévből -ly-vel képezzük: quick → quickly. Rendhagyó: good → well.",
+      "examples": [
+        {
+          "en": "She sings beautifully.",
+          "hu": "Gyönyörűen énekel."
+        },
+        {
+          "en": "He drives carefully.",
+          "hu": "Óvatosan vezet."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ go to the gym on Mondays.",
+      "options": [
+        "usually",
+        "usual",
+        "am usually"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Gyakorisági határozó a főige előtt."
+    },
+    {
+      "prompt_hu": "He is ___ happy in the morning.",
+      "options": [
+        "always",
+        "always is",
+        "happily"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'be' ige UTÁN áll a gyakorisági határozó."
+    },
+    {
+      "prompt_hu": "She speaks English very ___.",
+      "options": [
+        "good",
+        "well",
+        "goodly"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'good' rendhagyó módhatározója: 'well'."
+    },
+    {
+      "prompt_hu": "They ___ eat breakfast at home.",
+      "options": [
+        "always",
+        "very",
+        "well"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A gyakorisági határozó 'always' a főige előtt áll."
+    },
+    {
+      "prompt_hu": "You ___ arrive late to work.",
+      "options": [
+        "never",
+        "not",
+        "bad"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'never' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "She ___ plays tennis on weekends.",
+      "options": [
+        "often",
+        "quickly",
+        "very"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'often' gyakorisági határozó a főige előtt áll."
+    },
+    {
+      "prompt_hu": "We are ___ tired after the meeting.",
+      "options": [
+        "sometimes",
+        "usually",
+        "still"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'usually' gyakorisági határozó a 'be' ige után áll."
+    },
+    {
+      "prompt_hu": "He is ___ interested in history.",
+      "options": [
+        "always",
+        "never",
+        "maybe"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'be' ige után a 'always' gyakorisági határozó följön."
+    },
+    {
+      "prompt_hu": "The dog runs ___ through the park.",
+      "options": [
+        "quick",
+        "quickly",
+        "fast"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: quick → quickly."
+    },
+    {
+      "prompt_hu": "She answered the question ___ and confidently.",
+      "options": [
+        "correct",
+        "correctly",
+        "true"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az -ly végzódéssel képzett módhatározó: correct → correctly."
+    },
+    {
+      "prompt_hu": "The children are ___ quiet in the library.",
+      "options": [
+        "always",
+        "very",
+        "well"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'be' ige után a 'very' módhatározó használatos."
+    },
+    {
+      "prompt_hu": "He drives the car ___ on the highway.",
+      "options": [
+        "careful",
+        "carefully",
+        "slow"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: careful → carefully."
+    },
+    {
+      "prompt_hu": "I ___ understand the problem now.",
+      "options": [
+        "good",
+        "well",
+        "fast"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Well' a rendhagyó módhatározó, 'good' helyett használjuk."
+    },
+    {
+      "prompt_hu": "We are ___ never late for class.",
+      "options": [
+        "always",
+        "usually",
+        "here"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'usually' helyesen áll a 'be' iga után."
+    },
+    {
+      "prompt_hu": "They ___ visit their grandparents on Sundays.",
+      "options": [
+        "usually",
+        "very",
+        "good"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'usually' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "The music plays ___ in the concert hall.",
+      "options": [
+        "loud",
+        "loudly",
+        "soft"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: loud → loudly."
+    },
+    {
+      "prompt_hu": "She is ___ happy with her new job.",
+      "options": [
+        "very",
+        "always",
+        "often"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll, nem gyakorisági."
+    },
+    {
+      "prompt_hu": "You ___ make mistakes when you hurry.",
+      "options": [
+        "never",
+        "often",
+        "slowly"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'often' gyakorisági határozó a főige előtt áll."
+    },
+    {
+      "prompt_hu": "The teacher explains the lesson ___.",
+      "options": [
+        "clear",
+        "clearly",
+        "good"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: clear → clearly."
+    },
+    {
+      "prompt_hu": "They are ___ sick today.",
+      "options": [
+        "never",
+        "bad",
+        "not"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A 'not' a 'be' ige után áll."
+    },
+    {
+      "prompt_hu": "He ___ listens to music while working.",
+      "options": [
+        "sometimes",
+        "very",
+        "loud"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'sometimes' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "The sun shines ___ through the window.",
+      "options": [
+        "bright",
+        "brightly",
+        "clear"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: bright → brightly."
+    },
+    {
+      "prompt_hu": "I am ___ confident about the exam.",
+      "options": [
+        "very",
+        "often",
+        "never"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' ige után."
+    },
+    {
+      "prompt_hu": "She ___ forgets her keys at home.",
+      "options": [
+        "always",
+        "very",
+        "quick"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'always' gyakorisági határozó a főige előtt áll."
+    },
+    {
+      "prompt_hu": "The students work ___ on their projects.",
+      "options": [
+        "hard",
+        "hardly",
+        "good"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'hard' módhatározó azt fejezi ki, hogy kemény munkával dolgoznak."
+    },
+    {
+      "prompt_hu": "We are ___ busy on Fridays.",
+      "options": [
+        "usually",
+        "sometimes",
+        "very"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'usually' gyakorisági határozó a 'be' iga után követi az adjektívumot."
+    },
+    {
+      "prompt_hu": "He speaks French ___ after years of practice.",
+      "options": [
+        "good",
+        "well",
+        "fast"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'well' rendhagyó módhatározó, 'good' helyett használjuk."
+    },
+    {
+      "prompt_hu": "They ___ arrive at the meeting on time.",
+      "options": [
+        "never",
+        "bad",
+        "slow"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'never' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "The car stops ___ at the red light.",
+      "options": [
+        "quick",
+        "quickly",
+        "good"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: quick → quickly."
+    },
+    {
+      "prompt_hu": "I am ___ surprised by the news.",
+      "options": [
+        "very",
+        "often",
+        "always"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' ige után."
+    },
+    {
+      "prompt_hu": "She ___ drinks coffee in the morning.",
+      "options": [
+        "always",
+        "very",
+        "well"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'always' gyakorisági határozó a főige előtt áll."
+    },
+    {
+      "prompt_hu": "The team played ___ in yesterday's match.",
+      "options": [
+        "excellent",
+        "excellently",
+        "bad"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: excellent → excellently."
+    },
+    {
+      "prompt_hu": "You are ___ welcome here.",
+      "options": [
+        "very",
+        "often",
+        "always"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' ige után."
+    },
+    {
+      "prompt_hu": "He ___ complains about the weather.",
+      "options": [
+        "sometimes",
+        "good",
+        "fast"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'sometimes' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "The writer describes the scene ___.",
+      "options": [
+        "beautiful",
+        "beautifully",
+        "good"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: beautiful → beautifully."
+    },
+    {
+      "prompt_hu": "We are ___ tired after the long walk.",
+      "options": [
+        "very",
+        "never",
+        "often"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' iga után."
+    },
+    {
+      "prompt_hu": "They ___ go to the cinema on Saturdays.",
+      "options": [
+        "often",
+        "quick",
+        "well"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'often' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "She sings the song ___ and with emotion.",
+      "options": [
+        "beautiful",
+        "beautifully",
+        "soft"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: beautiful → beautifully."
+    },
+    {
+      "prompt_hu": "I am ___ sure about my answer.",
+      "options": [
+        "very",
+        "always",
+        "often"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' iga után."
+    },
+    {
+      "prompt_hu": "You ___ miss your family when travelling.",
+      "options": [
+        "sometimes",
+        "bad",
+        "quick"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'sometimes' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "The clock ticks ___ in the quiet room.",
+      "options": [
+        "loud",
+        "loudly",
+        "slow"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: loud → loudly."
+    },
+    {
+      "prompt_hu": "He is ___ interested in sports.",
+      "options": [
+        "very",
+        "never",
+        "often"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' iga után."
+    },
+    {
+      "prompt_hu": "They ___ eat out at restaurants.",
+      "options": [
+        "never",
+        "very",
+        "good"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'never' gyakorisági határozó a főige előtt áll."
+    },
+    {
+      "prompt_hu": "She walks to school ___ every day.",
+      "options": [
+        "quick",
+        "quickly",
+        "fast"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: quick → quickly."
+    },
+    {
+      "prompt_hu": "We are ___ satisfied with the service.",
+      "options": [
+        "very",
+        "always",
+        "sometimes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' iga után."
+    },
+    {
+      "prompt_hu": "He ___ reads books in the evening.",
+      "options": [
+        "usually",
+        "very",
+        "good"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'usually' gyakorisági határozó a főige előtt helyezkedik el."
+    },
+    {
+      "prompt_hu": "The dancer moves ___ across the stage.",
+      "options": [
+        "graceful",
+        "gracefully",
+        "slow"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A módhatározó -ly végződéssel: graceful → gracefully."
+    },
+    {
+      "prompt_hu": "I am ___ nervous before the presentation.",
+      "options": [
+        "very",
+        "often",
+        "always"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'very' módhatározó az adjektívum előtt áll a 'be' iga után."
+    },
+    {
+      "prompt_hu": "You ___ find mistakes in your first draft.",
+      "options": [
+        "always",
+        "good",
+        "fast"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'always' gyakorisági határozó a főige előtt áll."
+    },
+    {
+      "prompt_hu": "She ___ eats lunch at her desk during work.",
+      "options": [
+        "usually",
+        "quickly",
+        "loudly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A gyakoriság határozó (usually) a főige előtt áll."
+    }
+  ]
+}

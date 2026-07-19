@@ -1,0 +1,556 @@
+{
+  "id": "present_perfect",
+  "title_hu": "Present perfect vs. past simple",
+  "subtitle_hu": "have done vs. did",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Past simple: befejezett, konkrét idő",
+      "body_hu": "A past simple-t akkor használjuk, ha a cselekvés a múltban BEFEJEZŐDÖTT, és tudjuk (vagy fontos) MIKOR történt.",
+      "examples": [
+        {
+          "en": "I saw him yesterday.",
+          "hu": "Tegnap láttam őt."
+        },
+        {
+          "en": "She visited Paris in 2019.",
+          "hu": "2019-ben járt Párizsban."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Present perfect: have/has + 3. alak",
+      "body_hu": "A present perfect (have/has + past participle) múltbeli cselekvést köt össze a jelennel: az eredmény most is számít, vagy nem mondjuk meg pontosan, mikor történt. Gyakori szavak: just, already, yet, ever, never, since, for.",
+      "examples": [
+        {
+          "en": "I have lost my keys.",
+          "hu": "Elvesztettem a kulcsomat. (és most sincs meg)"
+        },
+        {
+          "en": "She has never been to Japan.",
+          "hu": "Sosem járt Japánban."
+        },
+        {
+          "en": "Have you finished yet?",
+          "hu": "Befejezted már?"
+        }
+      ]
+    },
+    {
+      "heading_hu": "A döntő különbség",
+      "body_hu": "Konkrét múltbeli időpont (yesterday, last week, in 2019, ago) → PAST SIMPLE. Jelenhez kötődő, meghatározatlan idő → PRESENT PERFECT. „yesterday” + present perfect = hiba!",
+      "examples": [
+        {
+          "en": "I have seen this film. (valamikor)",
+          "hu": "Láttam ezt a filmet."
+        },
+        {
+          "en": "I saw this film last night. (konkrét)",
+          "hu": "Tegnap este láttam ezt a filmet."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ to Paris last summer.",
+      "options": [
+        "go",
+        "went",
+        "have gone"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"last summer\" konkrét múltbeli időpont, ezért past simple szükséges."
+    },
+    {
+      "prompt_hu": "She ___ her homework already.",
+      "options": [
+        "finished",
+        "has finished",
+        "finishes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"already\" jelzi, hogy present perfect-et használunk, mert az eredmény most számít."
+    },
+    {
+      "prompt_hu": "We ___ this movie three times.",
+      "options": [
+        "saw",
+        "have seen",
+        "see"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Meghatározatlan időpontban történt, de az eredmény (tapasztalat) most számít, present perfect kell."
+    },
+    {
+      "prompt_hu": "He ___ his keys yesterday.",
+      "options": [
+        "has lost",
+        "lost",
+        "loses"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"yesterday\" konkrét időpont, ezért past simple a helyes."
+    },
+    {
+      "prompt_hu": "They ___ in this city for five years.",
+      "options": [
+        "lived",
+        "have lived",
+        "live"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"for five years\" tartamot jelöl a jelenhez, present perfect szükséges."
+    },
+    {
+      "prompt_hu": "I ___ never ___ sushi before.",
+      "options": [
+        "have/eaten",
+        "has/eaten",
+        "did/eat"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"never\" present perfect szót igényel, és az \"have\" a helyes forma az 1. személyhez."
+    },
+    {
+      "prompt_hu": "She ___ the letter an hour ago.",
+      "options": [
+        "has received",
+        "received",
+        "receives"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"an hour ago\" konkrét időpontot jelöl, past simple szükséges."
+    },
+    {
+      "prompt_hu": "You ___ ever ___ to London?",
+      "options": [
+        "have/been",
+        "has/been",
+        "did/go"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"ever\" present perfect-et igényel, és \"have\" a helyes forma a 2. személyhez."
+    },
+    {
+      "prompt_hu": "My sister ___ a new job since March.",
+      "options": [
+        "has had",
+        "had",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"since March\" jelenhez kötődő időtartam, present perfect szükséges."
+    },
+    {
+      "prompt_hu": "We ___ the project last week.",
+      "options": [
+        "have completed",
+        "completed",
+        "complete"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"last week\" konkrét múltbeli időpont, past simple helyes."
+    },
+    {
+      "prompt_hu": "He ___ his breakfast yet.",
+      "options": [
+        "hasn't eaten",
+        "didn't eat",
+        "doesn't eat"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"yet\" present perfect formát igényel, és negatív alakú."
+    },
+    {
+      "prompt_hu": "I ___ in Paris for three years now.",
+      "options": [
+        "have lived",
+        "lived",
+        "live"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"for three years now\" jelenhez kötődő időtartam, present perfect szükséges."
+    },
+    {
+      "prompt_hu": "They ___ the exam in June.",
+      "options": [
+        "have taken",
+        "took",
+        "take"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Konkrét hónap említése (június) past simple-t igényel."
+    },
+    {
+      "prompt_hu": "She ___ just ___ from work.",
+      "options": [
+        "has/arrived",
+        "have/arrived",
+        "did/arrive"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"just\" present perfect-et igényel, és \"has\" a helyes forma a 3. személyhez."
+    },
+    {
+      "prompt_hu": "You ___ your phone at home this morning.",
+      "options": [
+        "have left",
+        "left",
+        "leave"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "\"This morning\" már konkrét múltbeli időpontnak számít, past simple szükséges."
+    },
+    {
+      "prompt_hu": "We ___ never ___ such delicious food.",
+      "options": [
+        "have/eaten",
+        "has/eaten",
+        "did/eat"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"never\" present perfect-et igényel, és \"have\" a helyes forma az 1. személyhez."
+    },
+    {
+      "prompt_hu": "He ___ the door five minutes ago.",
+      "options": [
+        "has opened",
+        "opened",
+        "opens"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"five minutes ago\" konkrét múltbeli időpontot jelöl, past simple kell."
+    },
+    {
+      "prompt_hu": "My parents ___ this house in 1995.",
+      "options": [
+        "have bought",
+        "bought",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"1995\" konkrét év, past simple szükséges."
+    },
+    {
+      "prompt_hu": "I ___ that book twice already.",
+      "options": [
+        "have read",
+        "read",
+        "reads"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"already\" present perfect-et igényel, amely múltbeli tapasztalatot fejez ki."
+    },
+    {
+      "prompt_hu": "She ___ her keys two days ago.",
+      "options": [
+        "has found",
+        "found",
+        "finds"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"two days ago\" konkrét időpontot jelöl múltban, past simple helyes."
+    },
+    {
+      "prompt_hu": "You ___ ever ___ in an airplane?",
+      "options": [
+        "have/flown",
+        "has/flown",
+        "did/fly"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"ever\" present perfect formát igényel, és \"have\" a helyes forma."
+    },
+    {
+      "prompt_hu": "They ___ to the beach last weekend.",
+      "options": [
+        "have gone",
+        "went",
+        "go"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"last weekend\" konkrét múltbeli időpont, past simple szükséges."
+    },
+    {
+      "prompt_hu": "I ___ since 2010 in this company.",
+      "options": [
+        "have worked",
+        "worked",
+        "work"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"since 2010\" jelenhez kötődő hosszabb időtartamot jelöl, present perfect szükséges."
+    },
+    {
+      "prompt_hu": "He ___ his best friend yesterday.",
+      "options": [
+        "has met",
+        "met",
+        "meets"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"yesterday\" konkrét múltbeli nap, past simple szükséges."
+    },
+    {
+      "prompt_hu": "We ___ already ___ dinner when they arrived.",
+      "options": [
+        "have/finished",
+        "had/finished",
+        "do/finish"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Két múltbeli cselekmény közül az előzőt past perfect-tel fejezzük ki."
+    },
+    {
+      "prompt_hu": "She ___ not ___ her homework yet.",
+      "options": [
+        "has/done",
+        "have/done",
+        "did/do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"yet\" present perfect tagadott formájával használatos."
+    },
+    {
+      "prompt_hu": "I ___ three emails this morning.",
+      "options": [
+        "have sent",
+        "sent",
+        "send"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "\"This morning\" még a mai naphoz kapcsolódik, ezért present perfect szükséges."
+    },
+    {
+      "prompt_hu": "They ___ in Rome for a week in 2019.",
+      "options": [
+        "have stayed",
+        "stayed",
+        "stay"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"2019\" konkrét év, past simple szükséges."
+    },
+    {
+      "prompt_hu": "You ___ ever ___ to Asia?",
+      "options": [
+        "have/traveled",
+        "has/traveled",
+        "did/travel"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"ever\" present perfect-et igényel, és \"have\" a helyes forma a 2. személyhez."
+    },
+    {
+      "prompt_hu": "He ___ his car last month.",
+      "options": [
+        "has sold",
+        "sold",
+        "sells"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"last month\" konkrét múltbeli időpont, past simple kell."
+    },
+    {
+      "prompt_hu": "I ___ this restaurant many times.",
+      "options": [
+        "have visited",
+        "visited",
+        "visit"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Meghatározatlan múltbeli időpontban, de az élmény most számít, present perfect szükséges."
+    },
+    {
+      "prompt_hu": "She ___ her bag at the station on Tuesday.",
+      "options": [
+        "has left",
+        "left",
+        "leaves"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"on Tuesday\" konkrét nap, past simple szükséges."
+    },
+    {
+      "prompt_hu": "We ___ this problem yet.",
+      "options": [
+        "haven't solved",
+        "didn't solve",
+        "don't solve"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"yet\" present perfect tagadott formájával használatos."
+    },
+    {
+      "prompt_hu": "They ___ their exams three weeks ago.",
+      "options": [
+        "have passed",
+        "passed",
+        "pass"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"three weeks ago\" konkrét múltbeli időpontot jelöl, past simple kell."
+    },
+    {
+      "prompt_hu": "I ___ just ___ with my sister.",
+      "options": [
+        "have/spoken",
+        "has/spoken",
+        "did/speak"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"just\" present perfect-et igényel az 1. személyhez."
+    },
+    {
+      "prompt_hu": "You ___ this song on the radio yesterday.",
+      "options": [
+        "have heard",
+        "heard",
+        "hear"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"yesterday\" konkrét múltbeli nap, past simple szükséges."
+    },
+    {
+      "prompt_hu": "He ___ his driving test twice already.",
+      "options": [
+        "has failed",
+        "failed",
+        "fails"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"already\" present perfect-et igényel, amely múltbeli tapasztalatot fejez ki."
+    },
+    {
+      "prompt_hu": "She ___ in Paris since 2015.",
+      "options": [
+        "has lived",
+        "lived",
+        "lives"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"since 2015\" jelenhez kötődő időtartamot jelöl, present perfect szükséges."
+    },
+    {
+      "prompt_hu": "We ___ that movie in 2018.",
+      "options": [
+        "have watched",
+        "watched",
+        "watch"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"2018\" konkrét év, past simple szükséges."
+    },
+    {
+      "prompt_hu": "I ___ never ___ chocolate like this.",
+      "options": [
+        "have/tasted",
+        "has/tasted",
+        "did/taste"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"never\" present perfect-et igényel az 1. személyhez."
+    },
+    {
+      "prompt_hu": "They ___ their homework an hour ago.",
+      "options": [
+        "have finished",
+        "finished",
+        "finish"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"an hour ago\" konkrét múltbeli időpontot jelöl, past simple kell."
+    },
+    {
+      "prompt_hu": "You ___ ever ___ to Brazil?",
+      "options": [
+        "have/been",
+        "has/been",
+        "did/go"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"ever\" present perfect-et igényel az 1. és 2. személyhez."
+    },
+    {
+      "prompt_hu": "He ___ his keys yesterday morning.",
+      "options": [
+        "has lost",
+        "lost",
+        "loses"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A \"yesterday morning\" konkrét múltbeli időpont, past simple szükséges."
+    },
+    {
+      "prompt_hu": "I ___ already ___ breakfast.",
+      "options": [
+        "have/eaten",
+        "has/eaten",
+        "did/eat"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az \"already\" present perfect-et igényel, amely befejezett cselekvést fejez ki."
+    },
+    {
+      "prompt_hu": "She ___ not ___ her grandparents since Christmas.",
+      "options": [
+        "has/seen",
+        "have/seen",
+        "did/see"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A \"since Christmas\" present perfect-et igényel, negatív formában."
+    },
+    {
+      "prompt_hu": "We ___ to London three times in our life.",
+      "options": [
+        "have been",
+        "were",
+        "go"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az élettapasztalat present perfect-tel fejezendő ki, meghatározatlan múltbeli időpontban."
+    },
+    {
+      "prompt_hu": "They ___ their project last Friday.",
+      "options": [
+        "have completed",
+        "completed",
+        "complete"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az \"last Friday\" konkrét múltbeli nap, past simple szükséges."
+    },
+    {
+      "prompt_hu": "I ___ my driving license when I was eighteen.",
+      "options": [
+        "got",
+        "have got",
+        "has got"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Konkrét múltbeli időpont (when I was eighteen) mellett múlt idő szükséges."
+    },
+    {
+      "prompt_hu": "They ___ in this apartment since last October.",
+      "options": [
+        "lived",
+        "have lived",
+        "are living"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Since' + kezdési időpont esetén present perfect használandó, mert a múltbeli cselekvés a jelenig tart."
+    },
+    {
+      "prompt_hu": "She ___ her phone in the taxi last night.",
+      "options": [
+        "has left",
+        "left",
+        "leaves"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Konkrét múltbeli időpont (last night) mellett múlt idő szükséges."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "can_ability",
+  "title_hu": "can: képesség és lehetőség",
+  "subtitle_hu": "I can swim – tudok",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "can = tud, képes rá",
+      "body_hu": "A 'can' képességet fejez ki. Utána a főige ALAPALAKBAN áll, 'to' nélkül. he/she/it után sem kap -s-t: she can, nem 'cans'.",
+      "examples": [
+        {
+          "en": "I can swim.",
+          "hu": "Tudok úszni."
+        },
+        {
+          "en": "She can speak French.",
+          "hu": "Tud franciául."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Tagadás és kérdés",
+      "body_hu": "Tagadás: cannot / can't. Kérdés: Can you…? A 'can' nem használ do/does segédigét.",
+      "examples": [
+        {
+          "en": "He can't drive.",
+          "hu": "Nem tud vezetni."
+        },
+        {
+          "en": "Can you help me?",
+          "hu": "Tudsz segíteni?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "She ___ play the guitar very well.",
+      "options": [
+        "can",
+        "cans",
+        "can to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Can' után alapalak, nincs -s."
+    },
+    {
+      "prompt_hu": "I ___ swim when I was five.",
+      "options": [
+        "can",
+        "could",
+        "cans"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli képesség: 'could'."
+    },
+    {
+      "prompt_hu": "___ you speak English?",
+      "options": [
+        "Can",
+        "Do can",
+        "Are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdés: 'Can you…?', segédige nélkül."
+    },
+    {
+      "prompt_hu": "He ___ drive a car.",
+      "options": [
+        "can",
+        "cans",
+        "cannot"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' után a főige alapalakban áll, és nem kap -s-t."
+    },
+    {
+      "prompt_hu": "We ___ speak French fluently.",
+      "options": [
+        "can",
+        "do can",
+        "are can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' a képességet fejezi ki, és főige alapalakban követi."
+    },
+    {
+      "prompt_hu": "They ___ not understand the lesson.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' használunk, nem 'do'."
+    },
+    {
+      "prompt_hu": "___ she cook well?",
+      "options": [
+        "Does",
+        "Can",
+        "Is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'can' kérdés formában nem használ 'do' segédigét."
+    },
+    {
+      "prompt_hu": "I ___ play tennis.",
+      "options": [
+        "cannot",
+        "can't",
+        "both"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Mind 'cannot' mind 'can't' helyes, de csak az egyik lehetőség van, ezért 'both' vagy 'can't'."
+    },
+    {
+      "prompt_hu": "You ___ read this book easily.",
+      "options": [
+        "can",
+        "cans",
+        "cannot"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' után a főige alapalakban, 'to' nélkül."
+    },
+    {
+      "prompt_hu": "She ___ sing beautifully.",
+      "options": [
+        "can",
+        "does",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki."
+    },
+    {
+      "prompt_hu": "___ they run fast?",
+      "options": [
+        "Do",
+        "Are",
+        "Can"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Kérdésben a 'can' sem 'do' sem 'does' nélkül fordul elő."
+    },
+    {
+      "prompt_hu": "It ___ not work properly.",
+      "options": [
+        "can",
+        "does",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'can' + 'not' a helyes forma."
+    },
+    {
+      "prompt_hu": "___ you help me?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'Can you' a helyes forma."
+    },
+    {
+      "prompt_hu": "We ___ not finish this today.",
+      "options": [
+        "can",
+        "do",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' használunk."
+    },
+    {
+      "prompt_hu": "He ___ jump very high.",
+      "options": [
+        "can",
+        "does",
+        "cans"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' után a főige alapalakban, he/she/it után sem kap -s-t."
+    },
+    {
+      "prompt_hu": "___ I borrow your pen?",
+      "options": [
+        "Do",
+        "Can",
+        "Am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' nem használ 'do' segédigét."
+    },
+    {
+      "prompt_hu": "They ___ dance very well.",
+      "options": [
+        "can",
+        "does",
+        "cans"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' után a főige alapalakban."
+    },
+    {
+      "prompt_hu": "She ___ not find her keys.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' a helyes forma."
+    },
+    {
+      "prompt_hu": "I ___ see the mountains from here.",
+      "options": [
+        "can",
+        "cans",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki, és után a főige alapalak."
+    },
+    {
+      "prompt_hu": "___ he swim?",
+      "options": [
+        "Does",
+        "Can",
+        "Is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' önmagában fordul elő."
+    },
+    {
+      "prompt_hu": "You ___ not park here.",
+      "options": [
+        "can",
+        "do",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tilalom tagadásban 'cannot' vagy 'can't' formában."
+    },
+    {
+      "prompt_hu": "We ___ understand Chinese.",
+      "options": [
+        "cannot",
+        "can't",
+        "both are correct"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Can't' a 'cannot' rövidítése."
+    },
+    {
+      "prompt_hu": "___ you cook pasta?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'Can you' a helyes forma."
+    },
+    {
+      "prompt_hu": "He ___ not remember the address.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'can' + 'not' vagy 'can't'."
+    },
+    {
+      "prompt_hu": "I ___ ride a bicycle.",
+      "options": [
+        "can",
+        "does",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki, és után a főige alapalak."
+    },
+    {
+      "prompt_hu": "They ___ build this house in two weeks.",
+      "options": [
+        "can",
+        "cans",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' a képességet fejezi ki."
+    },
+    {
+      "prompt_hu": "___ she write English well?",
+      "options": [
+        "Does",
+        "Can",
+        "Is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' nem használ 'do' segédigét."
+    },
+    {
+      "prompt_hu": "We ___ not hear you clearly.",
+      "options": [
+        "can",
+        "do",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' formában."
+    },
+    {
+      "prompt_hu": "You ___ open this door with that key.",
+      "options": [
+        "can",
+        "cans",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki."
+    },
+    {
+      "prompt_hu": "She ___ not solve this problem.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' a helyes forma."
+    },
+    {
+      "prompt_hu": "___ they see the movie tonight?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' önmagában használatos."
+    },
+    {
+      "prompt_hu": "I ___ type very quickly.",
+      "options": [
+        "can",
+        "does",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki, és után a főige alapalak."
+    },
+    {
+      "prompt_hu": "He ___ not carry this box alone.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' formában."
+    },
+    {
+      "prompt_hu": "___ you dance like that?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'Can you' a helyes forma."
+    },
+    {
+      "prompt_hu": "They ___ speak three languages.",
+      "options": [
+        "can",
+        "does",
+        "cans"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' után a főige alapalakban."
+    },
+    {
+      "prompt_hu": "She ___ not fix the computer.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' a helyes forma."
+    },
+    {
+      "prompt_hu": "We ___ travel to Europe next year.",
+      "options": [
+        "can",
+        "cans",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki."
+    },
+    {
+      "prompt_hu": "___ I ask a question?",
+      "options": [
+        "Do",
+        "Can",
+        "Am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' nem használ 'do' segédigét."
+    },
+    {
+      "prompt_hu": "You ___ not use your phone in class.",
+      "options": [
+        "can",
+        "do",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tilalom tagadásban 'cannot' vagy 'can't' formában."
+    },
+    {
+      "prompt_hu": "He ___ paint very well.",
+      "options": [
+        "can",
+        "does",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki, és után a főige alapalak."
+    },
+    {
+      "prompt_hu": "___ we leave early today?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' önmagában fordul elő."
+    },
+    {
+      "prompt_hu": "I ___ not find my wallet.",
+      "options": [
+        "can",
+        "do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' a helyes forma."
+    },
+    {
+      "prompt_hu": "She ___ run a marathon.",
+      "options": [
+        "can",
+        "cans",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' után a főige alapalakban."
+    },
+    {
+      "prompt_hu": "___ they sing in English?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben a 'can' nem használ 'do' segédigét."
+    },
+    {
+      "prompt_hu": "We ___ not afford this car.",
+      "options": [
+        "can",
+        "do",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' formában."
+    },
+    {
+      "prompt_hu": "You ___ draw very nicely.",
+      "options": [
+        "can",
+        "cans",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'can' képességet fejez ki."
+    },
+    {
+      "prompt_hu": "___ he play the guitar?",
+      "options": [
+        "Does",
+        "Can",
+        "Is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'Can he' a helyes forma."
+    },
+    {
+      "prompt_hu": "My brother ___ fix his own car.",
+      "options": [
+        "can",
+        "cans",
+        "cannot"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Can' képességet fejez ki, és he után nem kap -s-t: 'can', nem 'cans'."
+    },
+    {
+      "prompt_hu": "___ they climb that mountain without help?",
+      "options": [
+        "Do",
+        "Can",
+        "Does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Can' nem használ do/does segédigét kérdésben: 'Can they…?'"
+    },
+    {
+      "prompt_hu": "I ___ not speak German, but I am learning it.",
+      "options": [
+        "can",
+        "do",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban 'cannot' vagy 'can't' használunk, nem 'do not'."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "modals_deduction",
+  "title_hu": "Következtető és kötelező módbeli igék",
+  "subtitle_hu": "must be / might / can't be – biztos, talán, kizárt",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Következtetés: must / might / can't",
+      "body_hu": "'must' = biztos (logikus következtetés), 'might/may/could' = talán, 'can't' = kizárt. Utánuk alapalak.",
+      "examples": [
+        {
+          "en": "He must be tired.",
+          "hu": "Biztosan fáradt."
+        },
+        {
+          "en": "She can't be at home.",
+          "hu": "Nem lehet otthon."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Kötelezettség: must vs have to, mustn't",
+      "body_hu": "'must' belső/erős kötelezettség, 'have to' külső szabály. 'mustn't' = tilos; 'don't have to' = nem kötelező (más jelentés!).",
+      "examples": [
+        {
+          "en": "You mustn't park here.",
+          "hu": "Itt tilos parkolni."
+        },
+        {
+          "en": "You don't have to come.",
+          "hu": "Nem kötelező jönnöd."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "The lights are off; they ___ be out.",
+      "options": [
+        "must",
+        "can't",
+        "should"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Logikus következtetés: 'must be'."
+    },
+    {
+      "prompt_hu": "She ___ be at work; it's Sunday.",
+      "options": [
+        "must",
+        "can't",
+        "might"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kizárt lehetőség: 'can't be'."
+    },
+    {
+      "prompt_hu": "You ___ park here; it's forbidden.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "might not"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tiltás: 'mustn't'."
+    },
+    {
+      "prompt_hu": "He ___ know the answer; he studied all night.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Logikus következtetés: biztos, hogy tudja az választ."
+    },
+    {
+      "prompt_hu": "She ___ be sleeping; I heard noise from her room.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kizárt, hogy alszik, mert zajt hallottunk."
+    },
+    {
+      "prompt_hu": "They ___ arrive late; there's traffic on the highway.",
+      "options": [
+        "might",
+        "must",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetséges, de nem biztos; talán későn érkeznek."
+    },
+    {
+      "prompt_hu": "You ___ wash your hands before eating; it's a rule.",
+      "options": [
+        "have to",
+        "must",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Külső szabály, ezért 'have to'."
+    },
+    {
+      "prompt_hu": "I ___ finish this report today; my boss demanded it.",
+      "options": [
+        "must",
+        "may",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Erős, külső kötelezettség."
+    },
+    {
+      "prompt_hu": "That ___ be Sarah; she's in London this week.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetetlen, hogy Sarah legyen, mert Londonban van."
+    },
+    {
+      "prompt_hu": "Children ___ wear a helmet when cycling; it's the law.",
+      "options": [
+        "must",
+        "may",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Törvényi kötelezettség, külső szabály."
+    },
+    {
+      "prompt_hu": "He ___ be tired; he only slept two hours.",
+      "options": [
+        "must",
+        "can't",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Logikus következtetés: biztosan fáradt."
+    },
+    {
+      "prompt_hu": "You ___ attend the meeting; it's optional.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Nem kötelező, ezért 'don't have to'."
+    },
+    {
+      "prompt_hu": "This coffee ___ be cold; I made it an hour ago.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Logikus: biztos, hogy hideg."
+    },
+    {
+      "prompt_hu": "Students ___ submit homework by Friday.",
+      "options": [
+        "must",
+        "might",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Erős kötelezettség a tanár részéről."
+    },
+    {
+      "prompt_hu": "She ___ have left already; her car is gone.",
+      "options": [
+        "must",
+        "can't",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Biztos következtetés: elhagyta az autó hiánya miatt."
+    },
+    {
+      "prompt_hu": "You ___ smoke in the office; it's forbidden.",
+      "options": [
+        "mustn't",
+        "must",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tilos, ezért 'mustn't'."
+    },
+    {
+      "prompt_hu": "That noise ___ be a burglar; it's probably just wind.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kizárt, hogy betörő; valószínűleg szél."
+    },
+    {
+      "prompt_hu": "I ___ go to the doctor tomorrow; it's important for my health.",
+      "options": [
+        "must",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Erős belső kötelezettség."
+    },
+    {
+      "prompt_hu": "They ___ understand English; they lived there for years.",
+      "options": [
+        "must",
+        "can't",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Logikus: biztosan értenek angolt."
+    },
+    {
+      "prompt_hu": "You ___ eat all your food; you can leave some if full.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Nem kötelező, ezért 'don't have to'."
+    },
+    {
+      "prompt_hu": "He ___ be at home; no one answered the door.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kizárt, hogy otthon van."
+    },
+    {
+      "prompt_hu": "Employees ___ clock in when arriving at work.",
+      "options": [
+        "have to",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Munkahely szabálya, külső kötelezettség."
+    },
+    {
+      "prompt_hu": "That ___ be the manager; he doesn't look familiar.",
+      "options": [
+        "might",
+        "must",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetséges, de nem biztos."
+    },
+    {
+      "prompt_hu": "We ___ wear formal clothes to the conference; it's dress code.",
+      "options": [
+        "must",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kötelező előírás."
+    },
+    {
+      "prompt_hu": "She ___ have forgotten about the appointment; she never forgets.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetetlen, hogy elfelejtett; soha nem felejt."
+    },
+    {
+      "prompt_hu": "I ___ leave work early today; my boss allowed it.",
+      "options": [
+        "can",
+        "must",
+        "mustn't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Engedélyt kaptam, ezért lehet."
+    },
+    {
+      "prompt_hu": "This answer ___ be correct; it matches the solution.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Biztos következtetés."
+    },
+    {
+      "prompt_hu": "You ___ tell anyone about the surprise party.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "must"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tilos, ezért 'mustn't'."
+    },
+    {
+      "prompt_hu": "He ___ be sick; he's sneezing constantly.",
+      "options": [
+        "might",
+        "must",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Valószínűleg beteg, de nem biztos."
+    },
+    {
+      "prompt_hu": "Drivers ___ stop at red lights; it's mandatory.",
+      "options": [
+        "have to",
+        "might",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közlekedési szabály, külső kötelezettség."
+    },
+    {
+      "prompt_hu": "That ___ be true; I don't believe it.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kizárt, hogy igaz."
+    },
+    {
+      "prompt_hu": "I ___ stay late today; the project isn't urgent.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Nem kötelező maradni."
+    },
+    {
+      "prompt_hu": "She ___ be a doctor; she has a stethoscope.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Logikus következtetés."
+    },
+    {
+      "prompt_hu": "You ___ lie to the police; it's illegal.",
+      "options": [
+        "mustn't",
+        "must",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tilos hazudni; 'mustn't'."
+    },
+    {
+      "prompt_hu": "He ___ pass the exam; he studied very hard.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Valószínűleg átmegy, de nem biztos."
+    },
+    {
+      "prompt_hu": "Athletes ___ follow the training plan their coach gives them.",
+      "options": [
+        "must",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Erős kötelezettség az edzőtől."
+    },
+    {
+      "prompt_hu": "That painting ___ be an original; it looks like a copy.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetetlen, hogy eredeti."
+    },
+    {
+      "prompt_hu": "We ___ pay taxes; it's the law in every country.",
+      "options": [
+        "have to",
+        "might",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Törvényi kötelezettség."
+    },
+    {
+      "prompt_hu": "She ___ be angry with me; I forgot her birthday.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Valószínűleg haragszik, de nem biztos."
+    },
+    {
+      "prompt_hu": "You ___ bring your passport to the airport.",
+      "options": [
+        "must",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szükséges okmány, kötelező."
+    },
+    {
+      "prompt_hu": "He ___ have seen the film; he was out of town.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetetlen, hogy látta; kívül volt a városon."
+    },
+    {
+      "prompt_hu": "Patients ___ follow their doctor's instructions.",
+      "options": [
+        "must",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Erős kötelezettség az orvos végzése miatt."
+    },
+    {
+      "prompt_hu": "That voice ___ be John's; it sounds different.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Nem lehet John hangja."
+    },
+    {
+      "prompt_hu": "You ___ submit your application by Friday; after that it's too late.",
+      "options": [
+        "must",
+        "can",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Határidő miatt erős kötelezettség."
+    },
+    {
+      "prompt_hu": "She ___ attend every class; some absence is allowed.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Nem kötelező minden órára járni."
+    },
+    {
+      "prompt_hu": "That ___ be the solution; it works perfectly.",
+      "options": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Biztos logikus következtetés."
+    },
+    {
+      "prompt_hu": "We ___ wait for him; he said he would be late.",
+      "options": [
+        "might",
+        "must",
+        "can't"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetséges, hogy késni fog."
+    },
+    {
+      "prompt_hu": "Children ___ play in the street without supervision.",
+      "options": [
+        "mustn't",
+        "must",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tilos, biztonsági okokból."
+    },
+    {
+      "prompt_hu": "He ___ be unemployed; he works at the bank.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Lehetetlen; dolgozik a banknál."
+    },
+    {
+      "prompt_hu": "You ___ eat peanuts if you're allergic; it's dangerous.",
+      "options": [
+        "must",
+        "mustn't",
+        "don't have to"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Mustn't' kifejezi, hogy valami tilos vagy veszélyes."
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "id": "there_is_are",
+  "title_hu": "There is / there are",
+  "subtitle_hu": "Létezés kifejezése",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Mit jelent?",
+      "body_hu": "A „there is / there are” szerkezettel azt fejezzük ki, hogy valami létezik vagy valahol van — magyarul „van / vannak”. Egyes számnál „there is”, többes számnál „there are”.",
+      "examples": [
+        {
+          "en": "There is a book on the table.",
+          "hu": "Van egy könyv az asztalon."
+        },
+        {
+          "en": "There are three cats in the garden.",
+          "hu": "Három macska van a kertben."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Tagadás és kérdés",
+      "body_hu": "Tagadás: there isn't / there aren't. Kérdés: Is there…? / Are there…? A rövid válasz: Yes, there is. / No, there aren't.",
+      "examples": [
+        {
+          "en": "There isn't any milk.",
+          "hu": "Nincs tej."
+        },
+        {
+          "en": "Are there any questions?",
+          "hu": "Vannak kérdések?"
+        },
+        {
+          "en": "Is there a bank near here?",
+          "hu": "Van a közelben bank?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "___ a cat on the table.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám, így 'there is' a helyes forma."
+    },
+    {
+      "prompt_hu": "___ three books in the bag.",
+      "options": [
+        "There is",
+        "There are",
+        "Are there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám, így 'there are' a helyes forma."
+    },
+    {
+      "prompt_hu": "___ a park near your house?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben egyes szám: 'Is there'."
+    },
+    {
+      "prompt_hu": "___ any students in the classroom?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben többes szám: 'Are there'."
+    },
+    {
+      "prompt_hu": "There ___ not a problem with this plan.",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadásban egyes szám: 'is not' vagy 'isn't'."
+    },
+    {
+      "prompt_hu": "There ___ not any apples left.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban többes szám: 'are not' vagy 'aren't'."
+    },
+    {
+      "prompt_hu": "Yes, ___ is a coffee shop on this street.",
+      "options": [
+        "there",
+        "it",
+        "this"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A válaszban 'there' szükséges."
+    },
+    {
+      "prompt_hu": "No, ___ aren't any restaurants open now.",
+      "options": [
+        "it",
+        "there",
+        "this"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A tagadó válaszban 'there' szükséges."
+    },
+    {
+      "prompt_hu": "___ a bird flying in the sky.",
+      "options": [
+        "There is",
+        "There are",
+        "Are there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ some flowers in the garden.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "___ any milk in the fridge?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben egyes szám: 'Is there'."
+    },
+    {
+      "prompt_hu": "___ any keys on the desk?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben többes szám: 'Are there'."
+    },
+    {
+      "prompt_hu": "There isn't ___ sugar in the bowl.",
+      "options": [
+        "some",
+        "any",
+        "a"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadó mondatban 'any' használunk."
+    },
+    {
+      "prompt_hu": "There aren't ___ people at the beach today.",
+      "options": [
+        "some",
+        "any",
+        "a"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadó mondatban többes számnál 'any'."
+    },
+    {
+      "prompt_hu": "___ a solution to this problem.",
+      "options": [
+        "There is",
+        "There are",
+        "Are there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ two doors in this room.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "___ an elephant at the zoo?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben egyes szám: 'Is there'."
+    },
+    {
+      "prompt_hu": "___ any cars in the parking lot?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben többes szám: 'Are there'."
+    },
+    {
+      "prompt_hu": "There ___ a swimming pool in the hotel.",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'is'."
+    },
+    {
+      "prompt_hu": "There ___ five chairs around the table.",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'are'."
+    },
+    {
+      "prompt_hu": "___ a mistake in your homework.",
+      "options": [
+        "There is",
+        "There are",
+        "Are there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ mistakes in your homework.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "Is ___ a library in your town?",
+      "options": [
+        "it",
+        "there",
+        "this"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'there' szükséges."
+    },
+    {
+      "prompt_hu": "Are ___ any tickets available for the concert?",
+      "options": [
+        "it",
+        "there",
+        "this"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'there' szükséges."
+    },
+    {
+      "prompt_hu": "There isn't ___ time to finish now.",
+      "options": [
+        "a",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadás után 'any' használunk."
+    },
+    {
+      "prompt_hu": "There aren't ___ clouds in the sky today.",
+      "options": [
+        "a",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadás után 'any' használunk."
+    },
+    {
+      "prompt_hu": "___ a dog in the garden.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ some children playing in the park.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "___ a shop near here?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben egyes szám: 'Is there'."
+    },
+    {
+      "prompt_hu": "___ any buses running on Sunday?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben többes szám: 'Are there'."
+    },
+    {
+      "prompt_hu": "There is ___ apple on the counter.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Magánhangzó-hanggal kezdődő szó előtt 'an'."
+    },
+    {
+      "prompt_hu": "There are ___ oranges in the basket.",
+      "options": [
+        "some",
+        "any",
+        "a"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Igenlő mondatban 'some' használunk."
+    },
+    {
+      "prompt_hu": "___ a hotel in the city center.",
+      "options": [
+        "There is",
+        "There are",
+        "Are there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ four seasons in a year.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "Is ___ a bathroom on the second floor?",
+      "options": [
+        "it",
+        "there",
+        "this"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'there' szükséges."
+    },
+    {
+      "prompt_hu": "Are ___ any students absent today?",
+      "options": [
+        "it",
+        "there",
+        "this"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben 'there' szükséges."
+    },
+    {
+      "prompt_hu": "There isn't ___ reason to worry.",
+      "options": [
+        "a",
+        "any",
+        "some"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szinguláris forma után 'a' vagy 'any', de tagadásban 'any' vagy semmi."
+    },
+    {
+      "prompt_hu": "There aren't ___ tables available in the restaurant.",
+      "options": [
+        "a",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadó mondatban 'any' használunk."
+    },
+    {
+      "prompt_hu": "___ a window in the kitchen.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ stairs leading to the attic.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "___ a doctor available right now?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben egyes szám: 'Is there'."
+    },
+    {
+      "prompt_hu": "___ any witnesses to the accident?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben többes szám: 'Are there'."
+    },
+    {
+      "prompt_hu": "There is not ___ room for more people.",
+      "options": [
+        "a",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban 'any' vagy semmi."
+    },
+    {
+      "prompt_hu": "There are not ___ cookies left in the jar.",
+      "options": [
+        "a",
+        "any",
+        "some"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadó mondatban 'any' használunk."
+    },
+    {
+      "prompt_hu": "___ a bridge across the river.",
+      "options": [
+        "There is",
+        "There are",
+        "Are there"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám: 'there is'."
+    },
+    {
+      "prompt_hu": "___ many islands in this ocean.",
+      "options": [
+        "There is",
+        "There are",
+        "Is there"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám: 'there are'."
+    },
+    {
+      "prompt_hu": "___ a TV in the living room?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben egyes szám: 'Is there'."
+    },
+    {
+      "prompt_hu": "___ any meetings scheduled for tomorrow?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kérdésben többes szám: 'Are there'."
+    },
+    {
+      "prompt_hu": "Is ___ a supermarket in your neighborhood?",
+      "options": [
+        "there",
+        "is",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésban a „there"
+    },
+    {
+      "prompt_hu": "There ___ some chairs in the conference room.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám (some chairs) után 'are' használatos."
+    }
+  ]
+}

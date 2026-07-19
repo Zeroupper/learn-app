@@ -1,0 +1,538 @@
+{
+  "id": "conditionals_2",
+  "title_hu": "Feltételes mondatok: zero és second conditional",
+  "subtitle_hu": "If I had money, I would… – valótlan feltétel",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Zero conditional: általános igazság",
+      "body_hu": "Mindig igaz összefüggés: If + jelen, jelen. Tények, szabályok.",
+      "examples": [
+        {
+          "en": "If you heat ice, it melts.",
+          "hu": "Ha jeget melegítesz, elolvad."
+        },
+        {
+          "en": "If it rains, the ground gets wet.",
+          "hu": "Ha esik, a talaj nedves lesz."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Second conditional: valótlan/valószínűtlen jelen",
+      "body_hu": "Elképzelt, valótlan helyzet: If + past simple, would + alapige. 'were' minden személyben: If I were you.",
+      "examples": [
+        {
+          "en": "If I had money, I would travel.",
+          "hu": "Ha lenne pénzem, utaznék."
+        },
+        {
+          "en": "If I were you, I would rest.",
+          "hu": "A helyedben pihennék."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "If I ___ rich, I would buy a house.",
+      "options": [
+        "am",
+        "were",
+        "will be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Second conditional: past/were."
+    },
+    {
+      "prompt_hu": "If you heat water, it ___.",
+      "options": [
+        "boils",
+        "will boil",
+        "would boil"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional: jelen + jelen."
+    },
+    {
+      "prompt_hu": "If she had time, she ___ help.",
+      "options": [
+        "will",
+        "would",
+        "would to"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Second conditional főmondat: 'would + alapige'."
+    },
+    {
+      "prompt_hu": "If it ___ outside, people usually stay home.",
+      "options": [
+        "rains",
+        "would rain",
+        "rained"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional jelen időben, mert általános igazság."
+    },
+    {
+      "prompt_hu": "If I ___ you, I would accept that job offer.",
+      "options": [
+        "am",
+        "were",
+        "would be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Second conditional, 'were' minden személyben."
+    },
+    {
+      "prompt_hu": "If cats eat fish, they ___ happy.",
+      "options": [
+        "are",
+        "would be",
+        "were"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, általános tény jelen időben."
+    },
+    {
+      "prompt_hu": "If she ___ taller, she could play basketball.",
+      "options": [
+        "is",
+        "was",
+        "were"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you mix red and blue paint, you ___ purple.",
+      "options": [
+        "get",
+        "would get",
+        "got"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, szabály és tény jelen időben."
+    },
+    {
+      "prompt_hu": "If I won the lottery, I ___ travel around the world.",
+      "options": [
+        "would travel",
+        "travel",
+        "traveled"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, elképzelt helyzet, would + alapige."
+    },
+    {
+      "prompt_hu": "If plants don't get water, they ___.",
+      "options": [
+        "die",
+        "would die",
+        "died"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, általános igazság jelen időben."
+    },
+    {
+      "prompt_hu": "If he ___ more confident, he would speak in public.",
+      "options": [
+        "is",
+        "was",
+        "were"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Second conditional, 'were' minden személyben."
+    },
+    {
+      "prompt_hu": "If you ___ the sun directly, you hurt your eyes.",
+      "options": [
+        "look at",
+        "would look at",
+        "looked at"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, szabály és tény jelen időben."
+    },
+    {
+      "prompt_hu": "If I had a million dollars, I ___ buy a yacht.",
+      "options": [
+        "would",
+        "would buy",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Second conditional, would + alapige teljes forma."
+    },
+    {
+      "prompt_hu": "If children ___ enough sleep, they concentrate better.",
+      "options": [
+        "get",
+        "would get",
+        "got"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, általános tény jelen időben."
+    },
+    {
+      "prompt_hu": "If she ___ a doctor, she would help sick people.",
+      "options": [
+        "is",
+        "was",
+        "were"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ salt to ice, the temperature drops.",
+      "options": [
+        "add",
+        "would add",
+        "added"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tudományos tény jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ in Paris, I would visit the Eiffel Tower every day.",
+      "options": [
+        "live",
+        "lived",
+        "would live"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Second conditional past simple, elképzelt helyzet."
+    },
+    {
+      "prompt_hu": "If someone ___ the ball in tennis, the other player scores.",
+      "options": [
+        "doesn't catch",
+        "wouldn't catch",
+        "didn't catch"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, szabály jelen időben."
+    },
+    {
+      "prompt_hu": "If he ___ taller, he might become a professional basketball player.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan jelen helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If ice ___ at zero degrees Celsius, it becomes water.",
+      "options": [
+        "melts",
+        "would melt",
+        "melted"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tudományos szabály jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ more time, I would learn Spanish.",
+      "options": [
+        "had",
+        "would have",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional past simple, elképzelt helyzet."
+    },
+    {
+      "prompt_hu": "If you ___ sugar in coffee, it tastes sweet.",
+      "options": [
+        "put",
+        "would put",
+        "puts"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tény jelen időben."
+    },
+    {
+      "prompt_hu": "If she ___ a famous singer, she would perform on big stages.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' minden személyben."
+    },
+    {
+      "prompt_hu": "If plants ___ sunlight, they cannot grow.",
+      "options": [
+        "don't get",
+        "wouldn't get",
+        "didn't get"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, általános tény jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ a bird, I would fly to tropical islands.",
+      "options": [
+        "were",
+        "am",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, elképzelt helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ the oven to 200 degrees, the cake bakes in 30 minutes.",
+      "options": [
+        "set",
+        "would set",
+        "sets"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, szabály jelen időben."
+    },
+    {
+      "prompt_hu": "If he ___ a better student, he would get higher grades.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If water ___ below zero degrees, it turns to ice.",
+      "options": [
+        "freezes",
+        "would freeze",
+        "froze"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tudományos tény jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ rich and famous, I would help poor people.",
+      "options": [
+        "were",
+        "am",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, elképzelt helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ your homework, you fail the test.",
+      "options": [
+        "don't do",
+        "wouldn't do",
+        "didn't do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, szabály jelen időben."
+    },
+    {
+      "prompt_hu": "If she ___ fluent in English, she would work as a translator.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If alcohol ___ at 100 degrees Celsius, water boils at the same temperature.",
+      "options": [
+        "boils",
+        "would boil",
+        "boiled"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tudományos tény jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ you, I would apologize immediately.",
+      "options": [
+        "were",
+        "am",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, klasszikus kifejezés 'were' minden személyben."
+    },
+    {
+      "prompt_hu": "If children ___ too much sugar, they have energy problems.",
+      "options": [
+        "eat",
+        "would eat",
+        "ate"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, általános tény jelen időben."
+    },
+    {
+      "prompt_hu": "If he ___ a good listener, he would have more friends.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ on a wet floor, you might slip.",
+      "options": [
+        "walk",
+        "would walk",
+        "walked"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, szabály és veszély jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ the president, I would change many laws.",
+      "options": [
+        "were",
+        "am",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, elképzelt helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If a metal ___ to high temperature, it expands.",
+      "options": [
+        "is heated",
+        "would be heated",
+        "was heated"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tudományos tény jelen időben."
+    },
+    {
+      "prompt_hu": "If she ___ more organized, she would finish her projects on time.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ your phone before bed, you sleep better.",
+      "options": [
+        "don't use",
+        "wouldn't use",
+        "didn't use"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, egészségügyi szabály jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ a professional athlete, I would earn a lot of money.",
+      "options": [
+        "were",
+        "am",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, elképzelt helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If air ___ oxygen, humans cannot breathe.",
+      "options": [
+        "doesn't contain",
+        "wouldn't contain",
+        "didn't contain"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, tudományos tény jelen időben."
+    },
+    {
+      "prompt_hu": "If he ___ more patient, he would be a great teacher.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ your keys, you cannot open the door.",
+      "options": [
+        "lose",
+        "would lose",
+        "lost"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, logikai következmény jelen időben."
+    },
+    {
+      "prompt_hu": "If I ___ you, I would never waste a day.",
+      "options": [
+        "were",
+        "am",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, 'I were you' klasszikus kifejezés."
+    },
+    {
+      "prompt_hu": "If pressure ___ on a gas, it becomes denser.",
+      "options": [
+        "is applied",
+        "would be applied",
+        "was applied"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional, fizikai törvény jelen időben."
+    },
+    {
+      "prompt_hu": "If she ___ more creative, she would design beautiful things.",
+      "options": [
+        "were",
+        "is",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Second conditional, valótlan helyzet, 'were' a helyes."
+    },
+    {
+      "prompt_hu": "If you ___ your umbrella at home, you will get wet in the rain.",
+      "options": [
+        "leave",
+        "leaves",
+        "left"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Zero conditional: jelen idő az if után, jelen idő az akkor után. 'leave' igaz általános szabály."
+    },
+    {
+      "prompt_hu": "If I ___ a map, I would not get lost in the city.",
+      "options": [
+        "have",
+        "had",
+        "would have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Second conditional: valótlan jelen helyzet. Past simple 'had' az if után, 'would' + alapige az akkor után."
+    },
+    {
+      "prompt_hu": "If you ___ the instructions carefully, the experiment will work correctly.",
+      "options": [
+        "follows",
+        "follow",
+        "followed"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Zero conditional: általános igazság. Jelen idő mindkét részben, többes szám 'follow'."
+    }
+  ]
+}

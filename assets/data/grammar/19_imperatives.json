@@ -1,0 +1,538 @@
+{
+  "id": "imperatives",
+  "title_hu": "Felszólító mód: az imperatívusz",
+  "subtitle_hu": "Open the door! – utasítások",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Felszólítás: alapalak alannyal nélkül",
+      "body_hu": "A felszólító mód alanyt nem tartalmaz, a főige alapalakjával kezdődik. Utasításra, kérésre, útmutatásra használjuk.",
+      "examples": [
+        {
+          "en": "Open the window.",
+          "hu": "Nyisd ki az ablakot."
+        },
+        {
+          "en": "Turn left at the corner.",
+          "hu": "A saroknál fordulj balra."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Tagadó felszólítás: Don't",
+      "body_hu": "A tiltást 'Don't + alapige' fejezi ki. Udvariasabbá a 'please' teszi.",
+      "examples": [
+        {
+          "en": "Don't touch that.",
+          "hu": "Ne nyúlj hozzá."
+        },
+        {
+          "en": "Please sit down.",
+          "hu": "Kérlek, ülj le."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "___ the door, please.",
+      "options": [
+        "Close",
+        "Closes",
+        "To close"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólítás: alapalak, alany nélkül."
+    },
+    {
+      "prompt_hu": "___ be late for the meeting.",
+      "options": [
+        "Don't",
+        "Not",
+        "No"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: 'Don't + alapige'."
+    },
+    {
+      "prompt_hu": "___ down and relax.",
+      "options": [
+        "Sit",
+        "Sits",
+        "Sitting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólítás alapalakkal."
+    },
+    {
+      "prompt_hu": "Please ___ me your phone number.",
+      "options": [
+        "give",
+        "gives",
+        "giving"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító módban az ige alapalakját használjuk alany nélkül."
+    },
+    {
+      "prompt_hu": "___ your hands before dinner.",
+      "options": [
+        "Wash",
+        "Washes",
+        "Washing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító mód az ige alapalakjával kezdődik."
+    },
+    {
+      "prompt_hu": "Don't ___ in the library.",
+      "options": [
+        "talk",
+        "talks",
+        "talking"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A tagadó felszólításban 'Don't' után az ige alapalakja következik."
+    },
+    {
+      "prompt_hu": "Please ___ the window.",
+      "options": [
+        "open",
+        "opens",
+        "opened"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító mód alapalakot igényel alany nélkül."
+    },
+    {
+      "prompt_hu": "___ me a cup of coffee, please.",
+      "options": [
+        "Bring",
+        "Brings",
+        "Brought"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító mód az ige alapalakjával indul."
+    },
+    {
+      "prompt_hu": "Don't ___ the book on the table.",
+      "options": [
+        "leave",
+        "leaves",
+        "left"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "___ the light when you leave.",
+      "options": [
+        "Turn off",
+        "Turns off",
+        "Turning off"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot használ."
+    },
+    {
+      "prompt_hu": "Please ___ me with this problem.",
+      "options": [
+        "help",
+        "helps",
+        "helped"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító módban az alapalak használata kötelező."
+    },
+    {
+      "prompt_hu": "Don't ___ the key at home.",
+      "options": [
+        "forget",
+        "forgets",
+        "forgetting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Don't + alapalak a tagadó felszólítás képzése."
+    },
+    {
+      "prompt_hu": "___ a seat and make yourself comfortable.",
+      "options": [
+        "Take",
+        "Takes",
+        "Taken"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító mód az ige alapalakjából áll."
+    },
+    {
+      "prompt_hu": "___ to the teacher, please.",
+      "options": [
+        "Listen",
+        "Listens",
+        "Listened"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód = alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ your homework.",
+      "options": [
+        "forget",
+        "forgets",
+        "forgot"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ carefully at the board.",
+      "options": [
+        "look",
+        "looks",
+        "looking"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot igényel."
+    },
+    {
+      "prompt_hu": "___ the answer in your notebook.",
+      "options": [
+        "Write",
+        "Writes",
+        "Writing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód: alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ in the class.",
+      "options": [
+        "run",
+        "runs",
+        "ran"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ your shoes before entering.",
+      "options": [
+        "remove",
+        "removes",
+        "removed"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz az ige alapformáját használja."
+    },
+    {
+      "prompt_hu": "___ the vegetables for dinner.",
+      "options": [
+        "Prepare",
+        "Prepares",
+        "Preparing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód = alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ to your friends during the exam.",
+      "options": [
+        "talk",
+        "talks",
+        "talked"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás képzése: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ me know if you need help.",
+      "options": [
+        "let",
+        "lets",
+        "letting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot igényel."
+    },
+    {
+      "prompt_hu": "___ the package carefully.",
+      "options": [
+        "Handle",
+        "Handles",
+        "Handled"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód: alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ the museum tickets.",
+      "options": [
+        "lose",
+        "loses",
+        "losing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ the instructions on the box.",
+      "options": [
+        "read",
+        "reads",
+        "reading"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz az ige alapformájával indul."
+    },
+    {
+      "prompt_hu": "___ your alarm clock for tomorrow morning.",
+      "options": [
+        "Set",
+        "Sets",
+        "Setting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód = alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ your passport at the airport.",
+      "options": [
+        "leave",
+        "leaves",
+        "left"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ your coat with you.",
+      "options": [
+        "take",
+        "takes",
+        "taking"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot igényel."
+    },
+    {
+      "prompt_hu": "___ right at the traffic light.",
+      "options": [
+        "Turn",
+        "Turns",
+        "Turned"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód: alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ the paintwork on the wall.",
+      "options": [
+        "touch",
+        "touches",
+        "touched"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ the music down a bit.",
+      "options": [
+        "turn",
+        "turns",
+        "turning"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz az ige alapformájával kezdődik."
+    },
+    {
+      "prompt_hu": "___ your passport when you travel.",
+      "options": [
+        "Bring",
+        "Brings",
+        "Bringing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód = alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ the floor; it's slippery.",
+      "options": [
+        "run",
+        "runs",
+        "running"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ the dishes after lunch.",
+      "options": [
+        "wash",
+        "washes",
+        "washed"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot igényel."
+    },
+    {
+      "prompt_hu": "___ me a favour and ___ the document.",
+      "options": [
+        "do",
+        "doing",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód: alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ so much sugar in your coffee.",
+      "options": [
+        "add",
+        "adds",
+        "adding"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ us know your travel dates.",
+      "options": [
+        "let",
+        "lets",
+        "letting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz az ige alapformájával indul."
+    },
+    {
+      "prompt_hu": "___ your phone and follow me.",
+      "options": [
+        "put",
+        "puts",
+        "putting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód = alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ on the grass.",
+      "options": [
+        "step",
+        "steps",
+        "stepped"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ the package to the office.",
+      "options": [
+        "send",
+        "sends",
+        "sending"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot igényel."
+    },
+    {
+      "prompt_hu": "___ us at the station tomorrow morning.",
+      "options": [
+        "meet",
+        "meets",
+        "meeting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód: alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ negative thoughts.",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ the flowers every day.",
+      "options": [
+        "water",
+        "waters",
+        "watered"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz az ige alapformájával kezdődik."
+    },
+    {
+      "prompt_hu": "___ your seat and enjoy the movie.",
+      "options": [
+        "Take",
+        "Takes",
+        "Took"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód = alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ the children alone in the house.",
+      "options": [
+        "leave",
+        "leaves",
+        "leaving"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "Please ___ us if you have any questions.",
+      "options": [
+        "contact",
+        "contacts",
+        "contacting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az imperatívusz alapalakot igényel."
+    },
+    {
+      "prompt_hu": "___ your homework before dinner.",
+      "options": [
+        "finish",
+        "finishes",
+        "finished"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Felszólító mód: alapalak alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ the emergency exit.",
+      "options": [
+        "block",
+        "blocks",
+        "blocking"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó felszólítás: Don't + alapalak."
+    },
+    {
+      "prompt_hu": "___ your email before sending it.",
+      "options": [
+        "Check",
+        "Checks",
+        "Checking"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A felszólító mód az alapalakkal kezdődik, alany nélkül."
+    },
+    {
+      "prompt_hu": "Don't ___ so loudly in the hallway.",
+      "options": [
+        "speaking",
+        "speak",
+        "speaks"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A tagadó felszólítás 'Don't + alapige' szerkezettel képződik."
+    }
+  ]
+}

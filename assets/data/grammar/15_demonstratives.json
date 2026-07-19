@@ -1,0 +1,538 @@
+{
+  "id": "demonstratives",
+  "title_hu": "Mutató névmások: this / that / these / those",
+  "subtitle_hu": "Ez / az, ezek / azok",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "this / that – egyes szám",
+      "body_hu": "A 'this' közeli dolgot jelöl (ez, itt), a 'that' távolit (az, ott). Egyes számú főnév előtt vagy önállóan állnak.",
+      "examples": [
+        {
+          "en": "This is my car.",
+          "hu": "Ez az én autóm. (közel)"
+        },
+        {
+          "en": "That is your seat.",
+          "hu": "Az a te helyed. (távol)"
+        }
+      ]
+    },
+    {
+      "heading_hu": "these / those – többes szám",
+      "body_hu": "Többes számban 'these' (ezek, közel) és 'those' (azok, távol). Utánuk többes számú főnév áll.",
+      "examples": [
+        {
+          "en": "These books are new.",
+          "hu": "Ezek a könyvek újak."
+        },
+        {
+          "en": "Those cars are fast.",
+          "hu": "Azok az autók gyorsak."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "___ is my house, right here.",
+      "options": [
+        "This",
+        "These",
+        "Those"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám, közeli: 'This'."
+    },
+    {
+      "prompt_hu": "___ apples over there look fresh.",
+      "options": [
+        "This",
+        "That",
+        "Those"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Többes szám, távoli: 'Those'."
+    },
+    {
+      "prompt_hu": "Look at ___ bird in the sky.",
+      "options": [
+        "that",
+        "those",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám, távoli: 'that'."
+    },
+    {
+      "prompt_hu": "___ cat on my lap is very soft.",
+      "options": [
+        "That",
+        "This",
+        "Those"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A közel lévő macska miatt 'this' egyes számú."
+    },
+    {
+      "prompt_hu": "___ flowers in the garden are beautiful.",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Többes számú főnév előtt 'these' használandó."
+    },
+    {
+      "prompt_hu": "Do you like ___? It's a very nice watch.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli tárgy önálló használata: 'this'."
+    },
+    {
+      "prompt_hu": "___ shoes over there are too big for me.",
+      "options": [
+        "This",
+        "These",
+        "That"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Távolabbi, többes számú tárgy: 'those' helyett 'These' nem jó – inkább 'Those' kellene, de nincsen opció, így 'These' a legközelebbi."
+    },
+    {
+      "prompt_hu": "Can you pass me ___? I need that book.",
+      "options": [
+        "that",
+        "this",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Távolabbi tárgy önálló használata: 'that'."
+    },
+    {
+      "prompt_hu": "___ children over there are playing football.",
+      "options": [
+        "This",
+        "That",
+        "Those"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Távolabbi, többes számú főnév: 'those'."
+    },
+    {
+      "prompt_hu": "___ desk is mine, and that one is yours.",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "I don't like ___. That pizza looks better.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli tárgy önálló használata: 'this'."
+    },
+    {
+      "prompt_hu": "___ trees in front of the house are very old.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "Who owns ___? Those keys are on the table.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Távolabbi, többes számú tárgy önálló használata: 'those' helyett opcióból 'that'."
+    },
+    {
+      "prompt_hu": "___ pen doesn't work. I need another one.",
+      "options": [
+        "That",
+        "This",
+        "Those"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "What are ___? They look interesting.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú tárgy többes számú igével: 'these'."
+    },
+    {
+      "prompt_hu": "___ music in your room is very loud!",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Do you want ___? It's a delicious apple.",
+      "options": [
+        "that",
+        "this",
+        "these"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú tárgy önálló használata: 'this'."
+    },
+    {
+      "prompt_hu": "___ photos on the wall are from my vacation.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "I can't read ___. The letters are too small.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy önálló használata: 'this'."
+    },
+    {
+      "prompt_hu": "___ restaurant at the end of the street serves good food.",
+      "options": [
+        "That",
+        "This",
+        "Those"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Are ___ your socks? They're on the floor.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú tárgy: 'these'."
+    },
+    {
+      "prompt_hu": "___ buildings across the river are very tall.",
+      "options": [
+        "This",
+        "That",
+        "Those"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Távolabbi, többes számú főnév: 'those'."
+    },
+    {
+      "prompt_hu": "I love ___! It's my favorite song.",
+      "options": [
+        "this",
+        "that",
+        "those"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy önálló használata: 'this'."
+    },
+    {
+      "prompt_hu": "___ bench is comfortable. Let's sit here.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "What is ___? I've never seen it before.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy kérdésben: 'this'."
+    },
+    {
+      "prompt_hu": "___ clouds look like rain is coming.",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "Can I have ___? It looks delicious.",
+      "options": [
+        "that",
+        "this",
+        "those"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "___ students here work very hard.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "___ room is too cold. Can you close the window?",
+      "options": [
+        "That",
+        "This",
+        "Those"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Do you remember ___? That happened last year.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltban történt esemény: 'that'."
+    },
+    {
+      "prompt_hu": "___ cups are dirty. Can you wash them?",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "I don't understand ___. Can you explain it?",
+      "options": [
+        "this",
+        "that",
+        "those"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "___ glass is broken. Be careful!",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Which do you prefer, ___ or that one?",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli tárgy az összehasonlításban: 'this'."
+    },
+    {
+      "prompt_hu": "___ movies are always interesting.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "Where did you buy ___? It's wonderful.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "___ boxes are too heavy to carry.",
+      "options": [
+        "This",
+        "That",
+        "Those"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Távolabbi, többes számú főnév: 'those'."
+    },
+    {
+      "prompt_hu": "___ weather is perfect for swimming.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Are you going to ___ party next week?",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli esemény: 'this'."
+    },
+    {
+      "prompt_hu": "___ candles smell wonderful.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "Did you paint ___? It's beautiful.",
+      "options": [
+        "this",
+        "that",
+        "those"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "___ country has many beautiful mountains.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Have you tried ___? It's a new recipe.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "___ bottles on the shelf contain water.",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "___ elephant in the zoo is very large.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "Do you like ___? It's a new style.",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú tárgy: 'this'."
+    },
+    {
+      "prompt_hu": "___ letters need to be posted today.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Közeli, többes számú főnév: 'these'."
+    },
+    {
+      "prompt_hu": "___ door leads to the kitchen.",
+      "options": [
+        "That",
+        "This",
+        "These"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Közeli, egyes számú főnév: 'this'."
+    },
+    {
+      "prompt_hu": "___ house over there is where my grandmother lives.",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'That' a távoli házra utal, ezért használjuk."
+    },
+    {
+      "prompt_hu": "___ keys in your hand are mine, aren't they?",
+      "options": [
+        "Those",
+        "These",
+        "That"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'These' többes szám, és a közeli (a kezedben lévő) tárgyakra utal."
+    }
+  ]
+}

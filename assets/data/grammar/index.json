@@ -1,0 +1,247 @@
+[
+  {
+    "id": "articles",
+    "file": "01_articles.json",
+    "title_hu": "Névelők: a / an / the",
+    "subtitle_hu": "Mikor melyiket használjuk?",
+    "level": "a1"
+  },
+  {
+    "id": "to_be",
+    "file": "02_to_be.json",
+    "title_hu": "A „to be” ige (vagyok, vagy, van…)",
+    "subtitle_hu": "am / is / are",
+    "level": "a1"
+  },
+  {
+    "id": "pronouns",
+    "file": "03_pronouns.json",
+    "title_hu": "Személyes névmások: he / she / it",
+    "subtitle_hu": "A magyar „ő” háromféle angolul",
+    "level": "a1"
+  },
+  {
+    "id": "there_is_are",
+    "file": "04_there_is_are.json",
+    "title_hu": "There is / there are",
+    "subtitle_hu": "Létezés kifejezése",
+    "level": "a1"
+  },
+  {
+    "id": "word_order",
+    "file": "05_word_order.json",
+    "title_hu": "Szórend: alany–állítmány–tárgy",
+    "subtitle_hu": "Az angol kötött szórendje",
+    "level": "a1"
+  },
+  {
+    "id": "present_simple_continuous",
+    "file": "06_present_simple_continuous.json",
+    "title_hu": "Egyszerű vs. folyamatos jelen",
+    "subtitle_hu": "I work vs. I am working",
+    "level": "a1"
+  },
+  {
+    "id": "questions",
+    "file": "07_questions.json",
+    "title_hu": "Kérdések: do / does / did",
+    "subtitle_hu": "Segédige a kérdésekhez",
+    "level": "a1"
+  },
+  {
+    "id": "demonstratives",
+    "file": "15_demonstratives.json",
+    "title_hu": "Mutató névmások: this / that / these / those",
+    "subtitle_hu": "Ez / az, ezek / azok",
+    "level": "a1"
+  },
+  {
+    "id": "possessives",
+    "file": "16_possessives.json",
+    "title_hu": "Birtoklás: my / your és a birtokos 's",
+    "subtitle_hu": "Kié? – birtokos névmások és a 's",
+    "level": "a1"
+  },
+  {
+    "id": "have_got",
+    "file": "17_have_got.json",
+    "title_hu": "have got: birtoklás kifejezése",
+    "subtitle_hu": "I've got – nekem van",
+    "level": "a1"
+  },
+  {
+    "id": "can_ability",
+    "file": "18_can_ability.json",
+    "title_hu": "can: képesség és lehetőség",
+    "subtitle_hu": "I can swim – tudok",
+    "level": "a1"
+  },
+  {
+    "id": "imperatives",
+    "file": "19_imperatives.json",
+    "title_hu": "Felszólító mód: az imperatívusz",
+    "subtitle_hu": "Open the door! – utasítások",
+    "level": "a1"
+  },
+  {
+    "id": "object_pronouns",
+    "file": "20_object_pronouns.json",
+    "title_hu": "Tárgyesetű névmások: me / him / them",
+    "subtitle_hu": "Engem, őt, őket",
+    "level": "a1"
+  },
+  {
+    "id": "adjectives",
+    "file": "21_adjectives.json",
+    "title_hu": "Melléknevek: helyük és használatuk",
+    "subtitle_hu": "a big red car – jelzők a mondatban",
+    "level": "a1"
+  },
+  {
+    "id": "prepositions",
+    "file": "08_prepositions.json",
+    "title_hu": "Elöljárók: in / on / at",
+    "subtitle_hu": "Hely és idő",
+    "level": "a2"
+  },
+  {
+    "id": "past_simple",
+    "file": "09_past_simple.json",
+    "title_hu": "Egyszerű múlt idő",
+    "subtitle_hu": "Past simple: -ed és rendhagyó igék",
+    "level": "a2"
+  },
+  {
+    "id": "present_perfect",
+    "file": "10_present_perfect.json",
+    "title_hu": "Present perfect vs. past simple",
+    "subtitle_hu": "have done vs. did",
+    "level": "a2"
+  },
+  {
+    "id": "countable_uncountable",
+    "file": "11_countable_uncountable.json",
+    "title_hu": "Megszámlálható és nem: some / any / much / many",
+    "subtitle_hu": "Mennyiségek",
+    "level": "a2"
+  },
+  {
+    "id": "comparatives",
+    "file": "12_comparatives.json",
+    "title_hu": "Fokozás: comparative és superlative",
+    "subtitle_hu": "bigger, the biggest",
+    "level": "a2"
+  },
+  {
+    "id": "past_continuous",
+    "file": "22_past_continuous.json",
+    "title_hu": "Folyamatos múlt: past continuous",
+    "subtitle_hu": "I was working – éppen csináltam",
+    "level": "a2"
+  },
+  {
+    "id": "have_to_should",
+    "file": "23_have_to_should.json",
+    "title_hu": "Kötelezettség és tanács: have to / should",
+    "subtitle_hu": "Kell / kellene",
+    "level": "a2"
+  },
+  {
+    "id": "adverbs",
+    "file": "24_adverbs.json",
+    "title_hu": "Határozók: gyakoriság és mód",
+    "subtitle_hu": "always, quickly – hogyan és milyen gyakran",
+    "level": "a2"
+  },
+  {
+    "id": "gerund_infinitive_intro",
+    "file": "25_gerund_infinitive_intro.json",
+    "title_hu": "Ige + -ing vagy ige + to",
+    "subtitle_hu": "like doing vs. want to do",
+    "level": "a2"
+  },
+  {
+    "id": "future",
+    "file": "13_future.json",
+    "title_hu": "Jövő idő: will vs. going to",
+    "subtitle_hu": "Melyiket mikor?",
+    "level": "b1"
+  },
+  {
+    "id": "modals_conditional",
+    "file": "14_modals_conditional.json",
+    "title_hu": "Módbeli segédigék és az első feltételes",
+    "subtitle_hu": "can / must / should + first conditional",
+    "level": "b1"
+  },
+  {
+    "id": "present_perfect_continuous",
+    "file": "26_present_perfect_continuous.json",
+    "title_hu": "Present perfect continuous",
+    "subtitle_hu": "I have been working – folyamat a jelenig",
+    "level": "b1"
+  },
+  {
+    "id": "past_perfect",
+    "file": "27_past_perfect.json",
+    "title_hu": "Régmúlt: past perfect és elbeszélő idők",
+    "subtitle_hu": "had done – a múlt előtti múlt",
+    "level": "b1"
+  },
+  {
+    "id": "used_to",
+    "file": "28_used_to.json",
+    "title_hu": "used to: múltbeli szokások",
+    "subtitle_hu": "I used to smoke – régen szoktam",
+    "level": "b1"
+  },
+  {
+    "id": "passive",
+    "file": "29_passive.json",
+    "title_hu": "Szenvedő szerkezet: passive voice",
+    "subtitle_hu": "The house was built – szenvedő mondat",
+    "level": "b1"
+  },
+  {
+    "id": "relative_clauses",
+    "file": "30_relative_clauses.json",
+    "title_hu": "Vonatkozó mellékmondatok: who / which / that",
+    "subtitle_hu": "The man who lives here – aki, ami, amely",
+    "level": "b1"
+  },
+  {
+    "id": "reported_speech",
+    "file": "31_reported_speech.json",
+    "title_hu": "Függő beszéd: reported speech",
+    "subtitle_hu": "She said she was tired – idézés",
+    "level": "b1"
+  },
+  {
+    "id": "conditionals_2",
+    "file": "32_conditionals_2.json",
+    "title_hu": "Feltételes mondatok: zero és second conditional",
+    "subtitle_hu": "If I had money, I would… – valótlan feltétel",
+    "level": "b1"
+  },
+  {
+    "id": "modals_deduction",
+    "file": "33_modals_deduction.json",
+    "title_hu": "Következtető és kötelező módbeli igék",
+    "subtitle_hu": "must be / might / can't be – biztos, talán, kizárt",
+    "level": "b1"
+  },
+  {
+    "id": "gerund_infinitive",
+    "file": "34_gerund_infinitive.json",
+    "title_hu": "Gerund és infinitív: igevonzatok",
+    "subtitle_hu": "stop doing vs stop to do – jelentésváltás",
+    "level": "b1"
+  },
+  {
+    "id": "question_tags",
+    "file": "35_question_tags.json",
+    "title_hu": "Ugató kérdések: question tags",
+    "subtitle_hu": "…isn't it? – ugye?",
+    "level": "b1"
+  }
+]

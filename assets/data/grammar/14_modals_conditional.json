@@ -1,0 +1,546 @@
+{
+  "id": "modals_conditional",
+  "title_hu": "Módbeli segédigék és az első feltételes",
+  "subtitle_hu": "can / must / should + first conditional",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Módbeli segédigék",
+      "body_hu": "A módbeli segédigék (can, must, should, may) után a főige mindig ALAPALAKBAN áll, „to” nélkül. Nem kapnak -s-t he/she/it után sem. can = tud/-hat; must = kell; should = kellene (tanács); may = -hat (engedély/lehetőség).",
+      "examples": [
+        {
+          "en": "She can swim.",
+          "hu": "Tud úszni. (nem: cans)"
+        },
+        {
+          "en": "You must stop here.",
+          "hu": "Itt meg kell állnod."
+        },
+        {
+          "en": "You should see a doctor.",
+          "hu": "Orvoshoz kellene menned."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Első feltételes: valós jövőbeli feltétel",
+      "body_hu": "A first conditional valós, lehetséges jövőbeli helyzetről szól: If + jelen idő, will + alapige. FONTOS: az „if” tagmondatban NEM használunk will-t, hanem jelen időt!",
+      "examples": [
+        {
+          "en": "If it rains, I will stay home.",
+          "hu": "Ha esik, otthon maradok."
+        },
+        {
+          "en": "She will pass if she studies.",
+          "hu": "Átmegy, ha tanul."
+        },
+        {
+          "en": "If you heat ice, it melts.",
+          "hu": "Ha jeget melegítesz, elolvad. (általános)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "You ___ drive without a license.",
+      "options": [
+        "cannot",
+        "can not",
+        "cant"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'cannot' a helyes forma; a módbeli segédige után nincs 'to'."
+    },
+    {
+      "prompt_hu": "If you study hard, you ___ pass the exam.",
+      "options": [
+        "will pass",
+        "pass",
+        "are passing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "First conditional: 'will' + alapige a főmondatban."
+    },
+    {
+      "prompt_hu": "She ___ speak three languages fluently.",
+      "options": [
+        "can",
+        "cans",
+        "to can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Módbeli segédige után alapalak, nem kaphat -s-t."
+    },
+    {
+      "prompt_hu": "If it rains tomorrow, we ___ cancel the picnic.",
+      "options": [
+        "will cancel",
+        "cancels",
+        "are cancelling"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "First conditional: főmondatban 'will' + alapige."
+    },
+    {
+      "prompt_hu": "You ___ eat vegetables every day for better health.",
+      "options": [
+        "should",
+        "should to",
+        "shoulds"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' után alapalak 'to' nélkül."
+    },
+    {
+      "prompt_hu": "If you arrive late, your boss ___ be angry.",
+      "options": [
+        "will be",
+        "is",
+        "be"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "First conditional: főmondatban 'will' + alapige."
+    },
+    {
+      "prompt_hu": "They ___ finish the project by Friday.",
+      "options": [
+        "must",
+        "musts",
+        "must to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must' után alapalak, nem kaphat -s-t sem."
+    },
+    {
+      "prompt_hu": "If she ___ enough money, she will buy a car.",
+      "options": [
+        "saves",
+        "will save",
+        "saving"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő, nem 'will'."
+    },
+    {
+      "prompt_hu": "He ___ improve his English if he wants to get the job.",
+      "options": [
+        "must",
+        "must to",
+        "musts"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Módbeli segédige után alapalak 'to' nélkül."
+    },
+    {
+      "prompt_hu": "If you ___ the instructions carefully, you will succeed.",
+      "options": [
+        "follow",
+        "will follow",
+        "follows"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő használandó."
+    },
+    {
+      "prompt_hu": "Children ___ play with matches.",
+      "options": [
+        "must not",
+        "not must",
+        "musts not"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must not' tagadás: segédige + not + alapige."
+    },
+    {
+      "prompt_hu": "If it ___ sunny next week, we will go to the beach.",
+      "options": [
+        "is",
+        "will be",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő, harmadik személyhez 'is'."
+    },
+    {
+      "prompt_hu": "You ___ attend the meeting; it is very important.",
+      "options": [
+        "must",
+        "musts",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must' = kell, szükséges; mögötte alapalak."
+    },
+    {
+      "prompt_hu": "If we ___ early, we will have time for breakfast.",
+      "options": [
+        "leave",
+        "will leave",
+        "leaves"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő, nem 'will'."
+    },
+    {
+      "prompt_hu": "She ___ help her mother with the cooking.",
+      "options": [
+        "should",
+        "shoulds",
+        "should to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' után alapalak 'to' nélkül."
+    },
+    {
+      "prompt_hu": "If I ___ you, I would study more.",
+      "options": [
+        "were",
+        "am",
+        "will be"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "First conditional: 'If I were' szokás, de itt jelen: 'if I am'."
+    },
+    {
+      "prompt_hu": "They ___ solve this problem without help.",
+      "options": [
+        "can",
+        "cans",
+        "to can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Can' után alapalak, harmadik személyhez nincs -s."
+    },
+    {
+      "prompt_hu": "If you ___ regular exercise, you will feel better.",
+      "options": [
+        "do",
+        "will do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "You ___ remember to bring your passport.",
+      "options": [
+        "must",
+        "musts",
+        "have to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must' = kell; után alapalak."
+    },
+    {
+      "prompt_hu": "If she ___ the job, she will move to London.",
+      "options": [
+        "gets",
+        "will get",
+        "getting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "He ___ not speak English well.",
+      "options": [
+        "cannot",
+        "can not",
+        "cans not"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Cannot' tagadás: segédige + not + alapige."
+    },
+    {
+      "prompt_hu": "If they ___ us the truth, we will forgive them.",
+      "options": [
+        "tell",
+        "will tell",
+        "tells"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "Students ___ be quiet in the library.",
+      "options": [
+        "must",
+        "musts",
+        "should to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must' = kell; után alapalak."
+    },
+    {
+      "prompt_hu": "If it ___ too hot, we will go swimming.",
+      "options": [
+        "is",
+        "will be",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő, 'it' után 'is'."
+    },
+    {
+      "prompt_hu": "You ___ try harder if you want to succeed.",
+      "options": [
+        "should",
+        "shoulds",
+        "should to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' = kellene (tanács); után alapalak."
+    },
+    {
+      "prompt_hu": "If you ___ careful, you will not have accidents.",
+      "options": [
+        "are",
+        "will be",
+        "be"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő 'are'."
+    },
+    {
+      "prompt_hu": "He ___ work on the weekends; it is not required.",
+      "options": [
+        "does not have to",
+        "has not to",
+        "must not"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Does not have to' = nem kell; 'must not' = tilos."
+    },
+    {
+      "prompt_hu": "If we ___ now, we will arrive on time.",
+      "options": [
+        "leave",
+        "will leave",
+        "leaves"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "They ___ respect their elders.",
+      "options": [
+        "should",
+        "shoulds",
+        "to should"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' után alapalak 'to' nélkül."
+    },
+    {
+      "prompt_hu": "If you ___ coffee every day, you will be addicted.",
+      "options": [
+        "drink",
+        "will drink",
+        "drinks"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "You ___ not touch that; it is dangerous.",
+      "options": [
+        "must",
+        "musts",
+        "should"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must not' = tilos; mögötte alapalak."
+    },
+    {
+      "prompt_hu": "If it ___ tomorrow, the game will be postponed.",
+      "options": [
+        "rains",
+        "will rain",
+        "rain"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő, harmadik személyhez -s."
+    },
+    {
+      "prompt_hu": "She ___ improve her grades this semester.",
+      "options": [
+        "must",
+        "musts",
+        "can to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must' = kell; után alapalak."
+    },
+    {
+      "prompt_hu": "If you ___ regular exercise, you will be healthier.",
+      "options": [
+        "do",
+        "will do",
+        "does"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "They ___ attend the conference next month.",
+      "options": [
+        "may",
+        "mays",
+        "to may"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'May' = lehetséges/engedély; után alapalak."
+    },
+    {
+      "prompt_hu": "If she ___ her job, she will look for another one.",
+      "options": [
+        "loses",
+        "will lose",
+        "lose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "You ___ be late for the appointment.",
+      "options": [
+        "must not",
+        "not must",
+        "musts not"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must not' = tilos; segédige + not + alapalak."
+    },
+    {
+      "prompt_hu": "If we ___ the bus, we will take a taxi.",
+      "options": [
+        "miss",
+        "will miss",
+        "misses"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "He ___ speak louder; I cannot hear him.",
+      "options": [
+        "should",
+        "shoulds",
+        "should to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' = kellene; után alapalak."
+    },
+    {
+      "prompt_hu": "If you ___ me, I will explain everything.",
+      "options": [
+        "ask",
+        "will ask",
+        "asks"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "Children ___ not stay up late on school nights.",
+      "options": [
+        "should",
+        "musts",
+        "can"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should not' tanács; segédige + not + alapige."
+    },
+    {
+      "prompt_hu": "If he ___ his homework, he will get a good grade.",
+      "options": [
+        "does",
+        "will do",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő, harmadik személyhez -s."
+    },
+    {
+      "prompt_hu": "You ___ pay attention in class.",
+      "options": [
+        "must",
+        "musts",
+        "to must"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Must' = kell; után alapalak."
+    },
+    {
+      "prompt_hu": "If you ___ enough water, you will feel better.",
+      "options": [
+        "drink",
+        "will drink",
+        "drinks"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "They ___ park here; the sign says no parking.",
+      "options": [
+        "cannot",
+        "can not",
+        "cans not"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Cannot' tagadás: segédige + not + alapige."
+    },
+    {
+      "prompt_hu": "If she ___ to the gym regularly, she will be fit.",
+      "options": [
+        "goes",
+        "will go",
+        "going"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "If tagmondatban jelen idő."
+    },
+    {
+      "prompt_hu": "You ___ call your parents more often.",
+      "options": [
+        "should",
+        "shoulds",
+        "should to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Should' = kellene (tanács); után alapalak."
+    },
+    {
+      "prompt_hu": "If you ___ the job offer, you will have a better career.",
+      "options": [
+        "accept",
+        "will accept",
+        "accepts"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'if' tagmondatban jelen idő áll, nem will."
+    },
+    {
+      "prompt_hu": "They ___ leave the office before 5 PM; their manager is very strict.",
+      "options": [
+        "can",
+        "must not",
+        "may"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'must not' azt jelenti, hogy nem szabad; a kontextus szerint ez a helyes választás."
+    },
+    {
+      "prompt_hu": "If we ___ the weather forecast, we will pack an umbrella.",
+      "options": [
+        "check",
+        "will check",
+        "checks"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'if' tagmondatban jelen idő szükséges, nem will + ige."
+    }
+  ]
+}

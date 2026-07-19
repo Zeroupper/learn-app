@@ -1,0 +1,538 @@
+{
+  "id": "question_tags",
+  "title_hu": "Ugató kérdések: question tags",
+  "subtitle_hu": "…isn't it? – ugye?",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Alapszabály: fordított polaritás",
+      "body_hu": "Állító mondat után tagadó tag, tagadó mondat után állító tag. A tag a mondat segédigéjét ismétli meg.",
+      "examples": [
+        {
+          "en": "You are tired, aren't you?",
+          "hu": "Fáradt vagy, ugye?"
+        },
+        {
+          "en": "She isn't here, is she?",
+          "hu": "Nincs itt, ugye?"
+        }
+      ]
+    },
+    {
+      "heading_hu": "Segédige a főigéből",
+      "body_hu": "Ha nincs segédige, a do/does/did jelenik meg a tagben, a mondat igeidejének megfelelően.",
+      "examples": [
+        {
+          "en": "You like tea, don't you?",
+          "hu": "Szereted a teát, ugye?"
+        },
+        {
+          "en": "He went home, didn't he?",
+          "hu": "Hazament, ugye?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "You are coming, ___?",
+      "options": [
+        "aren't you",
+        "are you",
+        "don't you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag: 'aren't you'."
+    },
+    {
+      "prompt_hu": "She doesn't drive, ___?",
+      "options": [
+        "does she",
+        "doesn't she",
+        "is she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag: 'does she'."
+    },
+    {
+      "prompt_hu": "They went out, ___?",
+      "options": [
+        "didn't they",
+        "don't they",
+        "weren't they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Past simple tag: 'didn't they'."
+    },
+    {
+      "prompt_hu": "He is working late, ___?",
+      "options": [
+        "isn't he",
+        "is he",
+        "doesn't he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'is'."
+    },
+    {
+      "prompt_hu": "You haven't finished your homework, ___?",
+      "options": [
+        "have you",
+        "haven't you",
+        "do you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'have'."
+    },
+    {
+      "prompt_hu": "She will arrive tomorrow, ___?",
+      "options": [
+        "won't she",
+        "will she",
+        "doesn't she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'will'."
+    },
+    {
+      "prompt_hu": "They don't like pizza, ___?",
+      "options": [
+        "do they",
+        "don't they",
+        "are they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'do'."
+    },
+    {
+      "prompt_hu": "I am not late, ___?",
+      "options": [
+        "am I",
+        "aren't I",
+        "am not I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'am'."
+    },
+    {
+      "prompt_hu": "We have seen this film, ___?",
+      "options": [
+        "haven't we",
+        "have we",
+        "haven't they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'have'."
+    },
+    {
+      "prompt_hu": "It doesn't rain here often, ___?",
+      "options": [
+        "does it",
+        "doesn't it",
+        "rains it"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'does'."
+    },
+    {
+      "prompt_hu": "You can swim very well, ___?",
+      "options": [
+        "can't you",
+        "can you",
+        "cannot you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'can'."
+    },
+    {
+      "prompt_hu": "She didn't call yesterday, ___?",
+      "options": [
+        "did she",
+        "didn't she",
+        "does she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'did'."
+    },
+    {
+      "prompt_hu": "We must go now, ___?",
+      "options": [
+        "mustn't we",
+        "must we",
+        "don't we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'must'."
+    },
+    {
+      "prompt_hu": "He hadn't arrived when we left, ___?",
+      "options": [
+        "had he",
+        "hadn't he",
+        "did he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'had'."
+    },
+    {
+      "prompt_hu": "You would help us, ___?",
+      "options": [
+        "wouldn't you",
+        "would you",
+        "will you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'would'."
+    },
+    {
+      "prompt_hu": "They shouldn't be here, ___?",
+      "options": [
+        "should they",
+        "shouldn't they",
+        "are they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'should'."
+    },
+    {
+      "prompt_hu": "I can't speak French, ___?",
+      "options": [
+        "can I",
+        "can't I",
+        "can you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'can'."
+    },
+    {
+      "prompt_hu": "She has never been to London, ___?",
+      "options": [
+        "has she",
+        "hasn't she",
+        "have you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'has'."
+    },
+    {
+      "prompt_hu": "You didn't see that movie, ___?",
+      "options": [
+        "did you",
+        "didn't you",
+        "have you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'did'."
+    },
+    {
+      "prompt_hu": "He is not interested in sports, ___?",
+      "options": [
+        "is he",
+        "isn't he",
+        "does he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'is'."
+    },
+    {
+      "prompt_hu": "We will not be late, ___?",
+      "options": [
+        "will we",
+        "won't we",
+        "are we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'will'."
+    },
+    {
+      "prompt_hu": "They are playing in the garden, ___?",
+      "options": [
+        "aren't they",
+        "are they",
+        "don't they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'are'."
+    },
+    {
+      "prompt_hu": "You have finished the project, ___?",
+      "options": [
+        "haven't you",
+        "have you",
+        "haven't we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'have'."
+    },
+    {
+      "prompt_hu": "She doesn't want coffee, ___?",
+      "options": [
+        "does she",
+        "doesn't she",
+        "wants she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'does'."
+    },
+    {
+      "prompt_hu": "I am ready for the exam, ___?",
+      "options": [
+        "am not I",
+        "aren't I",
+        "am I"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'am' - az egyetlen helyes alak 'am I'."
+    },
+    {
+      "prompt_hu": "He couldn't find his keys, ___?",
+      "options": [
+        "could he",
+        "couldn't he",
+        "did he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'could'."
+    },
+    {
+      "prompt_hu": "You should call your mother, ___?",
+      "options": [
+        "shouldn't you",
+        "should you",
+        "don't you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'should'."
+    },
+    {
+      "prompt_hu": "They haven't left yet, ___?",
+      "options": [
+        "have they",
+        "haven't they",
+        "did they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'have'."
+    },
+    {
+      "prompt_hu": "She will not attend the meeting, ___?",
+      "options": [
+        "will she",
+        "won't she",
+        "is she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'will'."
+    },
+    {
+      "prompt_hu": "We can do this together, ___?",
+      "options": [
+        "can't we",
+        "can we",
+        "don't we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'can'."
+    },
+    {
+      "prompt_hu": "I didn't break the vase, ___?",
+      "options": [
+        "did I",
+        "didn't I",
+        "have I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'did'."
+    },
+    {
+      "prompt_hu": "He has lived here for five years, ___?",
+      "options": [
+        "hasn't he",
+        "has he",
+        "doesn't he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'has'."
+    },
+    {
+      "prompt_hu": "You weren't at the party, ___?",
+      "options": [
+        "were you",
+        "weren't you",
+        "are you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'were'."
+    },
+    {
+      "prompt_hu": "She would like some tea, ___?",
+      "options": [
+        "wouldn't she",
+        "would she",
+        "doesn't she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'would'."
+    },
+    {
+      "prompt_hu": "They are not coming to the party, ___?",
+      "options": [
+        "are they",
+        "aren't they",
+        "don't they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'are'."
+    },
+    {
+      "prompt_hu": "I have never tried sushi before, ___?",
+      "options": [
+        "have I",
+        "haven't I",
+        "haven't you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'have'."
+    },
+    {
+      "prompt_hu": "You will be there on time, ___?",
+      "options": [
+        "won't you",
+        "will you",
+        "aren't you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'will'."
+    },
+    {
+      "prompt_hu": "He doesn't understand mathematics, ___?",
+      "options": [
+        "does he",
+        "doesn't he",
+        "understands he"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'does'."
+    },
+    {
+      "prompt_hu": "We have been friends since childhood, ___?",
+      "options": [
+        "haven't we",
+        "have we",
+        "haven't they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'have'."
+    },
+    {
+      "prompt_hu": "She is studying hard for the test, ___?",
+      "options": [
+        "isn't she",
+        "is she",
+        "doesn't she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'is'."
+    },
+    {
+      "prompt_hu": "They didn't win the match, ___?",
+      "options": [
+        "did they",
+        "didn't they",
+        "have they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'did'."
+    },
+    {
+      "prompt_hu": "You can't play the piano, ___?",
+      "options": [
+        "can you",
+        "can't you",
+        "cannot you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'can'."
+    },
+    {
+      "prompt_hu": "I will not forget this day, ___?",
+      "options": [
+        "will I",
+        "won't I",
+        "don't I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'will'."
+    },
+    {
+      "prompt_hu": "He has never seen a tiger, ___?",
+      "options": [
+        "has he",
+        "hasn't he",
+        "have you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'has'."
+    },
+    {
+      "prompt_hu": "You should have listened to me, ___?",
+      "options": [
+        "shouldn't you",
+        "should you",
+        "don't you"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'should'."
+    },
+    {
+      "prompt_hu": "She doesn't like dark chocolate, ___?",
+      "options": [
+        "does she",
+        "doesn't she",
+        "dislikes she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'does'."
+    },
+    {
+      "prompt_hu": "We weren't supposed to be there, ___?",
+      "options": [
+        "were we",
+        "weren't we",
+        "are we"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'were'."
+    },
+    {
+      "prompt_hu": "They will have arrived by tomorrow, ___?",
+      "options": [
+        "won't they",
+        "will they",
+        "haven't they"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Állító mondat után tagadó tag, és a segédige 'will'."
+    },
+    {
+      "prompt_hu": "I couldn't solve the problem, ___?",
+      "options": [
+        "could I",
+        "couldn't I",
+        "can I"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'could'."
+    },
+    {
+      "prompt_hu": "She is not going anywhere, ___?",
+      "options": [
+        "is she",
+        "isn't she",
+        "goes she"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tagadó mondat után állító tag, és a segédige 'is'."
+    }
+  ]
+}

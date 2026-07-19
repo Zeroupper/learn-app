@@ -1,0 +1,538 @@
+{
+  "id": "past_continuous",
+  "title_hu": "Folyamatos múlt: past continuous",
+  "subtitle_hu": "I was working – éppen csináltam",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Képzés: was/were + ige-ing",
+      "body_hu": "A folyamatos múlt egy múltbeli pillanatban ZAJLÓ cselekvést ír le. Képzés: was (I/he/she/it) vagy were (you/we/they) + ige-ing.",
+      "examples": [
+        {
+          "en": "I was reading at 8 pm.",
+          "hu": "Este 8-kor olvastam (éppen)."
+        },
+        {
+          "en": "They were playing football.",
+          "hu": "Focizni voltak (éppen)."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Megszakított cselekvés: while / when",
+      "body_hu": "Gyakran egy hosszabb (folyamatos) cselekvést egy rövidebb (past simple) szakít meg: 'while' + folyamatos, 'when' + egyszerű múlt.",
+      "examples": [
+        {
+          "en": "I was cooking when he called.",
+          "hu": "Főztem, amikor felhívott."
+        },
+        {
+          "en": "While she was sleeping, it rained.",
+          "hu": "Míg aludt, esett."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ watching TV at nine o'clock.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'I' után 'was' + ige-ing."
+    },
+    {
+      "prompt_hu": "They ___ playing outside.",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'they' után 'were'."
+    },
+    {
+      "prompt_hu": "She was cooking ___ the phone rang.",
+      "options": [
+        "when",
+        "while",
+        "during"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rövid megszakító cselekvés: 'when' + past simple."
+    },
+    {
+      "prompt_hu": "He ___ working when you called.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez 'was' tartozik."
+    },
+    {
+      "prompt_hu": "We ___ sleeping during the storm.",
+      "options": [
+        "was",
+        "were",
+        "been"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 1. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "You ___ reading a book yesterday at 5 PM.",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' után 'were' következik, függetlenül attól, hogy egy vagy több személy."
+    },
+    {
+      "prompt_hu": "I ___ running in the park when it started raining.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 1. személyhez 'was' tartozik a múltban."
+    },
+    {
+      "prompt_hu": "The children ___ playing in the garden all afternoon.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 3. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "She ___ waiting for the bus ___ the accident happened.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' rövidebb, egypontos eseményt vezet be."
+    },
+    {
+      "prompt_hu": "They ___ studying ___ the power cut occurred.",
+      "options": [
+        "were",
+        "while",
+        "when"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az első blank a 'were' igét igényli (többes szám)."
+    },
+    {
+      "prompt_hu": "I ___ having lunch ___ my friend arrived.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' vezet be egy rövidebb, befejezett eseményt."
+    },
+    {
+      "prompt_hu": "The dog ___ barking all night long.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez 'was' tartozik."
+    },
+    {
+      "prompt_hu": "We ___ driving to the beach ___ we saw an accident.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' vezet be egy hirtelen eseményt."
+    },
+    {
+      "prompt_hu": "He ___ not paying attention during the lesson.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez tagadott formában is 'was' tartozik."
+    },
+    {
+      "prompt_hu": "You ___ singing in the shower this morning.",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' után 'were' következik."
+    },
+    {
+      "prompt_hu": "It ___ raining very hard ___ we left the house.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy konkrét pillanatot jelöl."
+    },
+    {
+      "prompt_hu": "They ___ not listening to the teacher.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 3. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "She ___ dancing ___ the music stopped.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' rövidebb, váratlan eseményt jelöl."
+    },
+    {
+      "prompt_hu": "I ___ eating dinner ___ someone knocked on the door.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 1. személyhez 'was' tartozik."
+    },
+    {
+      "prompt_hu": "The baby ___ crying all day yesterday.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez 'was' tartozik."
+    },
+    {
+      "prompt_hu": "We ___ watching a movie ___ the lights went out.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az első blank 'were' igét igényli (többes szám 1. személy)."
+    },
+    {
+      "prompt_hu": "He ___ training at the gym ___ his friend called him.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy konkrét, rövid eseményt vezet be."
+    },
+    {
+      "prompt_hu": "You ___ not helping with the project yesterday.",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' után 'were' követi."
+    },
+    {
+      "prompt_hu": "The birds ___ flying south ___ autumn arrived.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy szezonális eseményt jelöl."
+    },
+    {
+      "prompt_hu": "I ___ fixing the car ___ it started working again.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy váratlan pozitív eseményt vezet be."
+    },
+    {
+      "prompt_hu": "She ___ not feeling well yesterday morning.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez tagadott formában is 'was' tartozik."
+    },
+    {
+      "prompt_hu": "They ___ planning their vacation ___ they found a cheap flight.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a terv megvalósulásának pillanatát jelöli."
+    },
+    {
+      "prompt_hu": "It ___ snowing heavily ___ we arrived at the mountain.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez 'was' tartozik."
+    },
+    {
+      "prompt_hu": "We ___ not driving very fast ___ the police stopped us.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy konkrét eseményt vezet be."
+    },
+    {
+      "prompt_hu": "He ___ working on his presentation ___ the deadline passed.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a határidő elérésének pillanatát jelöli."
+    },
+    {
+      "prompt_hu": "The students ___ taking the exam ___ the fire alarm went off.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 3. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "I ___ waiting for you ___ the restaurant closed.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 1. személyhez 'was' tartozik a múltban."
+    },
+    {
+      "prompt_hu": "She ___ decorating the house ___ the guests arrived.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a vendégek érkezésének pillanatát jelöli."
+    },
+    {
+      "prompt_hu": "You ___ jogging in the park ___ you twisted your ankle.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy sérülés pillanatát vezet be."
+    },
+    {
+      "prompt_hu": "The machine ___ making strange noises ___ it broke down.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a lezárult eseményt jelöl."
+    },
+    {
+      "prompt_hu": "We ___ not eating when you arrived.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 1. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "He ___ building a tree house ___ summer lasted.",
+      "options": [
+        "was",
+        "while",
+        "were"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'While' egy hosszabb időszakot jelöl."
+    },
+    {
+      "prompt_hu": "They ___ celebrating their anniversary ___ we bumped into them.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 3. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "I ___ not expecting to see you there.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 1. személyhez 'was' tartozik a múltban."
+    },
+    {
+      "prompt_hu": "She ___ sleeping peacefully ___ the earthquake occurred.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy váratlan, rövid eseményt vezet be."
+    },
+    {
+      "prompt_hu": "You ___ practicing your speech ___ the performance time came.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a fellépés időpontját jelöli."
+    },
+    {
+      "prompt_hu": "The chef ___ preparing dinner ___ the guests knocked.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a vendégek érkezésének pillanatát jelöli."
+    },
+    {
+      "prompt_hu": "We ___ hiking through the forest ___ we found an old cabin.",
+      "options": [
+        "were",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' egy felfedezés pillanatát vezet be."
+    },
+    {
+      "prompt_hu": "He ___ not listening to music ___ he studied.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 3. személyhez 'was' tartozik."
+    },
+    {
+      "prompt_hu": "The children ___ playing hide and seek ___ darkness fell.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 3. személyhez 'were' tartozik."
+    },
+    {
+      "prompt_hu": "I ___ thinking about you ___ you called me.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám 1. személyhez 'was' tartozik a múltban."
+    },
+    {
+      "prompt_hu": "She ___ wearing a blue dress ___ they took the photo.",
+      "options": [
+        "was",
+        "when",
+        "while"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'When' a fotó pillanatát jelöli."
+    },
+    {
+      "prompt_hu": "While I ___ the dishes, my brother came home.",
+      "options": [
+        "wash",
+        "was washing",
+        "washed"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'While' után folyamatos múlt kell: volt + ige-ing forma."
+    },
+    {
+      "prompt_hu": "They ___ not talking to each other when the teacher entered the classroom.",
+      "options": [
+        "were",
+        "was",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám 'they' után 'were' a helyes forma."
+    },
+    {
+      "prompt_hu": "___ you sleeping when the storm started last night?",
+      "options": [
+        "Was",
+        "Were",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'You' helyett egyes számban 'Was' kell a kérdésben, mivel itt személyesített szituációról van szó, de helyesen: 'Were you' – azonban egyes szám megjelenik, így 'Was' a helyes."
+    }
+  ]
+}

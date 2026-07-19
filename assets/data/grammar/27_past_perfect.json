@@ -1,0 +1,538 @@
+{
+  "id": "past_perfect",
+  "title_hu": "Régmúlt: past perfect és elbeszélő idők",
+  "subtitle_hu": "had done – a múlt előtti múlt",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Képzés: had + 3. alak",
+      "body_hu": "A past perfect (had + past participle) egy MÁSIK múltbeli esemény ELŐTT lezajlott cselekvést fejez ki.",
+      "examples": [
+        {
+          "en": "The train had left when we arrived.",
+          "hu": "A vonat elment, mire odaértünk."
+        },
+        {
+          "en": "She had eaten before I came.",
+          "hu": "Evett, mielőtt megjöttem."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Sorrend elbeszélésben",
+      "body_hu": "Elbeszélésben a past perfect jelzi, mi történt korábban, a past simple a fő eseménysort. Gyakori szavak: before, after, already, when.",
+      "examples": [
+        {
+          "en": "After he had finished, he left.",
+          "hu": "Miután befejezte, elment."
+        },
+        {
+          "en": "I had never seen it before.",
+          "hu": "Sosem láttam korábban."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "When we arrived, the film ___ already started.",
+      "options": [
+        "has",
+        "had",
+        "was"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Korábbi múltbeli esemény: past perfect 'had'."
+    },
+    {
+      "prompt_hu": "She ___ eaten before the guests came.",
+      "options": [
+        "had",
+        "has",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'had' + 3. alak a korábbi cselekvéshez."
+    },
+    {
+      "prompt_hu": "He had ___ the book before the exam.",
+      "options": [
+        "read",
+        "reading",
+        "reads"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "had + past participle: 'read'."
+    },
+    {
+      "prompt_hu": "By the time she called, I ___ already left the office.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + past participle a múltban megelőzött cselekvéshez."
+    },
+    {
+      "prompt_hu": "After he ___ finished his work, he went home.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect szerkezetben 'had' szükséges az előző cselekvéshez."
+    },
+    {
+      "prompt_hu": "They realized they ___ forgotten the keys at home.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Felismerés múltban: past perfect 'had' + forgotten."
+    },
+    {
+      "prompt_hu": "Before the rain started, we ___ already finished playing.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Before' jelzi, hogy a past perfect a múltbeli sorrend jelölésére szolgál."
+    },
+    {
+      "prompt_hu": "She told me she ___ never been to Paris before.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Közvetett beszédben past perfect 'had' szükséges."
+    },
+    {
+      "prompt_hu": "The train ___ left when we arrived at the station.",
+      "options": [
+        "have already",
+        "has already",
+        "had already"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Past perfect continuous: 'had already' + múltbeli esemény."
+    },
+    {
+      "prompt_hu": "He said that he ___ seen that film three times.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect múltban történt cselekvésre: 'had' + seen."
+    },
+    {
+      "prompt_hu": "By noon, the children ___ eaten all the cake.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'By noon' timeframe: past perfect 'had' + eaten."
+    },
+    {
+      "prompt_hu": "She ___ already called the doctor before her mother arrived.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect sorrend: 'had' jelzi az előbbi cselekvést."
+    },
+    {
+      "prompt_hu": "When the police arrived, the burglar ___ already escaped.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + escaped a korábban történt cselekvéshez."
+    },
+    {
+      "prompt_hu": "They didn't know that I ___ finished the project.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadott múltbeli tudatlanság: past perfect 'had'."
+    },
+    {
+      "prompt_hu": "After she ___ washed the dishes, she watched TV.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + washed az első cselekvéshez."
+    },
+    {
+      "prompt_hu": "The teacher asked if we ___ done our homework.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli kérdés: past perfect 'had' + done."
+    },
+    {
+      "prompt_hu": "I realized I ___ made a terrible mistake.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltban történt felismerés: past perfect 'had' + made."
+    },
+    {
+      "prompt_hu": "Once they ___ arrived home, they unpacked their bags.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Once' után past perfect: 'had' + arrived."
+    },
+    {
+      "prompt_hu": "He mentioned that he ___ worked there for five years.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli időtartam: past perfect 'had' + worked."
+    },
+    {
+      "prompt_hu": "By the time the game ended, she ___ scored five goals.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'By the time' + past simple: past perfect 'had' + scored."
+    },
+    {
+      "prompt_hu": "They were surprised because nobody ___ warned them.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect múltbeli meglepetéshez: 'had' + warned."
+    },
+    {
+      "prompt_hu": "She didn't remember that she ___ seen him before.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli emlékezethiány: past perfect 'had' + seen."
+    },
+    {
+      "prompt_hu": "When I opened the door, I realized someone ___ been inside.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + been az előző cselekvéshez."
+    },
+    {
+      "prompt_hu": "After we ___ discussed the plan, we decided to proceed.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect sorrend: 'had' + discussed."
+    },
+    {
+      "prompt_hu": "The restaurant was full because the game ___started.",
+      "options": [
+        "have just",
+        "has just",
+        "had just"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Past perfect: 'had just' + started múltbeli eseményt jelöl."
+    },
+    {
+      "prompt_hu": "He explained that he ___ lost his job months ago.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli magyarázat: past perfect 'had' + lost."
+    },
+    {
+      "prompt_hu": "By evening, the snow ___ covered the entire garden.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'By evening' timeframe: past perfect 'had' + covered."
+    },
+    {
+      "prompt_hu": "The police found the window that the thief ___ broken.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + broken az elkövetett bűncselekmény jelölésére."
+    },
+    {
+      "prompt_hu": "She realized that she ___ forgotten to buy milk.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli felismerés: past perfect 'had' + forgotten."
+    },
+    {
+      "prompt_hu": "Before the film started, they ___ bought popcorn.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Before' + past perfect sorrend: 'had' + bought."
+    },
+    {
+      "prompt_hu": "The children were tired because they ___ played all day.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect indoklás: 'had' + played."
+    },
+    {
+      "prompt_hu": "When she arrived at the party, everyone ___ already left.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + already + left."
+    },
+    {
+      "prompt_hu": "He didn't know that I ___ spoken to his boss.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli tudatlanság: past perfect 'had' + spoken."
+    },
+    {
+      "prompt_hu": "After the rain ___ stopped, we went for a walk.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect sorrend: 'had' + stopped."
+    },
+    {
+      "prompt_hu": "The doctor said that the patient ___ improved.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli közlés: past perfect 'had' + improved."
+    },
+    {
+      "prompt_hu": "By the time I arrived, the meeting ___ already finished.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + already + finished."
+    },
+    {
+      "prompt_hu": "She was grateful because her friend ___ helped her.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli hálázat: past perfect 'had' + helped."
+    },
+    {
+      "prompt_hu": "The explorer claimed that he ___ discovered a new island.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli állítás: past perfect 'had' + discovered."
+    },
+    {
+      "prompt_hu": "Once they ___ finished university, they moved to the city.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Once' + past perfect: 'had' + finished."
+    },
+    {
+      "prompt_hu": "He remembered that he ___ never told her the truth.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli emlékezet: past perfect 'had' + never + told."
+    },
+    {
+      "prompt_hu": "The coach was disappointed because the team ___ lost the game.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + lost az előző mérkőzésre."
+    },
+    {
+      "prompt_hu": "Before she became a doctor, she ___ studied for years.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Before' + cselekvés: past perfect 'had' + studied."
+    },
+    {
+      "prompt_hu": "When the police arrived, the suspect ___vanished.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: 'had' + vanished."
+    },
+    {
+      "prompt_hu": "The student confessed that he ___ cheated on the exam.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli bevallás: past perfect 'had' + cheated."
+    },
+    {
+      "prompt_hu": "By midnight, they ___ already celebrated the victory.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'By midnight' timeframe: past perfect 'had' + celebrated."
+    },
+    {
+      "prompt_hu": "She didn't realize that she ___ made the same mistake before.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli tudatlanság: past perfect 'had' + made."
+    },
+    {
+      "prompt_hu": "The witness said that he ___ seen the accident.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli bizonyítás: past perfect 'had' + seen."
+    },
+    {
+      "prompt_hu": "After the king ___died, his son took the throne.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect sorrend: 'had' + died."
+    },
+    {
+      "prompt_hu": "The teacher knew that the students ___ studied the material.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múltbeli tudás: past perfect 'had' + studied."
+    },
+    {
+      "prompt_hu": "Before they moved to London, they ___ lived in a small village for ten years.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past perfect: két múltbeli esemény közül a korábbi 'had' + 3. alak, mert a vidéken való lakás a londoniak költözés ELŐTT történt."
+    }
+  ]
+}

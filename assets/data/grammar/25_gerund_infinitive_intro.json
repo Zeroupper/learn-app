@@ -1,0 +1,538 @@
+{
+  "id": "gerund_infinitive_intro",
+  "title_hu": "Ige + -ing vagy ige + to",
+  "subtitle_hu": "like doing vs. want to do",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Ige + -ing",
+      "body_hu": "Bizonyos igék után -ing alak áll: like, love, enjoy, hate, finish, stop, mind.",
+      "examples": [
+        {
+          "en": "I enjoy reading.",
+          "hu": "Szeretek olvasni."
+        },
+        {
+          "en": "She finished eating.",
+          "hu": "Befejezte az evést."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Ige + to + alapige",
+      "body_hu": "Más igék után 'to + alapige' áll: want, need, would like, decide, hope, plan.",
+      "examples": [
+        {
+          "en": "I want to go home.",
+          "hu": "Haza akarok menni."
+        },
+        {
+          "en": "They decided to leave.",
+          "hu": "Úgy döntöttek, elmennek."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I enjoy ___ to music.",
+      "options": [
+        "listening",
+        "to listen",
+        "listen"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'enjoy' után -ing alak."
+    },
+    {
+      "prompt_hu": "She wants ___ a new car.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'want' után 'to + alapige'."
+    },
+    {
+      "prompt_hu": "They finished ___ the room.",
+      "options": [
+        "to paint",
+        "painting",
+        "paint"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'finish' után -ing alak."
+    },
+    {
+      "prompt_hu": "He loves ___ football with his friends.",
+      "options": [
+        "play",
+        "playing",
+        "to play"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'love' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "We need ___ the bus in five minutes.",
+      "options": [
+        "catch",
+        "catching",
+        "to catch"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A 'need' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "Do you mind ___ the window?",
+      "options": [
+        "opening",
+        "to open",
+        "open"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'mind' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "I hate ___ early in the morning.",
+      "options": [
+        "to wake up",
+        "waking up",
+        "wake up"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'hate' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "She would like ___ a doctor.",
+      "options": [
+        "becoming",
+        "to become",
+        "become"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'would like' után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "They stopped ___ at the restaurant.",
+      "options": [
+        "eat",
+        "eating",
+        "to eat"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'stop' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "My parents decided ___ a new house.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'decide' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "I hope ___ you soon.",
+      "options": [
+        "see",
+        "seeing",
+        "to see"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A 'hope' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "Does he like ___ with his dog?",
+      "options": [
+        "running",
+        "to run",
+        "run"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'like' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "She plans ___ to Italy next summer.",
+      "options": [
+        "going",
+        "to go",
+        "go"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'plan' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "We finished ___ the project yesterday.",
+      "options": [
+        "completing",
+        "to complete",
+        "complete"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'finish' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "He wants ___ a professional athlete.",
+      "options": [
+        "becoming",
+        "to become",
+        "become"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'want' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "Do you enjoy ___ in the rain?",
+      "options": [
+        "to walk",
+        "walk",
+        "walking"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Az 'enjoy' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "I need ___ more time to finish.",
+      "options": [
+        "having",
+        "to have",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'need' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "They hate ___ in traffic.",
+      "options": [
+        "sitting",
+        "to sit",
+        "sit"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'hate' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "Would you like ___ some coffee?",
+      "options": [
+        "drinking",
+        "to drink",
+        "drink"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'would like' után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "He stopped ___ cigarettes three years ago.",
+      "options": [
+        "to smoke",
+        "smoking",
+        "smoke"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'stop' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "She decided ___ a different job.",
+      "options": [
+        "finding",
+        "to find",
+        "find"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'decide' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "I hope ___ you at the party.",
+      "options": [
+        "meeting",
+        "to meet",
+        "meet"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'hope' iga után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "Do you like ___ museums?",
+      "options": [
+        "visiting",
+        "to visit",
+        "visit"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'like' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "They plan ___ next month.",
+      "options": [
+        "to marry",
+        "marrying",
+        "marry"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'plan' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "We love ___ together as a family.",
+      "options": [
+        "to spend time",
+        "spending time",
+        "spend time"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'love' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "Do you mind ___ here for a moment?",
+      "options": [
+        "to wait",
+        "waiting",
+        "wait"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'mind' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "He wants ___ medicine at university.",
+      "options": [
+        "studying",
+        "to study",
+        "study"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'want' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "She enjoys ___ books before bed.",
+      "options": [
+        "reading",
+        "to read",
+        "read"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'enjoy' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "I need ___ a new phone.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'need' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "They hate ___ in winter.",
+      "options": [
+        "to travel",
+        "traveling",
+        "travel"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'hate' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "Would you like ___ abroad?",
+      "options": [
+        "to live",
+        "living",
+        "live"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'would like' után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "He stopped ___ at the traffic light.",
+      "options": [
+        "to run",
+        "running",
+        "run"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'stop' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "She decided ___ her job.",
+      "options": [
+        "to leave",
+        "leaving",
+        "leave"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'decide' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "I hope ___ the exam.",
+      "options": [
+        "passing",
+        "to pass",
+        "pass"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'hope' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "Do you like ___ to music?",
+      "options": [
+        "listening",
+        "to listen",
+        "listen"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'like' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "They plan ___ a house next year.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'plan' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "We love ___ on the beach.",
+      "options": [
+        "relaxing",
+        "to relax",
+        "relax"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'love' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "Do you mind ___ the dishes?",
+      "options": [
+        "to wash",
+        "washing",
+        "wash"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'mind' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "He wants ___ his family soon.",
+      "options": [
+        "visiting",
+        "to visit",
+        "visit"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'want' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "She enjoys ___ new places.",
+      "options": [
+        "exploring",
+        "to explore",
+        "explore"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'enjoy' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "I need ___ my homework.",
+      "options": [
+        "doing",
+        "to do",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'need' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "They hate ___ in long meetings.",
+      "options": [
+        "sitting",
+        "to sit",
+        "sit"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'hate' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "Would you like ___ dinner with us?",
+      "options": [
+        "having",
+        "to have",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'would like' után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "He stopped ___ at the store.",
+      "options": [
+        "to shop",
+        "shopping",
+        "shop"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'stop' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "She decided ___ a different path in life.",
+      "options": [
+        "taking",
+        "to take",
+        "take"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'decide' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "I hope ___ my friends this weekend.",
+      "options": [
+        "seeing",
+        "to see",
+        "see"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'hope' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "Do you like ___ sports?",
+      "options": [
+        "playing",
+        "to play",
+        "play"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A 'like' ige után -ing alak következik."
+    },
+    {
+      "prompt_hu": "They plan ___ a vacation in summer.",
+      "options": [
+        "taking",
+        "to take",
+        "take"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'plan' ige után 'to' + alapige áll."
+    },
+    {
+      "prompt_hu": "She loves ___ the piano every day.",
+      "options": [
+        "playing",
+        "play",
+        "to play"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Love' után -ing alak áll, nem 'to + alapige'."
+    },
+    {
+      "prompt_hu": "I would like ___ you about my plans.",
+      "options": [
+        "telling",
+        "tell",
+        "to tell"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Would like' után 'to + alapige' áll, nem -ing alak."
+    }
+  ]
+}

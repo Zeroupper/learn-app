@@ -1,0 +1,538 @@
+{
+  "id": "reported_speech",
+  "title_hu": "Függő beszéd: reported speech",
+  "subtitle_hu": "She said she was tired – idézés",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Igeidő-eltolás (backshift)",
+      "body_hu": "Függő beszédben az igeidő egy lépéssel hátrébb csúszik: present → past, past → past perfect, will → would.",
+      "examples": [
+        {
+          "en": "She said, \"I am tired.\" → She said she was tired.",
+          "hu": "Azt mondta, fáradt."
+        },
+        {
+          "en": "He said, \"I will call.\" → He said he would call.",
+          "hu": "Azt mondta, felhív."
+        }
+      ]
+    },
+    {
+      "heading_hu": "say vs tell, névmások és idő",
+      "body_hu": "'tell' után áll a személy (tell me), 'say' után nem. A névmások és időhatározók is igazodnak: now → then, today → that day.",
+      "examples": [
+        {
+          "en": "He told me he was busy.",
+          "hu": "Azt mondta nekem, elfoglalt."
+        },
+        {
+          "en": "She said she lived there.",
+          "hu": "Azt mondta, ott lakik."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "She said she ___ tired.",
+      "options": [
+        "is",
+        "was",
+        "will be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Backshift: present → past ('was')."
+    },
+    {
+      "prompt_hu": "He ___ me that he was late.",
+      "options": [
+        "said",
+        "told",
+        "say"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Személlyel: 'told me'."
+    },
+    {
+      "prompt_hu": "They said they ___ come the next day.",
+      "options": [
+        "will",
+        "would",
+        "shall"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "will → would függő beszédben."
+    },
+    {
+      "prompt_hu": "She told me that she ___ in London.",
+      "options": [
+        "lives",
+        "lived",
+        "will live"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Függő beszédben present → past, így 'lived'."
+    },
+    {
+      "prompt_hu": "He said he ___ the answer yesterday.",
+      "options": [
+        "knows",
+        "knew",
+        "has known"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Függő beszédben az igeidő egy lépéssel hátrébb csúszik."
+    },
+    {
+      "prompt_hu": "They told us they ___ to the party next week.",
+      "options": [
+        "go",
+        "went",
+        "would go"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Will go' helyett 'would go' a függő beszédben."
+    },
+    {
+      "prompt_hu": "She ___ she was very happy.",
+      "options": [
+        "told",
+        "said",
+        "tells"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Say' után nem áll személy, így 'said' a helyes."
+    },
+    {
+      "prompt_hu": "He told me he ___ finished his homework.",
+      "options": [
+        "has",
+        "had",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect, így 'had'."
+    },
+    {
+      "prompt_hu": "They said they ___ see us the following day.",
+      "options": [
+        "can",
+        "could",
+        "will"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Can' → 'could' a függő beszédben."
+    },
+    {
+      "prompt_hu": "She told her friend that she ___ never been to Paris.",
+      "options": [
+        "has",
+        "had",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect, így 'had'."
+    },
+    {
+      "prompt_hu": "He ___ that he didn't like coffee.",
+      "options": [
+        "told me",
+        "said to me",
+        "said"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Say' után nem kell személy, így 'said'."
+    },
+    {
+      "prompt_hu": "They told us they ___ working on the project.",
+      "options": [
+        "are",
+        "were",
+        "be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present continuous → past continuous, így 'were'."
+    },
+    {
+      "prompt_hu": "She said she would ___ me ___ she got home.",
+      "options": [
+        "call / when",
+        "tell / if",
+        "ask / where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Call me when' a megfelelő szerkezet."
+    },
+    {
+      "prompt_hu": "He told me he ___ come to the meeting.",
+      "options": [
+        "can't",
+        "couldn't",
+        "won't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Can't' → 'couldn't' a függő beszédben."
+    },
+    {
+      "prompt_hu": "They said that day ___ beautiful.",
+      "options": [
+        "is",
+        "was",
+        "will be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Today' → 'that day', present → past, így 'was'."
+    },
+    {
+      "prompt_hu": "She told me that she ___ the book last night.",
+      "options": [
+        "reads",
+        "read",
+        "will read"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past simple marad past simple-nek, de kontextus miatt 'read'."
+    },
+    {
+      "prompt_hu": "He ___ he was going to university.",
+      "options": [
+        "said me",
+        "told me",
+        "said"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Say' után nem áll személy."
+    },
+    {
+      "prompt_hu": "They told us they ___ already eaten lunch.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect, így 'had'."
+    },
+    {
+      "prompt_hu": "She said she ___ her keys.",
+      "options": [
+        "loses",
+        "lost",
+        "has lost"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past simple a függő beszédben."
+    },
+    {
+      "prompt_hu": "He told me that now ___ then.",
+      "options": [
+        "becomes",
+        "became",
+        "had become"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Now' → 'then', time shift a függő beszédben."
+    },
+    {
+      "prompt_hu": "They said they ___ understand the question.",
+      "options": [
+        "don't",
+        "didn't",
+        "won't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present → past, így 'didn't'."
+    },
+    {
+      "prompt_hu": "She told me she ___ buy a new car.",
+      "options": [
+        "will",
+        "would",
+        "is going to"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Will' → 'would' a függő beszédben."
+    },
+    {
+      "prompt_hu": "He ___ that he had never seen such a thing.",
+      "options": [
+        "told me",
+        "said to me",
+        "said"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Say' után nem kell személy."
+    },
+    {
+      "prompt_hu": "They told us they ___ been waiting for hours.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous → past perfect, így 'had'."
+    },
+    {
+      "prompt_hu": "She said she ___ find her phone.",
+      "options": [
+        "can't",
+        "couldn't",
+        "won't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present → past, 'can't' → 'couldn't'."
+    },
+    {
+      "prompt_hu": "He told me that today ___ that day.",
+      "options": [
+        "was",
+        "is",
+        "becomes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Today' időhatározó 'that day'-re változik függő beszédben."
+    },
+    {
+      "prompt_hu": "They said they ___ to school every day.",
+      "options": [
+        "go",
+        "went",
+        "will go"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Szokás kifejezésében is igeidő-eltolás történik."
+    },
+    {
+      "prompt_hu": "She told her mother she ___ tired.",
+      "options": [
+        "is",
+        "am",
+        "was"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present → past, így 'was'."
+    },
+    {
+      "prompt_hu": "He ___ he couldn't come.",
+      "options": [
+        "told me",
+        "said",
+        "says"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Say' után nem áll személy."
+    },
+    {
+      "prompt_hu": "They told us they ___ the news.",
+      "options": [
+        "hear",
+        "heard",
+        "will hear"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Past simple a függő beszédben."
+    },
+    {
+      "prompt_hu": "She said she ___ ever tasted sushi before.",
+      "options": [
+        "has never",
+        "had never",
+        "never"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect, így 'had never'."
+    },
+    {
+      "prompt_hu": "He told me that ___ was his birthday.",
+      "options": [
+        "tomorrow",
+        "the next day",
+        "next day"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Időhatározók is változnak: 'tomorrow' → 'the next day'."
+    },
+    {
+      "prompt_hu": "They said they ___ go to the cinema that evening.",
+      "options": [
+        "would",
+        "will",
+        "are going to"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Will' → 'would' a függő beszédben."
+    },
+    {
+      "prompt_hu": "She told me she ___ never done that before.",
+      "options": [
+        "has",
+        "had",
+        "have"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect."
+    },
+    {
+      "prompt_hu": "He ___ that the weather was nice.",
+      "options": [
+        "told me",
+        "said to me",
+        "said"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Say' után nem kell személyjelölés."
+    },
+    {
+      "prompt_hu": "They told us they ___ arrive by midnight.",
+      "options": [
+        "will",
+        "would",
+        "shall"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Will' → 'would' a függő beszédben."
+    },
+    {
+      "prompt_hu": "She said she ___ like chocolate.",
+      "options": [
+        "doesn't",
+        "didn't",
+        "won't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present → past, így 'didn't'."
+    },
+    {
+      "prompt_hu": "He told me that yesterday ___ the day before.",
+      "options": [
+        "was",
+        "is",
+        "becomes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Yesterday' → 'the day before' függő beszédben."
+    },
+    {
+      "prompt_hu": "They said they ___ playing football when I called.",
+      "options": [
+        "are",
+        "were",
+        "will be"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present continuous → past continuous, így 'were'."
+    },
+    {
+      "prompt_hu": "She told him she ___ study all night.",
+      "options": [
+        "will",
+        "would",
+        "is going to"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Will' → 'would' a függő beszédben."
+    },
+    {
+      "prompt_hu": "He ___ he was sorry.",
+      "options": [
+        "told me",
+        "said to me",
+        "said"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Say' után nem szükséges a személy."
+    },
+    {
+      "prompt_hu": "They told us they ___ already seen that film.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect."
+    },
+    {
+      "prompt_hu": "She said she ___ go if she had time.",
+      "options": [
+        "will",
+        "would",
+        "could"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Feltételes mód függő beszédben."
+    },
+    {
+      "prompt_hu": "He told me that ___ was sunny.",
+      "options": [
+        "today",
+        "that day",
+        "this day"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Today' → 'that day' az időhatározó-eltolás."
+    },
+    {
+      "prompt_hu": "They said they ___ been to Japan.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect → past perfect, így 'had'."
+    },
+    {
+      "prompt_hu": "She told me she ___ understand the instructions.",
+      "options": [
+        "doesn't",
+        "didn't",
+        "won't"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present → past, így 'didn't'."
+    },
+    {
+      "prompt_hu": "He ___ that he would help us.",
+      "options": [
+        "told me",
+        "said",
+        "told"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Say' a helyes, nem 'tell' személyjelölés nélkül."
+    },
+    {
+      "prompt_hu": "They told us they ___ there the week before.",
+      "options": [
+        "were",
+        "are",
+        "will be"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Past simple → past simple, és 'that week' → 'the week before'."
+    },
+    {
+      "prompt_hu": "She told me that she ___ to call me the next day.",
+      "options": [
+        "will",
+        "would",
+        "is going"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'will' igeidő a függő beszédben 'would'-ra változik (igeidő-eltolás)."
+    },
+    {
+      "prompt_hu": "He said that ___ was raining when he arrived home.",
+      "options": [
+        "it",
+        "that",
+        "this"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'it' a weather/időjárás kifejezésekben használandó, nem pedig 'that' vagy 'this'."
+    }
+  ]
+}

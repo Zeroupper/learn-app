@@ -1,0 +1,560 @@
+{
+  "id": "past_simple",
+  "title_hu": "Egyszerű múlt idő",
+  "subtitle_hu": "Past simple: -ed és rendhagyó igék",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Szabályos igék: -ed",
+      "body_hu": "A befejezett, múltbeli cselekvésekhez a szabályos igékhez -ed végződést teszünk. Minden személyben ugyanaz az alak (nincs -s)!",
+      "examples": [
+        {
+          "en": "I worked yesterday.",
+          "hu": "Tegnap dolgoztam."
+        },
+        {
+          "en": "She played tennis.",
+          "hu": "Teniszezett."
+        },
+        {
+          "en": "They watched a film.",
+          "hu": "Megnéztek egy filmet."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Rendhagyó igék",
+      "body_hu": "Sok gyakori ige rendhagyó, ezeket meg kell tanulni: go → went, have → had, see → saw, eat → ate, buy → bought, come → came.",
+      "examples": [
+        {
+          "en": "I went to London.",
+          "hu": "Londonba mentem."
+        },
+        {
+          "en": "We had lunch.",
+          "hu": "Megebédeltünk."
+        },
+        {
+          "en": "He bought a car.",
+          "hu": "Vett egy autót."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Kérdés és tagadás: did",
+      "body_hu": "Kérdésben és tagadásban a „did” segédigét használjuk, a főige pedig visszaáll ALAPALAKBA (nincs múlt jel a főigén).",
+      "examples": [
+        {
+          "en": "Did you see her?",
+          "hu": "Láttad őt?"
+        },
+        {
+          "en": "I didn't go.",
+          "hu": "Nem mentem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I ___ to the store yesterday.",
+      "options": [
+        "go",
+        "went",
+        "goes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: go → went."
+    },
+    {
+      "prompt_hu": "She ___ a beautiful dress last week.",
+      "options": [
+        "buy",
+        "bought",
+        "buys"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: buy → bought."
+    },
+    {
+      "prompt_hu": "They ___ lunch together at noon.",
+      "options": [
+        "eat",
+        "ate",
+        "eats"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: eat → ate."
+    },
+    {
+      "prompt_hu": "We ___ a new car last month.",
+      "options": [
+        "have",
+        "had",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: have → had."
+    },
+    {
+      "prompt_hu": "You ___ to the party on Friday.",
+      "options": [
+        "come",
+        "came",
+        "comes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: come → came."
+    },
+    {
+      "prompt_hu": "I ___ my homework after school.",
+      "options": [
+        "finish",
+        "finished",
+        "finishes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "She ___ the door and left.",
+      "options": [
+        "close",
+        "closed",
+        "closes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "They ___ the game last night.",
+      "options": [
+        "play",
+        "played",
+        "plays"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "He ___ a long time in the office.",
+      "options": [
+        "work",
+        "worked",
+        "works"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "Did you ___ the movie yesterday?",
+      "options": [
+        "watched",
+        "watch",
+        "watches"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Did után az ige alapalakba kerül, nem múlt alakba."
+    },
+    {
+      "prompt_hu": "Did they ___ breakfast this morning?",
+      "options": [
+        "eat",
+        "ate",
+        "eaten"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: eat, nem ate."
+    },
+    {
+      "prompt_hu": "Did she ___ to London last year?",
+      "options": [
+        "go",
+        "went",
+        "gone"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: go, nem went."
+    },
+    {
+      "prompt_hu": "I did not ___ my keys yesterday.",
+      "options": [
+        "find",
+        "found",
+        "finds"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did not után az ige alapalakba kerül: find, nem found."
+    },
+    {
+      "prompt_hu": "She did not ___ the letter.",
+      "options": [
+        "receive",
+        "received",
+        "receives"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did not után az ige alapalakba kerül: receive, nem received."
+    },
+    {
+      "prompt_hu": "We ___ the house two hours ago.",
+      "options": [
+        "clean",
+        "cleaned",
+        "cleans"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "They ___ at the restaurant until late.",
+      "options": [
+        "stay",
+        "stayed",
+        "stays"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "He ___ a book yesterday afternoon.",
+      "options": [
+        "read",
+        "readed",
+        "reads"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múlt idő rendhagyó ige: read (múltban is read, de másként ejtik)."
+    },
+    {
+      "prompt_hu": "I ___ my friends last weekend.",
+      "options": [
+        "call",
+        "called",
+        "calls"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "She ___ the windows this morning.",
+      "options": [
+        "open",
+        "opened",
+        "opens"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "Did he ___ to the meeting?",
+      "options": [
+        "come",
+        "came",
+        "comes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: come, nem came."
+    },
+    {
+      "prompt_hu": "They ___ the project three days ago.",
+      "options": [
+        "start",
+        "started",
+        "starts"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "You ___ me a nice gift yesterday.",
+      "options": [
+        "give",
+        "gave",
+        "gives"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: give → gave."
+    },
+    {
+      "prompt_hu": "I ___ in that city for five years.",
+      "options": [
+        "live",
+        "lived",
+        "lives"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "Did you ___ the answer to the question?",
+      "options": [
+        "know",
+        "knew",
+        "knows"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: know, nem knew."
+    },
+    {
+      "prompt_hu": "He ___ a new job last month.",
+      "options": [
+        "find",
+        "found",
+        "finds"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: find → found."
+    },
+    {
+      "prompt_hu": "They ___ the museum on Saturday morning.",
+      "options": [
+        "visit",
+        "visited",
+        "visits"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "I ___ my umbrella at home.",
+      "options": [
+        "leave",
+        "left",
+        "leaves"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: leave → left."
+    },
+    {
+      "prompt_hu": "Did she ___ a mistake in the test?",
+      "options": [
+        "make",
+        "made",
+        "makes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: make, nem made."
+    },
+    {
+      "prompt_hu": "We ___ the tickets online yesterday.",
+      "options": [
+        "book",
+        "booked",
+        "books"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "He ___ the answer very quickly.",
+      "options": [
+        "understand",
+        "understood",
+        "understands"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: understand → understood."
+    },
+    {
+      "prompt_hu": "Did they ___ to help us?",
+      "options": [
+        "offer",
+        "offered",
+        "offers"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: offer, nem offered."
+    },
+    {
+      "prompt_hu": "She ___ her voice during the presentation.",
+      "options": [
+        "raise",
+        "raised",
+        "raises"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "I ___ the email this afternoon.",
+      "options": [
+        "receive",
+        "received",
+        "receives"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződség."
+    },
+    {
+      "prompt_hu": "They ___ hands and ran away.",
+      "options": [
+        "hold",
+        "held",
+        "holds"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: hold → held."
+    },
+    {
+      "prompt_hu": "You ___ coffee this morning, didn't you?",
+      "options": [
+        "drink",
+        "drank",
+        "drinks"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: drink → drank."
+    },
+    {
+      "prompt_hu": "Did he ___ the instructions carefully?",
+      "options": [
+        "follow",
+        "followed",
+        "follows"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: follow, nem followed."
+    },
+    {
+      "prompt_hu": "She ___ a new skill last year.",
+      "options": [
+        "learn",
+        "learned",
+        "learns"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "I ___ the package yesterday at 5 PM.",
+      "options": [
+        "send",
+        "sent",
+        "sends"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: send → sent."
+    },
+    {
+      "prompt_hu": "They ___ the bridge successfully.",
+      "options": [
+        "build",
+        "built",
+        "builds"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: build → built."
+    },
+    {
+      "prompt_hu": "Did you ___ the concert on Friday?",
+      "options": [
+        "attend",
+        "attended",
+        "attends"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: attend, nem attended."
+    },
+    {
+      "prompt_hu": "He ___ his old guitar in the attic.",
+      "options": [
+        "find",
+        "found",
+        "finds"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: find → found."
+    },
+    {
+      "prompt_hu": "I ___ my wallet on the table.",
+      "options": [
+        "put",
+        "putted",
+        "puts"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múlt idő rendhagyó ige: put → put (ugyanaz az alak)."
+    },
+    {
+      "prompt_hu": "She ___ the window and looked outside.",
+      "options": [
+        "open",
+        "opened",
+        "opens"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "They ___ the problem in the meeting.",
+      "options": [
+        "discuss",
+        "discussed",
+        "discusses"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő szabályos ige: -ed végződés."
+    },
+    {
+      "prompt_hu": "Did he ___ a good salary at his job?",
+      "options": [
+        "earn",
+        "earned",
+        "earns"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Did után az ige alapalakba kerül: earn, nem earned."
+    },
+    {
+      "prompt_hu": "I ___ the news on television last night.",
+      "options": [
+        "hear",
+        "heard",
+        "hears"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Múlt idő rendhagyó ige: hear → heard."
+    },
+    {
+      "prompt_hu": "He ___ to the beach with his family last summer.",
+      "options": [
+        "go",
+        "went",
+        "goes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'go' rendhagyó ige múlt ideje 'went'."
+    },
+    {
+      "prompt_hu": "Did she ___ the book you recommended?",
+      "options": [
+        "read",
+        "readed",
+        "reads"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Kérdésben 'did' után az ige alapalakban van: 'read'."
+    },
+    {
+      "prompt_hu": "We ___ our tickets last week, but we lost them.",
+      "options": [
+        "buyed",
+        "bought",
+        "buy"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A 'buy' rendhagyó ige múlt ideje 'bought'."
+    },
+    {
+      "prompt_hu": "They did not ___ any mistakes during the exam.",
+      "options": [
+        "made",
+        "make",
+        "makes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Tagadásban 'did not' után az ige alapalakban van: 'make'."
+    }
+  ]
+}

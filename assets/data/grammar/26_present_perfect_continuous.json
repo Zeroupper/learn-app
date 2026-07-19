@@ -1,0 +1,558 @@
+{
+  "id": "present_perfect_continuous",
+  "title_hu": "Present perfect continuous",
+  "subtitle_hu": "I have been working – folyamat a jelenig",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Képzés: have/has been + ige-ing",
+      "body_hu": "A present perfect continuous egy múltban kezdődött és a jelenig tartó (vagy épp befejeződött) FOLYAMATOT hangsúlyoz.",
+      "examples": [
+        {
+          "en": "I have been working all day.",
+          "hu": "Egész nap dolgoztam (és fárasztó)."
+        },
+        {
+          "en": "She has been studying for hours.",
+          "hu": "Órák óta tanul."
+        }
+      ]
+    },
+    {
+      "heading_hu": "for / since és a hatás a jelenre",
+      "body_hu": "'for' + időtartam, 'since' + kezdőpont. Gyakran a jelenben látható eredményt vagy a tevékenység hosszát emeli ki.",
+      "examples": [
+        {
+          "en": "It has been raining since morning.",
+          "hu": "Reggel óta esik."
+        },
+        {
+          "en": "They have been living here for years.",
+          "hu": "Évek óta itt élnek."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "I have been ___ for two hours.",
+      "options": [
+        "work",
+        "working",
+        "worked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "have been + ige-ing."
+    },
+    {
+      "prompt_hu": "She has been ___ since noon.",
+      "options": [
+        "study",
+        "studied",
+        "studying"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "has been + ige-ing."
+    },
+    {
+      "prompt_hu": "It has been raining ___ this morning.",
+      "options": [
+        "for",
+        "since",
+        "from"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kezdőpont: 'since'."
+    },
+    {
+      "prompt_hu": "We have been ___ on this project for three weeks.",
+      "options": [
+        "work",
+        "working",
+        "worked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "He has been ___ English since last year.",
+      "options": [
+        "learn",
+        "learning",
+        "learned"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "They have been ___ the house for two days now.",
+      "options": [
+        "paint",
+        "painting",
+        "painted"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "You have been ___ too much coffee lately.",
+      "options": [
+        "drink",
+        "drinking",
+        "drank"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "She has been ___ in the garden all morning.",
+      "options": [
+        "work",
+        "working",
+        "works"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "I have been ___ my keys everywhere.",
+      "options": [
+        "look",
+        "looking",
+        "looked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "The children have been ___ in the park since morning.",
+      "options": [
+        "play",
+        "playing",
+        "played"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "He has been ___ the same job ___ five years.",
+      "options": [
+        "do",
+        "for",
+        "doing",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "We have been ___ for a solution ___ last month.",
+      "options": [
+        "search",
+        "since",
+        "searching",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "Mary has been ___ her dissertation ___ three months.",
+      "options": [
+        "write",
+        "for",
+        "writing",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "They have been ___ about moving to another city.",
+      "options": [
+        "talk",
+        "talking",
+        "talked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "I have been ___ this book for a week.",
+      "options": [
+        "read",
+        "reading",
+        "reads"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "She has been ___ to the gym ___ January.",
+      "options": [
+        "go",
+        "since",
+        "going",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "You have been ___ the same thing repeatedly.",
+      "options": [
+        "say",
+        "saying",
+        "said"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "The dog has been ___ outside all day.",
+      "options": [
+        "bark",
+        "barking",
+        "barked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "We have been ___ this problem ___ hours.",
+      "options": [
+        "solve",
+        "for",
+        "solving",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "He has been ___ the same mistakes over and over.",
+      "options": [
+        "make",
+        "making",
+        "makes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "I have been ___ about this decision ___ yesterday.",
+      "options": [
+        "think",
+        "since",
+        "thinking",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "They have been ___ the apartment since early morning.",
+      "options": [
+        "clean",
+        "cleaning",
+        "cleaned"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "She has been ___ with the same company ___ ten years.",
+      "options": [
+        "work",
+        "for",
+        "working",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "You have been ___ too loud; please be quiet.",
+      "options": [
+        "talk",
+        "talking",
+        "talked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "He has been ___ that question all week.",
+      "options": [
+        "ask",
+        "asking",
+        "asked"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "I have been ___ for a new job ___ last spring.",
+      "options": [
+        "search",
+        "since",
+        "searching",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "The company has been ___ its profits ___ years.",
+      "options": [
+        "lose",
+        "for",
+        "losing",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "We have been ___ to find volunteers ___ a month.",
+      "options": [
+        "try",
+        "for",
+        "trying",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "She has been ___ her gym routine consistently.",
+      "options": [
+        "follow",
+        "following",
+        "follows"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "They have been ___ the news about the festival.",
+      "options": [
+        "spread",
+        "spreading",
+        "spreads"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "I have been ___ my colleagues with the project.",
+      "options": [
+        "help",
+        "helping",
+        "helped"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "He has been ___ to improve his fitness ___ months.",
+      "options": [
+        "try",
+        "for",
+        "trying",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "You have been ___ your phone notifications non-stop.",
+      "options": [
+        "check",
+        "checking",
+        "checks"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "The students have been ___ for their exams ___ weeks.",
+      "options": [
+        "study",
+        "for",
+        "studying",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "She has been ___ that novel all summer.",
+      "options": [
+        "write",
+        "writing",
+        "writes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "We have been ___ the new software since last Monday.",
+      "options": [
+        "test",
+        "testing",
+        "tested"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "The team has been ___ on this challenge ___ a year.",
+      "options": [
+        "work",
+        "for",
+        "working",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "I have been ___ this opportunity ___ Friday.",
+      "options": [
+        "await",
+        "since",
+        "awaiting",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "They have been ___ in touch ___ the renovation started.",
+      "options": [
+        "keep",
+        "since",
+        "keeping",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "He has been ___ his savings into that investment.",
+      "options": [
+        "pour",
+        "pouring",
+        "pours"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "You have been ___ my advice, and it shows.",
+      "options": [
+        "ignore",
+        "ignoring",
+        "ignores"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "She has been ___ to reach you ___ hours.",
+      "options": [
+        "try",
+        "for",
+        "trying",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "The children have been ___ their homework since school ended.",
+      "options": [
+        "avoid",
+        "avoiding",
+        "avoids"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "We have been ___ the situation carefully ___ the beginning.",
+      "options": [
+        "monitor",
+        "since",
+        "monitoring",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'since' + kezdőpont."
+    },
+    {
+      "prompt_hu": "I have been ___ to understand this concept ___ a while.",
+      "options": [
+        "struggle",
+        "for",
+        "struggling",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "He has been ___ his dreams into reality.",
+      "options": [
+        "turn",
+        "turning",
+        "turns"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'has been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "They have been ___ the annual report ___ weeks.",
+      "options": [
+        "prepare",
+        "for",
+        "preparing",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "You have been ___ your potential lately.",
+      "options": [
+        "waste",
+        "wasting",
+        "wastes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present perfect continuous a 'have been' után -ing alakot igényel."
+    },
+    {
+      "prompt_hu": "The orchestra has been ___ for the big concert ___ months.",
+      "options": [
+        "prepare",
+        "for",
+        "preparing",
+        "since"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Present perfect continuous -ing alakot igényel, és 'for' + időtartam."
+    },
+    {
+      "prompt_hu": "They have been ___ their apartment since yesterday, and it looks much better now.",
+      "options": [
+        "decorated",
+        "decorating",
+        "decorate"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "A present perfect continuous képzése: have/has been + ige-ing forma. Az 'since yesterday' azt mutatja, hogy a tevékenység múltban kezdődött és a jelenig tart."
+    }
+  ]
+}

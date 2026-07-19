@@ -1,0 +1,538 @@
+{
+  "id": "object_pronouns",
+  "title_hu": "Tárgyesetű névmások: me / him / them",
+  "subtitle_hu": "Engem, őt, őket",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Tárgyesetű névmások",
+      "body_hu": "Ige vagy elöljáró után tárgyesetű névmás áll: me, you, him, her, it, us, them. Nem alanyesetű (I, he, she…) alak.",
+      "examples": [
+        {
+          "en": "She loves him.",
+          "hu": "Szereti őt."
+        },
+        {
+          "en": "Call me tonight.",
+          "hu": "Hívj fel ma este."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Elöljáró után is tárgyeset",
+      "body_hu": "Elöljárószó (with, for, to, at) után is a tárgyesetű alak áll.",
+      "examples": [
+        {
+          "en": "This gift is for you.",
+          "hu": "Ez az ajándék neked van."
+        },
+        {
+          "en": "Come with us.",
+          "hu": "Gyere velünk."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "Can you help ___ with this?",
+      "options": [
+        "me",
+        "I",
+        "my"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Ige után tárgyeset: 'me'."
+    },
+    {
+      "prompt_hu": "I saw ___ at the party.",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyeset: 'them'."
+    },
+    {
+      "prompt_hu": "This letter is for ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyeset: 'him'."
+    },
+    {
+      "prompt_hu": "Give ___ the book please.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "She wants to talk to ___.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "Can you see ___?",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "This gift is from ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "Do you know ___?",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "I bought a present for ___.",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "She invited ___ to the party.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can I sit next to ___?",
+      "options": [
+        "you",
+        "your",
+        "yours"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "They told ___ the truth.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "This is between you and ___.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I don't understand ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Come with ___ tomorrow.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "She called ___ yesterday.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "I wrote the email for ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "Do you like ___?",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you pass ___ the salt?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "We are going out with ___.",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "They gave ___ some money.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "This is a secret between ___.",
+      "options": [
+        "we",
+        "us",
+        "our"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I don't believe ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you wait for ___?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "She invited ___ to dinner.",
+      "options": [
+        "we",
+        "us",
+        "our"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "This book is about ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I saw ___ in the street.",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you come with ___?",
+      "options": [
+        "we",
+        "us",
+        "our"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I like to read it to ___.",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "She thanked ___ for the help.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you tell ___ the story?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "We went there with ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I don't know ___.",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "This present is from ___.",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "Can you show ___ the way?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "I am thinking of ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "They asked ___ to leave.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "I will speak to ___ later.",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I want to meet ___.",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you sit beside ___?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "She will help ___ tomorrow.",
+      "options": [
+        "we",
+        "us",
+        "our"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "This is a message for ___.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "I love ___!",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you dance with ___?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "They stopped ___ at the door.",
+      "options": [
+        "we",
+        "us",
+        "our"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "I want to talk about ___.",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "She will meet ___ at noon.",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Ige után tárgyesetű névmás áll."
+    },
+    {
+      "prompt_hu": "Can you work with ___?",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Elöljáró után tárgyesetű névmás szükséges."
+    },
+    {
+      "prompt_hu": "The teacher asked ___ to answer the question.",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az ige után tárgyesetű névmás (him) áll, nem alanyeset (he)."
+    },
+    {
+      "prompt_hu": "I gave the money to ___ because she needed it.",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az elöljáró (to) után tárgyesetű névmás (her) áll, nem alanyeset (she)."
+    }
+  ]
+}

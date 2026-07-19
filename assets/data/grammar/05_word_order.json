@@ -1,0 +1,542 @@
+{
+  "id": "word_order",
+  "title_hu": "Szórend: alany–állítmány–tárgy",
+  "subtitle_hu": "Az angol kötött szórendje",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "SVO: a fő szabály",
+      "body_hu": "Az angol szórend kötött: Alany (Subject) → Ige (Verb) → Tárgy (Object). A magyarban szabadon cserélgethetjük a szavakat, az angolban NEM — a sorrend hordozza a jelentést!",
+      "examples": [
+        {
+          "en": "The dog bites the man.",
+          "hu": "A kutya megharapja az embert."
+        },
+        {
+          "en": "The man bites the dog.",
+          "hu": "Az ember megharapja a kutyát. (fordított jelentés!)"
+        },
+        {
+          "en": "I love you.",
+          "hu": "Szeretlek."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Hely és idő a mondat végén",
+      "body_hu": "A helyet és időt jellemzően a mondat végére tesszük, méghozzá gyakran helyet, majd időt: alany + ige + tárgy + hely + idő.",
+      "examples": [
+        {
+          "en": "I study English at home every day.",
+          "hu": "Otthon tanulok angolul minden nap."
+        },
+        {
+          "en": "She went to school yesterday.",
+          "hu": "Tegnap iskolába ment."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "John ___ his breakfast every morning.",
+      "options": [
+        "eats",
+        "eat",
+        "eating"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes számban a múlt idő után 'eats'."
+    },
+    {
+      "prompt_hu": "The cat ___ the bird in the garden.",
+      "options": [
+        "chase",
+        "chases",
+        "chased"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Present simple harmadik személyű egyes számban 's' végződés."
+    },
+    {
+      "prompt_hu": "We ___ our homework at home.",
+      "options": [
+        "do",
+        "does",
+        "doing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes számban 'do' használunk."
+    },
+    {
+      "prompt_hu": "She ___ a letter to her friend yesterday.",
+      "options": [
+        "writes",
+        "wrote",
+        "write"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' (tegnap) múlt időt jelent, így 'wrote'."
+    },
+    {
+      "prompt_hu": "They ___ football in the park every Saturday.",
+      "options": [
+        "plays",
+        "play",
+        "playing"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 'play' (nem 'plays')."
+    },
+    {
+      "prompt_hu": "The dog ___ the ball in the yard.",
+      "options": [
+        "fetch",
+        "fetches",
+        "fetching"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes számban 'fetches'."
+    },
+    {
+      "prompt_hu": "My brother ___ a book in his room right now.",
+      "options": [
+        "reads",
+        "read",
+        "reading"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Present simple harmadik személyű egyes számban 'reads'."
+    },
+    {
+      "prompt_hu": "You ___ your keys on the table.",
+      "options": [
+        "leaves",
+        "leave",
+        "leaving"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' után 'leave' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The students ___ their exams at school.",
+      "options": [
+        "takes",
+        "take",
+        "taking"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 'take' (nem 'takes')."
+    },
+    {
+      "prompt_hu": "She ___ to music in her bedroom every evening.",
+      "options": [
+        "listens",
+        "listen",
+        "listening"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes számban 'listens'."
+    },
+    {
+      "prompt_hu": "He ___ his lunch at noon in the office.",
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes szám 'eats'."
+    },
+    {
+      "prompt_hu": "We ___ our friends at the restaurant on Friday.",
+      "options": [
+        "meets",
+        "meet",
+        "meeting"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 'meet' (nem 'meets')."
+    },
+    {
+      "prompt_hu": "The teacher ___ the lesson in the classroom.",
+      "options": [
+        "explains",
+        "explain",
+        "explaining"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'explains'."
+    },
+    {
+      "prompt_hu": "Tom ___ his car in the garage every night.",
+      "options": [
+        "park",
+        "parks",
+        "parking"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes szám 'parks'."
+    },
+    {
+      "prompt_hu": "I ___ my sister at the station in the afternoon.",
+      "options": [
+        "meets",
+        "meet",
+        "meeting"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Első személyű egyes szám 'meet' (nincs 's')."
+    },
+    {
+      "prompt_hu": "They ___ their house yesterday.",
+      "options": [
+        "paint",
+        "painted",
+        "painting"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' múlt időt jelent, így 'painted'."
+    },
+    {
+      "prompt_hu": "The children ___ in the playground after school.",
+      "options": [
+        "plays",
+        "play",
+        "played"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám present simple 'play'."
+    },
+    {
+      "prompt_hu": "My mother ___ the dinner in the kitchen every day.",
+      "options": [
+        "prepares",
+        "prepare",
+        "preparing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'prepares'."
+    },
+    {
+      "prompt_hu": "You ___ your phone at the office.",
+      "options": [
+        "uses",
+        "use",
+        "using"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' után 'use' (nincs 's')."
+    },
+    {
+      "prompt_hu": "She ___ flowers in the garden on Sunday.",
+      "options": [
+        "waters",
+        "water",
+        "watering"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'waters'."
+    },
+    {
+      "prompt_hu": "The boy ___ a picture in art class last week.",
+      "options": [
+        "draws",
+        "drew",
+        "drawing"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Last week' múlt időt jelent, így 'drew'."
+    },
+    {
+      "prompt_hu": "We ___ our bikes at the park every weekend.",
+      "options": [
+        "rides",
+        "ride",
+        "riding"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 'ride' (nem 'rides')."
+    },
+    {
+      "prompt_hu": "He ___ his teeth before bed every night.",
+      "options": [
+        "brushes",
+        "brush",
+        "brushing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'brushes'."
+    },
+    {
+      "prompt_hu": "I ___ my clothes in the laundry on Saturday morning.",
+      "options": [
+        "wash",
+        "washes",
+        "washing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Első személyű egyes szám 'wash' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The bird ___ its nest in the tree.",
+      "options": [
+        "build",
+        "builds",
+        "building"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes szám 'builds'."
+    },
+    {
+      "prompt_hu": "They ___ the project at the office.",
+      "options": [
+        "complete",
+        "completes",
+        "completing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám 'complete' (nem 'completes')."
+    },
+    {
+      "prompt_hu": "My sister ___ a new job in the city last month.",
+      "options": [
+        "start",
+        "started",
+        "starting"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Last month' múlt időt jelent, így 'started'."
+    },
+    {
+      "prompt_hu": "You ___ your bag at home every morning.",
+      "options": [
+        "forgets",
+        "forget",
+        "forgetting"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'You' után 'forget' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The farmers ___ their crops in the field.",
+      "options": [
+        "grows",
+        "grow",
+        "growing"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 'grow' (nem 'grows')."
+    },
+    {
+      "prompt_hu": "She ___ her grandmother in the afternoon yesterday.",
+      "options": [
+        "visits",
+        "visit",
+        "visited"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Yesterday' múlt időt jelent, így 'visited'."
+    },
+    {
+      "prompt_hu": "He ___ the news on TV every evening.",
+      "options": [
+        "watches",
+        "watch",
+        "watching"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'watches'."
+    },
+    {
+      "prompt_hu": "I ___ my bag at the train station.",
+      "options": [
+        "find",
+        "finds",
+        "finding"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Első személyű egyes szám 'find' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The musicians ___ their instruments in the concert hall.",
+      "options": [
+        "plays",
+        "play",
+        "playing"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám 'play' (nem 'plays')."
+    },
+    {
+      "prompt_hu": "My father ___ his newspaper at breakfast time.",
+      "options": [
+        "read",
+        "reads",
+        "reading"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes szám 'reads'."
+    },
+    {
+      "prompt_hu": "We ___ the game at the stadium last night.",
+      "options": [
+        "watched",
+        "watch",
+        "watching"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Last night' múlt időt jelent, így 'watched'."
+    },
+    {
+      "prompt_hu": "You ___ your friends at the coffee shop on Tuesday.",
+      "options": [
+        "meet",
+        "meets",
+        "meeting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'You' után 'meet' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The cat ___ the mouse in the kitchen.",
+      "options": [
+        "catches",
+        "catch",
+        "catching"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'catches'."
+    },
+    {
+      "prompt_hu": "They ___ the letter in the mailbox this morning.",
+      "options": [
+        "put",
+        "puts",
+        "putting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám 'put' (nem 'puts')."
+    },
+    {
+      "prompt_hu": "She ___ flowers at the market on Saturday.",
+      "options": [
+        "buy",
+        "bought",
+        "buying"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'On Saturday' (múlt időről beszélünk) 'bought'."
+    },
+    {
+      "prompt_hu": "I ___ my work at my desk in the office.",
+      "options": [
+        "does",
+        "do",
+        "doing"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Első személyű egyes szám 'do' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The swimmer ___ in the pool every morning at 6 AM.",
+      "options": [
+        "swims",
+        "swim",
+        "swimming"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Harmadik személyű egyes szám 'swims'."
+    },
+    {
+      "prompt_hu": "We ___ pizza at the restaurant on Friday night.",
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám 'eat' (nem 'eats')."
+    },
+    {
+      "prompt_hu": "He ___ the window in the living room this afternoon.",
+      "options": [
+        "clean",
+        "cleans",
+        "cleaning"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes szám 'cleans'."
+    },
+    {
+      "prompt_hu": "You ___ your glasses at home every day.",
+      "options": [
+        "wear",
+        "wears",
+        "wearing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'You' után 'wear' (nincs 's')."
+    },
+    {
+      "prompt_hu": "The students ___ their assignments in the library yesterday.",
+      "options": [
+        "complete",
+        "completed",
+        "completing"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Yesterday' múlt időt jelent, így 'completed'."
+    },
+    {
+      "prompt_hu": "My aunt ___ a delicious cake in the kitchen for the party.",
+      "options": [
+        "make",
+        "makes",
+        "making"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Harmadik személyű egyes szám 'makes'."
+    },
+    {
+      "prompt_hu": "The children ___ their toys in the living room every afternoon.",
+      "options": [
+        "put",
+        "puts",
+        "putting"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "A többes szám 3. személyhez 'put' alapalak szükséges, nem 'puts'."
+    },
+    {
+      "prompt_hu": "I ___ my lunch in the kitchen at noon.",
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 1. személy egyes számhoz 'eat' alapalak szükséges, nem 'eats'."
+    },
+    {
+      "prompt_hu": "She ___ her passport at the airport yesterday.",
+      "options": [
+        "find",
+        "finding",
+        "found"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "A 'yesterday' múlt időt jelent, ezért past tense 'found' szükséges."
+    },
+    {
+      "prompt_hu": "They ___ their bags in the hotel room every morning.",
+      "options": [
+        "pack",
+        "packs",
+        "packing"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes számú alany ('they') egyszerű jelenben alapalakot kap: 'pack'."
+    }
+  ]
+}

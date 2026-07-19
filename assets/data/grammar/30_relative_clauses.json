@@ -1,0 +1,538 @@
+{
+  "id": "relative_clauses",
+  "title_hu": "Vonatkozó mellékmondatok: who / which / that",
+  "subtitle_hu": "The man who lives here – aki, ami, amely",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "who, which, that",
+      "body_hu": "A vonatkozó névmás egy főnevet pontosít. 'who' emberre, 'which' dologra/állatra, 'that' mindkettőre.",
+      "examples": [
+        {
+          "en": "The man who lives here is kind.",
+          "hu": "Az ember, aki itt lakik, kedves."
+        },
+        {
+          "en": "The book which I read was good.",
+          "hu": "A könyv, amit olvastam, jó volt."
+        }
+      ]
+    },
+    {
+      "heading_hu": "where, whose",
+      "body_hu": "'where' helyre, 'whose' birtoklásra vonatkozik.",
+      "examples": [
+        {
+          "en": "This is the house where I was born.",
+          "hu": "Ez a ház, ahol születtem."
+        },
+        {
+          "en": "The girl whose dog is lost.",
+          "hu": "A lány, akinek a kutyája elveszett."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "The woman ___ called you is my aunt.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik: 'who'."
+    },
+    {
+      "prompt_hu": "I like the car ___ you bought.",
+      "options": [
+        "who",
+        "which",
+        "whose"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Dologra vonatkozik: 'which'."
+    },
+    {
+      "prompt_hu": "That's the town ___ I grew up.",
+      "options": [
+        "which",
+        "who",
+        "where"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "Helyre vonatkozik: 'where'."
+    },
+    {
+      "prompt_hu": "The man ___ works in this office is very friendly.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, ezért 'who' a helyes."
+    },
+    {
+      "prompt_hu": "The book ___ is on the table belongs to me.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' vagy 'which' lehet, itt 'that' a válasz."
+    },
+    {
+      "prompt_hu": "The students ___ passed the exam were very happy.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "I found the keys ___ I lost yesterday.",
+      "options": [
+        "that",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' a helyes választás."
+    },
+    {
+      "prompt_hu": "The restaurant ___ we had dinner last night was excellent.",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik, 'where' a megfelelő vonatkozó névmás."
+    },
+    {
+      "prompt_hu": "She is the girl ___ won the competition.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' használandó."
+    },
+    {
+      "prompt_hu": "The laptop ___ is in the bag is new.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The park ___ we played as children is still beautiful.",
+      "options": [
+        "where",
+        "who",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik, 'where' a megfelelő."
+    },
+    {
+      "prompt_hu": "My brother, ___ is an engineer, lives in Budapest.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The problem ___ you mentioned is very serious.",
+      "options": [
+        "that",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' vagy 'which' lehet, itt 'that' helyes."
+    },
+    {
+      "prompt_hu": "The city ___ I was born is far from here.",
+      "options": [
+        "where",
+        "which",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik, 'where' a megfelelő vonatkozó névmás."
+    },
+    {
+      "prompt_hu": "The teacher ___ gave us the homework is strict.",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' használandó."
+    },
+    {
+      "prompt_hu": "The document ___ you need is in the drawer.",
+      "options": [
+        "that",
+        "who",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The musician ___ performed at the concert was amazing.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' a megfelelő."
+    },
+    {
+      "prompt_hu": "The museum ___ we visited yesterday had many paintings.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' lehet, de 'where' helyre mutat; 'that' helyes."
+    },
+    {
+      "prompt_hu": "The hotel ___ is on the coast has a beautiful view.",
+      "options": [
+        "which",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'which' a helyes válasz."
+    },
+    {
+      "prompt_hu": "The person ___ helped me was very kind.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The film ___ we watched last night was interesting.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The artist ___ created this masterpiece is famous worldwide.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' a megfelelő."
+    },
+    {
+      "prompt_hu": "The island ___ we spent our vacation is tropical.",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik, 'where' használandó."
+    },
+    {
+      "prompt_hu": "The recipe ___ my mother uses is very old.",
+      "options": [
+        "that",
+        "who",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' a helyes választás."
+    },
+    {
+      "prompt_hu": "The friend ___ called me yesterday is coming to visit.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The garden ___ is behind the house belongs to the neighbor.",
+      "options": [
+        "which",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'which' a helyes."
+    },
+    {
+      "prompt_hu": "The school ___ I attended was very good.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vagy helyre vonatkozik; 'that' vagy 'where' lehet, itt 'that' helyes."
+    },
+    {
+      "prompt_hu": "The scientists ___ discovered this cure should receive an award.",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' a megfelelő."
+    },
+    {
+      "prompt_hu": "The company ___ offers the best service is hiring.",
+      "options": [
+        "that",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' vagy 'which' lehet, itt 'that' helyes."
+    },
+    {
+      "prompt_hu": "The mountain ___ we climbed was very steep.",
+      "options": [
+        "that",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The coaches ___ trained the team are experienced.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The computer ___ was damaged in the accident still works.",
+      "options": [
+        "that",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' vagy 'which' lehet, itt 'that' helyes."
+    },
+    {
+      "prompt_hu": "The library ___ has thousands of books is open today.",
+      "options": [
+        "which",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'which' a helyes válasz."
+    },
+    {
+      "prompt_hu": "The colleague ___ sits next to me is leaving tomorrow.",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' a megfelelő."
+    },
+    {
+      "prompt_hu": "The award ___ you won is very prestigious.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The village ___ we spent the summer was peaceful.",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik, 'where' használandó."
+    },
+    {
+      "prompt_hu": "The politician ___ made that speech is controversial.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The apartment ___ has the best view costs more.",
+      "options": [
+        "which",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'which' a helyes válasz."
+    },
+    {
+      "prompt_hu": "The athletes ___ competed in the Olympics were champions.",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' a megfelelő."
+    },
+    {
+      "prompt_hu": "The medicine ___ the doctor prescribed helped immediately.",
+      "options": [
+        "that",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The office ___ we moved to is modern.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik; 'that' vagy 'where' lehet, itt 'that' helyes."
+    },
+    {
+      "prompt_hu": "The volunteers ___ collected donations are very dedicated.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The article ___ appeared in the newspaper was shocking.",
+      "options": [
+        "that",
+        "which",
+        "where"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' vagy 'which' lehet, itt 'that' helyes."
+    },
+    {
+      "prompt_hu": "The country ___ we are planning to visit has fascinating history.",
+      "options": [
+        "which",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'which' a helyes válasz."
+    },
+    {
+      "prompt_hu": "The nurse ___ took care of him was very compassionate.",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' a megfelelő."
+    },
+    {
+      "prompt_hu": "The product ___ we launched last month is very popular.",
+      "options": [
+        "that",
+        "where",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The beach ___ my family goes every summer is crowded.",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Helyre vonatkozik, 'where' használandó."
+    },
+    {
+      "prompt_hu": "The director ___ filmed that movie won an award.",
+      "options": [
+        "who",
+        "which",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Emberre vonatkozik, 'who' szükséges."
+    },
+    {
+      "prompt_hu": "The piece of artwork ___ hangs in the gallery is priceless.",
+      "options": [
+        "that",
+        "where",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tárgyra vonatkozik, 'that' helyes."
+    },
+    {
+      "prompt_hu": "The colleague ___ desk is next to mine always arrives early.",
+      "options": [
+        "who",
+        "whose",
+        "which"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'whose' használunk, mert a kollégának van egy asztala (birtoklás)."
+    }
+  ]
+}

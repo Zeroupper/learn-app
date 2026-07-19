@@ -1,0 +1,552 @@
+{
+  "id": "comparatives",
+  "title_hu": "Fokozás: comparative és superlative",
+  "subtitle_hu": "bigger, the biggest",
+  "level": "a2",
+  "sections": [
+    {
+      "heading_hu": "Rövid melléknevek: -er / -est",
+      "body_hu": "Egy szótagú (és néhány kétszótagú) melléknévnél: középfok -er + than, felsőfok the + -est. Ha rövid magánhangzó + mássalhangzó a vég, a mássalhangzót duplázzuk (big → bigger).",
+      "examples": [
+        {
+          "en": "This box is bigger than that one.",
+          "hu": "Ez a doboz nagyobb, mint az."
+        },
+        {
+          "en": "Today is the hottest day.",
+          "hu": "Ma van a legmelegebb nap."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Hosszú melléknevek: more / most",
+      "body_hu": "Két vagy több szótagú melléknévnél nem toldalékolunk, hanem: középfok more + melléknév + than, felsőfok the most + melléknév.",
+      "examples": [
+        {
+          "en": "This film is more interesting than that one.",
+          "hu": "Ez a film érdekesebb, mint az."
+        },
+        {
+          "en": "She is the most intelligent student.",
+          "hu": "Ő a legokosabb diák."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Rendhagyó alakok",
+      "body_hu": "Néhány gyakori melléknév rendhagyó: good → better → the best; bad → worse → the worst; far → further → the furthest.",
+      "examples": [
+        {
+          "en": "This is better than before.",
+          "hu": "Ez jobb, mint korábban."
+        },
+        {
+          "en": "It was the worst day of my life.",
+          "hu": "Életem legrosszabb napja volt."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "This apple is ___ than that one.",
+      "options": [
+        "more red",
+        "redder",
+        "reddest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Rövid, egy szótagú melléknév: 'red' → 'redder'."
+    },
+    {
+      "prompt_hu": "She is ___ student in the class.",
+      "options": [
+        "the most intelligent",
+        "more intelligent",
+        "intelligenter"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Hosszú melléknév felsőfoka: 'the most intelligent'."
+    },
+    {
+      "prompt_hu": "This coffee is ___ than yesterday's coffee.",
+      "options": [
+        "hotter",
+        "more hot",
+        "hottest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Hot' egy szótagú, rövid magánhangzó + mássalhangzó: 't' duplázzuk."
+    },
+    {
+      "prompt_hu": "My sister is ___ than my brother.",
+      "options": [
+        "more tall",
+        "taller",
+        "tallest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Tall' egy szótagú: középfok 'taller'."
+    },
+    {
+      "prompt_hu": "This is ___ book I have ever read.",
+      "options": [
+        "the worst",
+        "worse",
+        "most worst"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendhagyó: bad → worse → the worst; felsőfok 'the worst'."
+    },
+    {
+      "prompt_hu": "The weather today is ___ than yesterday.",
+      "options": [
+        "more better",
+        "better",
+        "gooder"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Rendhagyó: good → better; középfok 'better'."
+    },
+    {
+      "prompt_hu": "This building is ___ than the old one.",
+      "options": [
+        "more modern",
+        "moderner",
+        "most modern"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Modern' kétszótagú: 'more modern'."
+    },
+    {
+      "prompt_hu": "She is the ___ person I know.",
+      "options": [
+        "more kind",
+        "kindest",
+        "most kindly"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Kind' egy szótagú: felsőfok 'kindest'."
+    },
+    {
+      "prompt_hu": "This task is ___ than the previous one.",
+      "options": [
+        "more difficult",
+        "difficultier",
+        "difficultestest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Difficult' hosszú melléknév: 'more difficult'."
+    },
+    {
+      "prompt_hu": "The blue car is ___ than the red one.",
+      "options": [
+        "more fast",
+        "faster",
+        "fastest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Fast' egy szótagú: középfok 'faster'."
+    },
+    {
+      "prompt_hu": "This is the ___ restaurant in the city.",
+      "options": [
+        "most expensive",
+        "more expensive",
+        "expensivest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Expensive' hosszú melléknév: felsőfok 'the most expensive'."
+    },
+    {
+      "prompt_hu": "My house is ___ than yours.",
+      "options": [
+        "more big",
+        "bigger",
+        "bigg"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Big' egy szótagú: végén rövid magánhangzó + 'g', duplázzuk: 'bigger'."
+    },
+    {
+      "prompt_hu": "This problem is ___ than I thought.",
+      "options": [
+        "more serious",
+        "seriousier",
+        "seriouser"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Serious' hosszú melléknév: 'more serious'."
+    },
+    {
+      "prompt_hu": "He is the ___ student in the school.",
+      "options": [
+        "more clever",
+        "cleverest",
+        "cleverer"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Clever' kétszótagú, rövid magánhangzó: 'cleverest'."
+    },
+    {
+      "prompt_hu": "This movie is ___ than the other one.",
+      "options": [
+        "more interesting",
+        "interestinger",
+        "interestingest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Interesting' hosszú melléknév: 'more interesting'."
+    },
+    {
+      "prompt_hu": "That hotel is ___ the first one.",
+      "options": [
+        "better than",
+        "more better than",
+        "bestest than"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendhagyó: good → better; középfok 'better than'."
+    },
+    {
+      "prompt_hu": "My job is ___ than yours.",
+      "options": [
+        "more easy",
+        "easier",
+        "easiest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Easy' kétszótagú: végén 'y': 'y' → 'i' + 'er': 'easier'."
+    },
+    {
+      "prompt_hu": "This is the ___ painting in the gallery.",
+      "options": [
+        "more beautiful",
+        "beautifulest",
+        "most beautiful"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Beautiful' hosszú melléknév: felsőfok 'the most beautiful'."
+    },
+    {
+      "prompt_hu": "The new phone is ___ than the old one.",
+      "options": [
+        "more cheap",
+        "cheaper",
+        "cheapest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Cheap' egy szótagú: középfok 'cheaper'."
+    },
+    {
+      "prompt_hu": "She is ___ than her sister.",
+      "options": [
+        "more intelligent",
+        "intelligenter",
+        "intelligentter"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Intelligent' hosszú melléknév: 'more intelligent'."
+    },
+    {
+      "prompt_hu": "This is the ___ weather we have had all year.",
+      "options": [
+        "worst",
+        "more bad",
+        "badest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendhagyó: bad → worse → the worst; felsőfok 'the worst'."
+    },
+    {
+      "prompt_hu": "The road is ___ than I expected.",
+      "options": [
+        "more narrow",
+        "narrower",
+        "narrowest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Narrow' kétszótagú: 'narrower'."
+    },
+    {
+      "prompt_hu": "He is the ___ person in the office.",
+      "options": [
+        "busiest",
+        "more busy",
+        "most busy"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Busy' kétszótagú: 'y' → 'i' + 'est': 'busiest'."
+    },
+    {
+      "prompt_hu": "This coffee is ___ than the other cup.",
+      "options": [
+        "more strong",
+        "stronger",
+        "stronggest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Strong' egy szótagú: középfok 'stronger'."
+    },
+    {
+      "prompt_hu": "That is the ___ idea I have ever heard.",
+      "options": [
+        "more stupid",
+        "stupidest",
+        "stupider"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Stupid' kétszótagú, rövid magánhangzó: 'd' duplázzuk + 'est': 'stupidest'."
+    },
+    {
+      "prompt_hu": "The winter here is ___ than in my country.",
+      "options": [
+        "more cold",
+        "colder",
+        "coldest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Cold' egy szótagú: középfok 'colder'."
+    },
+    {
+      "prompt_hu": "This is the ___ book in the series.",
+      "options": [
+        "more interesting",
+        "most interesting",
+        "interestingestest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Interesting' hosszú melléknév: felsőfok 'the most interesting'."
+    },
+    {
+      "prompt_hu": "My car is ___ than yours.",
+      "options": [
+        "more old",
+        "older",
+        "olddest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Old' egy szótagú: középfok 'older'."
+    },
+    {
+      "prompt_hu": "This job is ___ than the last one.",
+      "options": [
+        "more stressful",
+        "stressfuller",
+        "stressfulest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Stressful' hosszú melléknév: 'more stressful'."
+    },
+    {
+      "prompt_hu": "She has the ___ house on the street.",
+      "options": [
+        "prettier",
+        "most pretty",
+        "prettiest"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Pretty' kétszótagú: 'y' → 'i' + 'est': 'prettiest'."
+    },
+    {
+      "prompt_hu": "This is ___ problem than before.",
+      "options": [
+        "worse",
+        "more bad",
+        "badder"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendhagyó: bad → worse; középfok 'worse'."
+    },
+    {
+      "prompt_hu": "He is ___ than his brother.",
+      "options": [
+        "further",
+        "farthest",
+        "more far"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendhagyó: far → further → the furthest; középfok 'further'."
+    },
+    {
+      "prompt_hu": "This is the ___ view from the mountain.",
+      "options": [
+        "more beautiful",
+        "beautifulest",
+        "most beautiful"
+      ],
+      "correct_index": 2,
+      "explanation_hu": "'Beautiful' hosszú melléknév: felsőfok 'the most beautiful'."
+    },
+    {
+      "prompt_hu": "The blue dress is ___ than the red one.",
+      "options": [
+        "more pretty",
+        "prettier",
+        "prettyest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Pretty' kétszótagú: 'y' → 'i' + 'er': 'prettier'."
+    },
+    {
+      "prompt_hu": "This is the ___ restaurant in town.",
+      "options": [
+        "most popular",
+        "more popular",
+        "popularest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Popular' hosszú melléknév: felsőfok 'the most popular'."
+    },
+    {
+      "prompt_hu": "My room is ___ than yours.",
+      "options": [
+        "tidier",
+        "more tidy",
+        "tidyest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Tidy' kétszótagú: 'y' → 'i' + 'er': 'tidier'."
+    },
+    {
+      "prompt_hu": "This pen is ___ than that one.",
+      "options": [
+        "more thick",
+        "thicker",
+        "thickest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Thick' egy szótagú: rövid magánhangzó + 'k', duplázzuk: 'thicker'."
+    },
+    {
+      "prompt_hu": "She is the ___ student in class.",
+      "options": [
+        "most hard-working",
+        "more hard-working",
+        "harder-working"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Összetett hosszú melléknév: felsőfok 'the most hard-working'."
+    },
+    {
+      "prompt_hu": "The new bike is ___ than the old one.",
+      "options": [
+        "more light",
+        "lighter",
+        "lightest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Light' egy szótagú: középfok 'lighter'."
+    },
+    {
+      "prompt_hu": "This is the ___ movie I have seen.",
+      "options": [
+        "most boring",
+        "more boring",
+        "boringest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Boring' hosszú melléknév: felsőfok 'the most boring'."
+    },
+    {
+      "prompt_hu": "My coffee is ___ than yours.",
+      "options": [
+        "hotter",
+        "most hot",
+        "more hot"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Hot' egy szótagú: végén 't', duplázzuk + 'er': 'hotter'."
+    },
+    {
+      "prompt_hu": "This is the ___ day of the year.",
+      "options": [
+        "most hot",
+        "hottest",
+        "more hot"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Hot' egy szótagú: felsőfok 't' duplázzuk + 'est': 'hottest'."
+    },
+    {
+      "prompt_hu": "He is ___ than she is.",
+      "options": [
+        "more smart",
+        "smarter",
+        "smartest"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Smart' egy szótagú: középfok 'smarter'."
+    },
+    {
+      "prompt_hu": "This is the ___ box we have.",
+      "options": [
+        "more heavy",
+        "heaviest",
+        "heavyer"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Heavy' kétszótagú: 'y' → 'i' + 'est': 'heaviest'."
+    },
+    {
+      "prompt_hu": "The new plan is ___ than the old one.",
+      "options": [
+        "more practical",
+        "practicalest",
+        "practicalier"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Practical' hosszú melléknév: 'more practical'."
+    },
+    {
+      "prompt_hu": "This story is ___ than that one.",
+      "options": [
+        "sadder",
+        "most sad",
+        "more sad"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Sad' egy szótagú: végén 'd', duplázzuk + 'er': 'sadder'."
+    },
+    {
+      "prompt_hu": "She is the ___ worker in the team.",
+      "options": [
+        "most productive",
+        "more productive",
+        "productivest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Productive' hosszú melléknév: felsőfok 'the most productive'."
+    },
+    {
+      "prompt_hu": "This exercise is ___ than I expected.",
+      "options": [
+        "difficult",
+        "more difficult",
+        "the most difficult"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Kétszótagú melléknév középfokú formája 'more' + melléknév + 'than'."
+    },
+    {
+      "prompt_hu": "The ___ mistake was forgetting to call.",
+      "options": [
+        "worse",
+        "worst",
+        "bad"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "'Bad' rendhagyó alakban felsőfok: 'the worst'."
+    },
+    {
+      "prompt_hu": "My apartment is ___ than my friend's.",
+      "options": [
+        "smaller",
+        "small",
+        "the smallest"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egy szótagú melléknév középfokú formája -er + than: 'smaller'."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "passive",
+  "title_hu": "Szenvedő szerkezet: passive voice",
+  "subtitle_hu": "The house was built – szenvedő mondat",
+  "level": "b1",
+  "sections": [
+    {
+      "heading_hu": "Képzés: be + 3. alak",
+      "body_hu": "A szenvedő szerkezetben a cselekvés TÁRGYA a fontos, nem a végrehajtó. Képzés: a 'be' megfelelő ideje + past participle.",
+      "examples": [
+        {
+          "en": "English is spoken here.",
+          "hu": "Itt angolul beszélnek."
+        },
+        {
+          "en": "The house was built in 1900.",
+          "hu": "A házat 1900-ban építették."
+        }
+      ]
+    },
+    {
+      "heading_hu": "A végrehajtó: by",
+      "body_hu": "Ha fontos, ki végezte, 'by' + cselekvő. Sokszor viszont elhagyjuk, mert nem lényeges vagy nem ismert.",
+      "examples": [
+        {
+          "en": "The book was written by Orwell.",
+          "hu": "A könyvet Orwell írta."
+        },
+        {
+          "en": "My car was stolen.",
+          "hu": "Ellopták az autómat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "The letter ___ written yesterday.",
+      "options": [
+        "was",
+        "is",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múlt idejű passzív: was + 3. alak."
+    },
+    {
+      "prompt_hu": "English ___ spoken in many countries.",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Jelen passzív, egyes szám: 'is spoken'."
+    },
+    {
+      "prompt_hu": "The bridge was ___ in 1930.",
+      "options": [
+        "build",
+        "built",
+        "building"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "be + past participle: 'built'."
+    },
+    {
+      "prompt_hu": "The cake ___ made by my mother.",
+      "options": [
+        "was",
+        "is",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Múlt idő egyes szám 3. személyében 'was'."
+    },
+    {
+      "prompt_hu": "These buildings ___ constructed by a famous architect.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt időben 'were'."
+    },
+    {
+      "prompt_hu": "The report ___ be finished by tomorrow.",
+      "options": [
+        "must",
+        "have",
+        "could"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szükséges cselekvést kifejezi: must be + past participle."
+    },
+    {
+      "prompt_hu": "The movie ___ directed by Steven Spielberg.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám, múlt idő: 'was directed'."
+    },
+    {
+      "prompt_hu": "New employees ___ trained every month.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám, jelen idő: 'are trained'."
+    },
+    {
+      "prompt_hu": "The windows ___ cleaned yesterday morning.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were cleaned'."
+    },
+    {
+      "prompt_hu": "This book ___ published in 1995.",
+      "options": [
+        "were",
+        "was",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was published'."
+    },
+    {
+      "prompt_hu": "The invention ___ patented by Thomas Edison.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was patented'."
+    },
+    {
+      "prompt_hu": "Coffee ___ grown in Brazil and Colombia.",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Tömegfogalom, jelen idő: 'is grown'."
+    },
+    {
+      "prompt_hu": "The website ___ updated every week.",
+      "options": [
+        "are",
+        "is",
+        "were"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám, jelen idő: 'is updated'."
+    },
+    {
+      "prompt_hu": "The documents ___ signed by the manager.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were signed'."
+    },
+    {
+      "prompt_hu": "The package will ___ delivered tomorrow.",
+      "options": [
+        "be",
+        "been",
+        "being"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Jövő idő szenvedő: will be + past participle."
+    },
+    {
+      "prompt_hu": "The tickets ___ sold out within hours.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were sold'."
+    },
+    {
+      "prompt_hu": "The hospital ___ built with modern equipment.",
+      "options": [
+        "were",
+        "was",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was built'."
+    },
+    {
+      "prompt_hu": "The speech ___ given by the president.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was given'."
+    },
+    {
+      "prompt_hu": "The flowers ___ arranged beautifully for the event.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were arranged'."
+    },
+    {
+      "prompt_hu": "The rules ___ explained clearly to everyone.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were explained'."
+    },
+    {
+      "prompt_hu": "The project ___ completed on time.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was completed'."
+    },
+    {
+      "prompt_hu": "The car ___ repaired by a professional mechanic.",
+      "options": [
+        "were",
+        "was",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was repaired'."
+    },
+    {
+      "prompt_hu": "The exam ___ postponed to next week.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was postponed'."
+    },
+    {
+      "prompt_hu": "The sculptures ___ created by an Italian artist.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám múlt idő: 'were created'."
+    },
+    {
+      "prompt_hu": "The invitation ___ sent to all guests.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was sent'."
+    },
+    {
+      "prompt_hu": "The contract ___ signed yesterday by both parties.",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was signed'."
+    },
+    {
+      "prompt_hu": "The instructions ___ followed carefully by the team.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were followed'."
+    },
+    {
+      "prompt_hu": "The painting ___ stolen from the museum.",
+      "options": [
+        "were",
+        "was",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was stolen'."
+    },
+    {
+      "prompt_hu": "The test ___ taken by hundreds of students.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was taken'."
+    },
+    {
+      "prompt_hu": "The supplies ___ delivered to the warehouse.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were delivered'."
+    },
+    {
+      "prompt_hu": "The concert ___ attended by thousands of people.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was attended'."
+    },
+    {
+      "prompt_hu": "The goal ___ achieved through hard work and dedication.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was achieved'."
+    },
+    {
+      "prompt_hu": "The decisions ___ made without consulting the staff.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were made'."
+    },
+    {
+      "prompt_hu": "The virus ___ spread rapidly through the population.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was spread'."
+    },
+    {
+      "prompt_hu": "The novel ___ translated into fifteen languages.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was translated'."
+    },
+    {
+      "prompt_hu": "The awards ___ presented at the ceremony last night.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were presented'."
+    },
+    {
+      "prompt_hu": "The error ___ discovered during the review process.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was discovered'."
+    },
+    {
+      "prompt_hu": "The design ___ inspired by nature and ancient civilizations.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was inspired'."
+    },
+    {
+      "prompt_hu": "The machines ___ operated by trained technicians.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám, jelen idő: 'are operated'."
+    },
+    {
+      "prompt_hu": "The plan ___ approved by the board of directors.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was approved'."
+    },
+    {
+      "prompt_hu": "The forest ___ destroyed by the wildfire.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was destroyed'."
+    },
+    {
+      "prompt_hu": "The evidence ___ collected carefully by the investigators.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was collected'."
+    },
+    {
+      "prompt_hu": "The products ___ manufactured in several countries.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám, jelen idő: 'are manufactured'."
+    },
+    {
+      "prompt_hu": "The question ___ answered comprehensively during the discussion.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was answered'."
+    },
+    {
+      "prompt_hu": "The medals ___ awarded to the winners.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were awarded'."
+    },
+    {
+      "prompt_hu": "The proposal ___ rejected by the committee.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was rejected'."
+    },
+    {
+      "prompt_hu": "The tradition ___ celebrated every year in our community.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám, jelen idő: 'is celebrated'."
+    },
+    {
+      "prompt_hu": "The samples ___ analyzed by the laboratory experts.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Többes szám múlt idő: 'were analyzed'."
+    },
+    {
+      "prompt_hu": "The warning ___ ignored by the pilot.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Egyes szám múlt idő: 'was ignored'."
+    },
+    {
+      "prompt_hu": "The theory ___ proven correct after many experiments.",
+      "options": [
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Egyes szám múlt idő: 'was proven'."
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": "present_simple_continuous",
+  "title_hu": "Egyszerű vs. folyamatos jelen",
+  "subtitle_hu": "I work vs. I am working",
+  "level": "a1",
+  "sections": [
+    {
+      "heading_hu": "Present simple: szokás, általános igazság",
+      "body_hu": "Az egyszerű jelent szokásokra, ismétlődő cselekvésre és általános igazságokra használjuk. Fontos: he/she/it után az igéhez -s (vagy -es) kerül!",
+      "examples": [
+        {
+          "en": "I work in a bank.",
+          "hu": "Bankban dolgozom."
+        },
+        {
+          "en": "She works every day.",
+          "hu": "Ő minden nap dolgozik. (works, -s!)"
+        },
+        {
+          "en": "Water boils at 100°C.",
+          "hu": "A víz 100 fokon forr."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Present continuous: éppen most",
+      "body_hu": "A folyamatos jelen (am/is/are + ige+ing) azt fejezi ki, ami ÉPPEN MOST vagy mostanában zajlik.",
+      "examples": [
+        {
+          "en": "I am working now.",
+          "hu": "Most éppen dolgozom."
+        },
+        {
+          "en": "She is reading a book.",
+          "hu": "Éppen könyvet olvas."
+        }
+      ]
+    },
+    {
+      "heading_hu": "Jelző szavak",
+      "body_hu": "Egyszerű jelen: always, usually, every day, often. Folyamatos jelen: now, right now, at the moment, today.",
+      "examples": [
+        {
+          "en": "I usually walk to work, but today I am taking the bus.",
+          "hu": "Általában gyalog megyek dolgozni, de ma busszal."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "prompt_hu": "He ___ coffee every morning.",
+      "options": [
+        "drinks",
+        "is drinking",
+        "drink"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szokásra utal az 'every morning', ezért egyszerű jelen kell, és 'he' után -s végzés."
+    },
+    {
+      "prompt_hu": "They are ___ in the park right now.",
+      "options": [
+        "play",
+        "playing",
+        "plays"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' jelzi, hogy éppen most folyik a cselekvés, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "She ___ to work by bus.",
+      "options": [
+        "goes",
+        "is going",
+        "go"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Rendszeres szokás, ezért egyszerű jelen, és 'she' után -s kerül."
+    },
+    {
+      "prompt_hu": "We ___ dinner at the moment.",
+      "options": [
+        "cook",
+        "are cooking",
+        "cooks"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'at the moment' jelzi az éppen zajló cselekvést, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "I ___ TV every evening.",
+      "options": [
+        "watch",
+        "am watching",
+        "watches"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'every evening' rendszeres szokást fejez ki, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "You ___ to music now.",
+      "options": [
+        "listen",
+        "are listening",
+        "listens"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'now' jelzi az éppen zajló cselekvést, így folyamatos jelen szükséges."
+    },
+    {
+      "prompt_hu": "The sun ___ in the east.",
+      "options": [
+        "rises",
+        "is rising",
+        "rise"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Általános igazság, nem időhöz kötött, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "My sister ___ homework today.",
+      "options": [
+        "does",
+        "is doing",
+        "do"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'today' mutatja, hogy éppen zajlik a cselekvés, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "Dogs ___ animals.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Általános igazság, többes szám, ezért 'are'."
+    },
+    {
+      "prompt_hu": "We ___ usually on Sundays.",
+      "options": [
+        "relax",
+        "are relaxing",
+        "relaxes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'usually' jelzi a szokást, ezért egyszerű jelen kell."
+    },
+    {
+      "prompt_hu": "He ___ a book at the moment.",
+      "options": [
+        "reads",
+        "is reading",
+        "read"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'at the moment' jelzi az éppen zajló cselekvést, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "I ___ three languages.",
+      "options": [
+        "speak",
+        "am speaking",
+        "speaks"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Általános képesség, nem specifikus időhöz kötött, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "They ___ lunch right now.",
+      "options": [
+        "have",
+        "are having",
+        "has"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' az éppen zajló cselekvést jelzi, így folyamatos jelen szükséges."
+    },
+    {
+      "prompt_hu": "The train ___ at 10 o'clock every day.",
+      "options": [
+        "arrives",
+        "is arriving",
+        "arrive"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'every day' rendszeres szokást fejez ki, ezért egyszerű jelen kell, 'arrives' alakkal."
+    },
+    {
+      "prompt_hu": "She ___ always polite.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Személyleírás, szinguláris harmadik személyben 'is' használatos."
+    },
+    {
+      "prompt_hu": "We ___ tennis now.",
+      "options": [
+        "play",
+        "are playing",
+        "plays"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'now' jelzi az éppen zajló cselekvést, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "He ___ five times a week.",
+      "options": [
+        "exercises",
+        "is exercising",
+        "exercise"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'five times a week' rendszeres szokást fejez ki, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "I ___ my room today.",
+      "options": [
+        "clean",
+        "am cleaning",
+        "cleans"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'today' jelzi az éppen zajló cselekvést, így folyamatos jelen szükséges."
+    },
+    {
+      "prompt_hu": "Cats ___ fish.",
+      "options": [
+        "like",
+        "are liking",
+        "likes"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Általános igazság az állatok viselkedéséről, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "You ___ very quiet at the moment.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Személyhez 'you' után 'are' használatos, még akkor is, ha jellegzetes állapot."
+    },
+    {
+      "prompt_hu": "She ___ to the gym twice a week.",
+      "options": [
+        "goes",
+        "is going",
+        "go"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'twice a week' rendszeres szokást fejez ki, ezért egyszerű jelen kell."
+    },
+    {
+      "prompt_hu": "They ___ a movie right now.",
+      "options": [
+        "watch",
+        "are watching",
+        "watches"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "It ___ cold today.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Időjárás leírása, szinguláris semleges neműhöz 'is' használatos."
+    },
+    {
+      "prompt_hu": "We ___ usually happy.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Személyi állapot, többes szám, ezért 'are'."
+    },
+    {
+      "prompt_hu": "He ___ his car right now.",
+      "options": [
+        "wash",
+        "is washing",
+        "washes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "Fish ___ in water.",
+      "options": [
+        "live",
+        "are living",
+        "lives"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Általános igazság, habitális tény, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "I ___ always tired in the morning.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szingulár első személy, 'am' használatos; az 'always' szokást jelent."
+    },
+    {
+      "prompt_hu": "She ___ her friends now.",
+      "options": [
+        "calls",
+        "is calling",
+        "call"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'now' jelzi az éppen zajló cselekvést, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "They ___ often late for work.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám, rendszeres viselkedés, 'are' használatos."
+    },
+    {
+      "prompt_hu": "We ___ breakfast at the moment.",
+      "options": [
+        "eat",
+        "are eating",
+        "eats"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'at the moment' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "He ___ to music every day.",
+      "options": [
+        "listens",
+        "is listening",
+        "listen"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'every day' rendszeres szokást fejez ki, ezért egyszerű jelen, 'listens' alakkal."
+    },
+    {
+      "prompt_hu": "I ___ a letter right now.",
+      "options": [
+        "write",
+        "am writing",
+        "writes"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "She ___ usually early.",
+      "options": [
+        "wakes up",
+        "is waking up",
+        "wake up"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'usually' rendszeres szokást jelent, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "They ___ coffee now.",
+      "options": [
+        "drink",
+        "are drinking",
+        "drinks"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'now' az éppen zajló cselekvést jelzi, így folyamatos jelen szükséges."
+    },
+    {
+      "prompt_hu": "He ___ every morning.",
+      "options": [
+        "runs",
+        "is running",
+        "run"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'every morning' szokást fejez ki, ezért egyszerű jelen kell."
+    },
+    {
+      "prompt_hu": "I ___ my homework at the moment.",
+      "options": [
+        "do",
+        "am doing",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'at the moment' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "Birds ___ south in winter.",
+      "options": [
+        "fly",
+        "are flying",
+        "flies"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Általános természeti viselkedés, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "You ___ always friendly.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Személyi jellemzés, 'you' után 'are' használatos."
+    },
+    {
+      "prompt_hu": "She ___ the piano right now.",
+      "options": [
+        "plays",
+        "is playing",
+        "play"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "He ___ usually in the office.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szingulár harmadik személy, 'is' használatos az 'usually' szokásjelöléssel."
+    },
+    {
+      "prompt_hu": "We ___ now.",
+      "options": [
+        "leave",
+        "are leaving",
+        "leaves"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'now' az éppen zajló cselekvést jelzi, így folyamatos jelen szükséges."
+    },
+    {
+      "prompt_hu": "I ___ usually on weekends.",
+      "options": [
+        "shop",
+        "am shopping",
+        "shops"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'usually' szokást fejez ki, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "She ___ very busy today.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szingulár harmadik személy, 'is' használatos az állapot leírásához."
+    },
+    {
+      "prompt_hu": "They ___ football at the moment.",
+      "options": [
+        "play",
+        "are playing",
+        "plays"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'at the moment' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "He ___ always late.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Szingulár harmadik személy szokásos állapot, 'is' használatos."
+    },
+    {
+      "prompt_hu": "I ___ right now.",
+      "options": [
+        "eat",
+        "am eating",
+        "eats"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'right now' az éppen zajló cselekvést jelzi, így folyamatos jelen."
+    },
+    {
+      "prompt_hu": "She ___ three times a week.",
+      "options": [
+        "swims",
+        "is swimming",
+        "swim"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Az 'three times a week' rendszeres szokást fejez ki, ezért egyszerű jelen."
+    },
+    {
+      "prompt_hu": "We ___ not usually angry.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "Többes szám, személyi állapot, 'are' használatos."
+    },
+    {
+      "prompt_hu": "He ___ his teeth now.",
+      "options": [
+        "brushes",
+        "is brushing",
+        "brush"
+      ],
+      "correct_index": 1,
+      "explanation_hu": "Az 'now' az éppen zajló cselekvést jelzi, így folyamatos jelen szükséges."
+    },
+    {
+      "prompt_hu": "My brother ___ chess every weekend.",
+      "options": [
+        "plays",
+        "is playing",
+        "play"
+      ],
+      "correct_index": 0,
+      "explanation_hu": "'Every weekend' szokásra utal, ezért egyszerű jelennel és he után -s végződéssel kell használni."
+    }
+  ]
+}

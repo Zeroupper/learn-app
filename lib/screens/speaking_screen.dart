@@ -5,13 +5,102 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:provider/provider.dart';
+import 'package:speech_to_text/speech_recognition_error.dart';
+import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
 import '../data/settings_repository.dart';
 import '../models/vocab_word.dart';
 import '../services/tts_service.dart';
 
-enum _WordStatus { pending, correct, wrong }
+// ---------------------------------------------------------------------------
+// Matching. Pure functions, no widgets — this is the part worth unit testing,
+// and the screen derives *everything* from it: the verdict and the per-word
+// colouring both come out of one alignment, so they can never disagree.
+// ---------------------------------------------------------------------------
+
+/// Lowercase, strip punctuation, collapse whitespace, split. Empty in, empty
+/// out — never a `['']` that would count as a spoken word.
+List<String> _words(String s) {
+  final n = s
+      .toLowerCase()
+      .replaceAll(RegExp(r"[^a-z0-9'\s]"), '')
+      .replaceAll(RegExp(r'\s+'), ' ')
+      .trim();
+  return n.isEmpty ? const [] : n.split(' ');
+}
+
+/// For each word of [target], did the learner say it?
+///
+/// This is a longest-common-subsequence alignment, which buys two things a
+/// simple word-by-word comparison does not: filler the recogniser invents is
+/// ignored, and one mangled word in the middle costs exactly that word — a
+/// greedy walk would stall there and call the whole rest of the sentence
+/// missing.
+List<bool> matchedWords(String heard, String target) {
+  final tw = _words(target);
+  final hw = _words(heard);
+  final matched = List.filled(tw.length, false);
+  if (tw.isEmpty || hw.isEmpty) return matched;
+
+  // dp[i][j] = length of the best alignment of hw[i..] against tw[j..].
+  // Built from the end so the walk below can go forwards and record hits.
+  final dp = List.generate(hw.length + 1, (_) => List.filled(tw.length + 1, 0));
+  for (var i = hw.length - 1; i >= 0; i--) {
+    for (var j = tw.length - 1; j >= 0; j--) {
+      dp[i][j] = hw[i] == tw[j]
+          ? dp[i + 1][j + 1] + 1
+          : math.max(dp[i + 1][j], dp[i][j + 1]);
+    }
+  }
+  var i = 0, j = 0;
+  while (i < hw.length && j < tw.length) {
+    if (hw[i] == tw[j]) {
+      matched[j] = true;
+      i++;
+      j++;
+    } else if (dp[i + 1][j] >= dp[i][j + 1]) {
+      i++; // this heard word is filler
+    } else {
+      j++; // this target word never came out
+    }
+  }
+  return matched;
+}
+
+/// How many words a sentence may lose and still pass. Recognition mangles a
+/// word often enough that one slip should not fail a fluent read — but not on
+/// "Are you cold?", where one word is a third of the answer.
+int allowedMissesFor(String target) => _words(target).length >= 5 ? 1 : 0;
+
+/// Did [heard] cover [target], give or take the slack [allowedMissesFor]
+/// grants that sentence?
+bool speechMatches(String heard, String target) =>
+    matchedWords(heard, target).where((m) => !m).length <=
+    allowedMissesFor(target);
+
+// ---------------------------------------------------------------------------
+// Screen
+// ---------------------------------------------------------------------------
+
+/// Where the current sentence stands. One field instead of the separate
+/// "listening?" / "waiting for a result?" / "was it right?" flags that used to
+/// drift apart whenever a recogniser callback arrived at an awkward moment.
+enum _Phase {
+  /// Mic off, nothing said yet for this sentence.
+  idle,
+
+  /// Mic live and a verdict is owed. Every recogniser callback checks for this
+  /// phase, which is what stops a cancelled session from scoring the next
+  /// sentence.
+  listening,
+
+  /// Judged correct — the "next sentence" button is showing.
+  correct,
+
+  /// Judged wrong — the learner can retry, and after enough tries skip.
+  wrong,
+}
 
 class SpeakingScreen extends StatefulWidget {
   const SpeakingScreen({super.key});
@@ -22,41 +111,74 @@ class SpeakingScreen extends StatefulWidget {
 
 class _SpeakingScreenState extends State<SpeakingScreen>
     with SingleTickerProviderStateMixin {
+  // --- tuning -------------------------------------------------------------
   static const _progressKey = 'speaking_progress';
-  static const _promoteEvery = 10; // clean nails in a row to level up
-  static const _failToDrop = 2; // failed attempts on a sentence to drop a level
+  static const _promoteEvery = 10; // first-try successes in a row to level up
+  static const _failToSkip = 3; // failures before the sentence can be skipped
+  static const _failToDrop = 6; // failures before dropping a level
 
+  // --- collaborators ------------------------------------------------------
   final SpeechToText _stt = SpeechToText();
   late final TtsService _tts;
   late final SettingsRepository _settings;
+
+  /// Drives the flame icons in the streak bar.
   late final AnimationController _flame;
 
-  bool _celebrating = false;
-  String _celebrateText = '';
-  Timer? _celebrateTimer;
-
+  // --- content ------------------------------------------------------------
+  /// Every sentence, bucketed by level. Loaded once from the asset bundle.
   Map<CefrLevel, List<String>> _byLevel = const {};
+
+  /// How far the learner has got in each level's list. Persisted.
   final Map<CefrLevel, int> _ptr = {
     CefrLevel.a1: 0,
     CefrLevel.a2: 0,
     CefrLevel.b1: 0,
   };
-  CefrLevel _level = CefrLevel.a1;
-  bool _promotePending = false;
 
+  /// The level being practised right now. Persisted.
+  CefrLevel _level = CefrLevel.a1;
+
+  /// A level-up is owed but held back until the learner taps "next", so the
+  /// sentence does not change out from under the celebration.
+  bool _levelUpPending = false;
+
+  // --- session state ------------------------------------------------------
+  /// False until the sentences and saved progress are in — gates the UI.
   bool _loaded = false;
+
+  /// Whether the device has usable speech recognition at all.
   bool _available = false;
-  bool _listening = false;
+
+  /// See [_Phase]. The single source of truth for the listen cycle.
+  _Phase _phase = _Phase.idle;
+
+  /// The recogniser's latest transcript for this attempt, partial or final.
   String _heard = '';
+
+  /// Failed attempts on the *current* sentence. Drives the skip button and the
+  /// level drop; reset when the sentence changes.
   int _attempts = 0;
-  bool? _correct;
+
+  // --- streak -------------------------------------------------------------
+  /// Consecutive first-try successes. A miss or a skip puts it out.
   int _streak = 0;
+
+  /// Best streak ever, persisted, shown as the record to beat.
   int _bestStreak = 0;
 
+  // --- celebration overlay ------------------------------------------------
+  bool _celebrating = false;
+  String _celebrateText = '';
+  Timer? _celebrateTimer;
+
+  // --- derived ------------------------------------------------------------
   List<String> get _pool => _byLevel[_level] ?? const [];
   String get _target =>
       _pool.isEmpty ? '' : _pool[_ptr[_level]! % _pool.length];
-  bool get _revealAvailable => _attempts >= _failToDrop;
+  bool get _listening => _phase == _Phase.listening;
+  bool get _skipAvailable =>
+      _phase != _Phase.correct && _attempts >= _failToSkip;
 
   CefrLevel? _nextLevel(CefrLevel l) => switch (l) {
         CefrLevel.a1 => CefrLevel.a2,
@@ -69,6 +191,8 @@ class _SpeakingScreenState extends State<SpeakingScreen>
         CefrLevel.b1 => CefrLevel.a2,
       };
 
+  // --- lifecycle ----------------------------------------------------------
+
   @override
   void initState() {
     super.initState();
@@ -80,6 +204,7 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     _load();
   }
 
+  /// Reads the sentence list and saved progress, then wakes the recogniser.
   Future<void> _load() async {
     final raw =
         await rootBundle.loadString('assets/data/speaking_sentences.json');
@@ -101,17 +226,11 @@ class _SpeakingScreenState extends State<SpeakingScreen>
         for (final l in CefrLevel.values) {
           _ptr[l] = (j[l.name] as num?)?.toInt() ?? 0;
         }
-      } catch (_) {/* start fresh */}
+      } catch (_) {/* corrupt save — start fresh */}
     }
     final available = await _stt.initialize(
-      onStatus: (s) {
-        if (s == 'done' || s == 'notListening') {
-          if (mounted) setState(() => _listening = false);
-        }
-      },
-      onError: (_) {
-        if (mounted) setState(() => _listening = false);
-      },
+      onStatus: _onStatus,
+      onError: _onError,
     );
     if (!mounted) return;
     setState(() {
@@ -130,6 +249,175 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     super.dispose();
   }
 
+  /// Saves which level and how far into each list the learner is.
+  Future<void> _saveProgress() => _settings.set(
+      _progressKey,
+      jsonEncode({
+        'level': _level.name,
+        for (final l in CefrLevel.values) l.name: _ptr[l],
+      }));
+
+  // --- the listen cycle ---------------------------------------------------
+  //
+  // One rule: the microphone stopping ends the attempt. Nothing else scores.
+  // Transcripts stream in and are only displayed; the moment the engine is no
+  // longer listening — tapped off, silence timeout, or error — [_judge] runs
+  // at once. The [_Phase.listening] check makes every later trigger a no-op,
+  // so it is scored exactly once however many of them fire.
+
+  /// Mic button. Starts an attempt, or ends one early when the learner is done
+  /// talking and does not want to wait out the silence timeout.
+  Future<void> _toggleMic() async {
+    if (!_available) return;
+    if (_listening) {
+      // stop() flushes whatever the engine has into _heard and reports
+      // "notListening", which judges. Judging here too costs nothing (the
+      // phase guard) and covers an engine that goes quiet without saying so.
+      await _stt.stop();
+      _judge();
+      return;
+    }
+    setState(() {
+      _heard = '';
+      _phase = _Phase.listening;
+    });
+    await _stt.listen(
+      onResult: _onResult,
+      listenOptions: SpeechListenOptions(
+        localeId: 'en_US',
+        // A 16-word sentence read by a learner runs well past the old 15s cap,
+        // which is what used to cut people off mid-speech. The mic is
+        // tap-to-stop, so this is only a safety net.
+        listenFor: const Duration(minutes: 2),
+        // Silence needed to end an attempt — and therefore also how long the
+        // verdict takes to appear once the learner stops talking. It only
+        // starts counting after they stop making sound, so short is fine.
+        pauseFor: const Duration(seconds: 3),
+      ),
+    );
+  }
+
+  /// A transcript, partial or final — displayed, never scored. A partial that
+  /// happens to match must not end the attempt while the learner is still
+  /// talking, and one that arrives after the verdict must not rewrite it.
+  void _onResult(SpeechRecognitionResult r) {
+    if (!mounted || !_listening) return;
+    setState(() => _heard = r.recognizedWords);
+  }
+
+  /// The engine's own state changes — and the microphone going quiet is
+  /// exactly what ends an attempt, so this scores it immediately.
+  ///
+  /// ponytail: judged on the newest transcript rather than waiting for the
+  /// engine's final one, which can trail the stop signal. After a 3s silence
+  /// the two are the same in practice, and waiting was the visible lag.
+  void _onStatus(String status) {
+    if (status == 'done' || status == 'notListening') _judge();
+  }
+
+  /// Recogniser failures. A badly mangled word comes back as "no match" with
+  /// no transcript at all — that is a failed attempt, not a non-event, or the
+  /// learner gets no feedback and never reaches the skip button.
+  void _onError(SpeechRecognitionError e) {
+    if (!mounted || !_listening) return;
+    if (e.errorMsg == 'error_no_match' || e.errorMsg == 'error_speech_timeout') {
+      _judge();
+    } else {
+      // Permission or engine trouble: not the learner's fault, so no attempt
+      // is spent and the mic simply goes back to idle.
+      setState(() => _phase = _Phase.idle);
+      _snack('A beszédfelismerő hibázott (${e.errorMsg}).');
+    }
+  }
+
+  /// Scores the attempt against the newest transcript. The only place
+  /// [_phase] leaves [_Phase.listening], so calling it twice is harmless.
+  void _judge() {
+    if (!mounted || !_listening) return;
+    final ok = speechMatches(_heard, _target);
+    // Read before the counter moves: only a sentence nailed without a single
+    // failed try extends the streak.
+    final nailed = _attempts == 0;
+    setState(() {
+      _phase = ok ? _Phase.correct : _Phase.wrong;
+      if (!ok) {
+        _attempts++;
+        _streak = 0; // a miss puts the fire out
+      }
+    });
+    if (ok) {
+      _tts.praise();
+      if (nailed) _extendStreak();
+    } else if (_attempts >= _failToDrop) {
+      _demote();
+    }
+  }
+
+  // --- scoring ------------------------------------------------------------
+
+  /// Grows the streak, saves a new record, and celebrates milestones.
+  void _extendStreak() {
+    setState(() {
+      _streak++;
+      if (_streak > _bestStreak) {
+        _bestStreak = _streak;
+        _settings.setSpeakingBest(_bestStreak);
+      }
+    });
+    if (_streak % _promoteEvery == 0 && _nextLevel(_level) != null) {
+      _levelUpPending = true;
+      _celebrate('🎉 SZINTLÉPÉS!\n${_nextLevel(_level)!.label} jön');
+    } else if (_streak >= 3) {
+      _celebrate('🔥 $_streak');
+    }
+  }
+
+  /// Drops a level after [_failToDrop] failures, which also hands the learner
+  /// a different (easier) sentence. No-op at A1 — there is nowhere to go, and
+  /// the skip button is the way out there.
+  void _demote() {
+    final pl = _prevLevel(_level);
+    if (pl == null) return;
+    setState(() {
+      _level = pl;
+      _attempts = 0;
+      _heard = '';
+      _phase = _Phase.idle;
+    });
+    _saveProgress();
+    _snack('Nehéz volt — vissza ${pl.label} szintre.');
+  }
+
+  /// Moves to the next sentence, applying any level-up earned on this one.
+  Future<void> _next() async {
+    await _stt.cancel();
+    if (!mounted) return;
+    setState(() {
+      if (_pool.isNotEmpty) _ptr[_level] = _ptr[_level]! + 1;
+      if (_levelUpPending) {
+        final nl = _nextLevel(_level);
+        if (nl != null) _level = nl;
+        _levelUpPending = false;
+      }
+      _attempts = 0;
+      _heard = '';
+      _phase = _Phase.idle;
+    });
+    await _saveProgress();
+  }
+
+  /// Give up on a sentence that will not come out. Moves on like [_next], but
+  /// the fire goes out.
+  Future<void> _skip() async {
+    setState(() => _streak = 0);
+    await _next();
+    if (mounted) _snack('Kihagyva — a sorozat nullázódott.');
+  }
+
+  void _snack(String msg) => ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text(msg), duration: const Duration(seconds: 2)));
+
+  /// Pops a message over the screen for a moment (streak milestones, level-up).
   void _celebrate(String text) {
     _celebrateTimer?.cancel();
     setState(() {
@@ -141,156 +429,7 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     });
   }
 
-  Future<void> _saveProgress() => _settings.set(
-      _progressKey,
-      jsonEncode({
-        'level': _level.name,
-        for (final l in CefrLevel.values) l.name: _ptr[l],
-      }));
-
-  static String _norm(String s) => s
-      .toLowerCase()
-      .replaceAll(RegExp(r"[^a-z0-9'\s]"), '')
-      .replaceAll(RegExp(r'\s+'), ' ')
-      .trim();
-
-  List<_WordStatus> _wordStatuses() {
-    final t = _norm(_target).split(' ');
-    final h = _norm(_heard).trim();
-    final hw = h.isEmpty ? <String>[] : h.split(' ');
-    return [
-      for (var i = 0; i < t.length; i++)
-        if (i >= hw.length)
-          _WordStatus.pending
-        else if (hw[i] == t[i])
-          _WordStatus.correct
-        else
-          _WordStatus.wrong
-    ];
-  }
-
-  bool _matches(String heard, String target) {
-    final h = _norm(heard);
-    final t = _norm(target);
-    if (h == t) return true;
-    final tw = t.split(' ');
-    var i = 0;
-    for (final w in h.split(' ')) {
-      if (i < tw.length && w == tw[i]) i++;
-    }
-    return i == tw.length;
-  }
-
-  Future<void> _toggleMic() async {
-    if (!_available) return;
-    if (_listening) {
-      await _stt.stop();
-      return;
-    }
-    setState(() {
-      _heard = '';
-      _correct = null;
-      _listening = true;
-    });
-    await _stt.listen(
-      onResult: (r) {
-        if (!_listening) return;
-        setState(() => _heard = r.recognizedWords);
-        if (_wordStatuses().every((s) => s == _WordStatus.correct)) {
-          _succeed();
-        } else if (r.finalResult) {
-          _evaluate();
-        }
-      },
-      listenOptions: SpeechListenOptions(
-        localeId: 'en_US',
-        listenFor: const Duration(seconds: 15),
-        pauseFor: const Duration(seconds: 3),
-      ),
-    );
-  }
-
-  Future<void> _succeed() async {
-    if (_correct == true) return;
-    final nailed = _attempts == 0;
-    setState(() {
-      _correct = true;
-      _listening = false;
-    });
-    await _stt.stop();
-    _tts.praise();
-    _registerSuccess(nailed);
-  }
-
-  void _evaluate() {
-    final ok = _matches(_heard, _target);
-    setState(() {
-      _listening = false;
-      _correct = ok;
-      if (!ok) {
-        _attempts++;
-        _streak = 0; // a miss puts the fire out
-      }
-    });
-    if (ok) {
-      _tts.praise();
-      _registerSuccess(_attempts == 0);
-    } else if (_attempts >= _failToDrop && _prevLevel(_level) != null) {
-      _demote();
-    }
-  }
-
-  void _registerSuccess(bool nailed) {
-    if (!nailed) return;
-    setState(() {
-      _streak++;
-      if (_streak > _bestStreak) {
-        _bestStreak = _streak;
-        _settings.setSpeakingBest(_bestStreak);
-      }
-    });
-    if (_streak % _promoteEvery == 0 && _nextLevel(_level) != null) {
-      _promotePending = true;
-      _celebrate('🎉 SZINTLÉPÉS!\n${_nextLevel(_level)!.label} jön');
-    } else if (_streak >= 3) {
-      _celebrate('🔥 $_streak');
-    }
-  }
-
-  void _demote() {
-    final pl = _prevLevel(_level);
-    if (pl == null) return;
-    setState(() {
-      _level = pl;
-      _attempts = 0;
-      _correct = null;
-      _heard = '';
-    });
-    _saveProgress();
-    _snack('Nehéz volt — vissza ${pl.label} szintre.');
-  }
-
-  void _snack(String msg) => ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(msg), duration: const Duration(seconds: 2)));
-
-  /// Only reachable after a success — moves to the next sentence, applying a
-  /// pending level-up.
-  Future<void> _next() async {
-    await _stt.cancel();
-    if (!mounted) return;
-    setState(() {
-      if (_pool.isNotEmpty) _ptr[_level] = _ptr[_level]! + 1; // completed one
-      if (_promotePending) {
-        final nl = _nextLevel(_level);
-        if (nl != null) _level = nl;
-        _promotePending = false;
-      }
-      _attempts = 0;
-      _correct = null;
-      _heard = '';
-    });
-    await _saveProgress();
-  }
+  // --- UI -----------------------------------------------------------------
 
   @override
   Widget build(BuildContext context) {
@@ -300,110 +439,122 @@ class _SpeakingScreenState extends State<SpeakingScreen>
           ? const Center(child: CircularProgressIndicator())
           : Stack(children: [
               ListView(
-              padding: const EdgeInsets.all(16),
-              children: [
-                _fireBar(),
-                const SizedBox(height: 12),
-                _progress(),
-                const SizedBox(height: 16),
-                if (!_available)
-                  const Padding(
-                    padding: EdgeInsets.only(bottom: 16),
-                    child: Text(
-                      'A beszédfelismerés nem érhető el. Engedélyezd a '
-                      'mikrofont, és telepítsd a Google beszédfelismerőt.',
-                      style: TextStyle(color: Colors.red),
+                padding: const EdgeInsets.all(16),
+                children: [
+                  _fireBar(),
+                  const SizedBox(height: 12),
+                  _progress(),
+                  const SizedBox(height: 16),
+                  if (!_available)
+                    const Padding(
+                      padding: EdgeInsets.only(bottom: 16),
+                      child: Text(
+                        'A beszédfelismerés nem érhető el. Engedélyezd a '
+                        'mikrofont, és telepítsd a Google beszédfelismerőt.',
+                        style: TextStyle(color: Colors.red),
+                      ),
                     ),
-                  ),
-                Text('Mondd ki hangosan:',
-                    style: Theme.of(context).textTheme.bodyMedium),
-                const SizedBox(height: 8),
-                Card(
-                  child: Padding(
-                    padding: const EdgeInsets.all(16),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Expanded(child: _highlightedSentence()),
-                        IconButton(
-                          icon: const Icon(Icons.volume_up),
-                          tooltip: 'Meghallgatás',
-                          onPressed: () => _tts.speak(_target),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 24),
-                Center(
-                  child: IconButton.filled(
-                    iconSize: 48,
-                    isSelected: _listening,
-                    onPressed: _available ? _toggleMic : null,
-                    icon: Icon(_listening ? Icons.stop : Icons.mic),
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Center(
-                  child: Text(
-                    _listening ? 'Beszélj most…' : 'Koppints a mikrofonra',
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                ),
-                if (_heard.isNotEmpty) ...[
-                  const SizedBox(height: 16),
-                  Text('Ezt hallottam:',
-                      style: Theme.of(context).textTheme.labelLarge),
-                  Text('„$_heard”'),
-                ],
-                if (_correct == true) ...[
-                  const SizedBox(height: 16),
-                  const _Banner(true, 'Helyes! Jól ejtetted ki.'),
-                ],
-                if (_correct == false) ...[
-                  const SizedBox(height: 16),
-                  _Banner(false, 'Nem egyezik. Próbáld újra. ($_attempts/$_failToDrop)'),
-                ],
-                if (_revealAvailable) ...[
-                  const SizedBox(height: 16),
+                  Text('Mondd ki hangosan:',
+                      style: Theme.of(context).textTheme.bodyMedium),
+                  const SizedBox(height: 8),
                   Card(
-                    color: Theme.of(context).colorScheme.surfaceContainerHighest,
                     child: Padding(
-                      padding: const EdgeInsets.all(12),
-                      child: Column(
+                      padding: const EdgeInsets.all(16),
+                      child: Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('Helyes kiejtés',
-                              style: Theme.of(context).textTheme.titleSmall),
-                          const SizedBox(height: 4),
-                          const Text('Hallgasd meg lassan, és ismételd:'),
-                          const SizedBox(height: 8),
-                          FilledButton.tonalIcon(
-                            onPressed: () => _tts.speak(_target, rate: 0.3),
-                            icon: const Icon(Icons.slow_motion_video),
-                            label: const Text('Lassú kiejtés'),
+                          Expanded(child: _sentence()),
+                          IconButton(
+                            icon: const Icon(Icons.volume_up),
+                            tooltip: 'Meghallgatás',
+                            onPressed: () => _tts.speak(_target),
                           ),
                         ],
                       ),
                     ),
                   ),
-                ],
-                // "Next" appears only once the sentence is nailed.
-                if (_correct == true) ...[
                   const SizedBox(height: 24),
-                  FilledButton.icon(
-                    onPressed: _next,
-                    icon: const Icon(Icons.skip_next),
-                    label: const Text('Következő mondat'),
+                  Center(
+                    child: IconButton.filled(
+                      iconSize: 48,
+                      isSelected: _listening,
+                      onPressed: _available ? _toggleMic : null,
+                      icon: Icon(_listening ? Icons.stop : Icons.mic),
+                    ),
                   ),
+                  const SizedBox(height: 8),
+                  Center(
+                    child: Text(
+                      _listening
+                          ? 'Beszélj most… ha kész vagy, koppints'
+                          : 'Koppints a mikrofonra',
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  ),
+                  if (_heard.isNotEmpty) ...[
+                    const SizedBox(height: 16),
+                    Text('Ezt hallottam:',
+                        style: Theme.of(context).textTheme.labelLarge),
+                    Text('„$_heard”'),
+                  ],
+                  if (_phase == _Phase.correct) ...[
+                    const SizedBox(height: 16),
+                    const _Banner(true, 'Helyes! Jól ejtetted ki.'),
+                    const SizedBox(height: 24),
+                    FilledButton.icon(
+                      onPressed: _next,
+                      icon: const Icon(Icons.skip_next),
+                      label: const Text('Következő mondat'),
+                    ),
+                  ],
+                  if (_phase == _Phase.wrong) ...[
+                    const SizedBox(height: 16),
+                    _Banner(false,
+                        'Nem egyezik. Próbáld újra. ($_attempts. próbálkozás)'),
+                  ],
+                  if (_skipAvailable) ...[
+                    const SizedBox(height: 24),
+                    OutlinedButton.icon(
+                      onPressed: _skip,
+                      icon: const Icon(Icons.skip_next),
+                      label: const Text('Kihagyom — a sorozat elszáll'),
+                    ),
+                  ],
                 ],
-              ],
-            ),
+              ),
               if (_celebrating) Positioned.fill(child: _celebration()),
             ]),
     );
   }
 
+  /// The target sentence, each word green once the recogniser has heard it.
+  /// Unheard words stay neutral while listening and turn red once the attempt
+  /// has been judged wrong — same alignment the verdict used, so the colours
+  /// can never contradict the banner.
+  Widget _sentence() {
+    final words = _target.trim().split(RegExp(r'\s+'));
+    final matched = matchedWords(_heard, _target);
+    final missColor = _phase == _Phase.wrong ? Colors.red.shade600 : null;
+    return Wrap(
+      spacing: 6,
+      runSpacing: 2,
+      children: [
+        for (var i = 0; i < words.length; i++)
+          Text(
+            words[i],
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.w600,
+              color: i < matched.length && matched[i]
+                  ? Colors.green.shade600
+                  : missColor,
+            ),
+          ),
+      ],
+    );
+  }
+
+  /// Streak header: flames that grow and multiply with the run.
   Widget _fireBar() {
     final s = _streak;
     final color = s == 0
@@ -416,7 +567,11 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     final size = (28 + s.clamp(0, 12) * 3).toDouble();
     final atTop = _nextLevel(_level) == null;
     final toNext = _promoteEvery - (s % _promoteEvery);
-    final flames = s >= 10 ? 3 : s >= 5 ? 2 : 1;
+    final flames = s >= 10
+        ? 3
+        : s >= 5
+            ? 2
+            : 1;
     return Card(
       color: s >= 3 ? color.withValues(alpha: 0.10) : null,
       child: Padding(
@@ -453,60 +608,24 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     );
   }
 
+  /// One flame, bobbing out of phase with its neighbours.
   Widget _animatedFlame(double size, Color color, double phase,
       {required bool active}) {
     return AnimatedBuilder(
       animation: _flame,
       builder: (_, child) {
-        final t = (_flame.value + phase) % 1.0;
-        final wave = math.sin(t * 2 * math.pi);
-        final scale = active ? 1.0 + 0.20 * wave : 1.0;
+        final wave = math.sin(((_flame.value + phase) % 1.0) * 2 * math.pi);
         return Transform.translate(
           offset: Offset(0, active ? -2 * wave : 0),
-          child: Transform.scale(scale: scale, child: child),
+          child: Transform.scale(
+              scale: active ? 1.0 + 0.20 * wave : 1.0, child: child),
         );
       },
       child: Icon(Icons.local_fire_department, color: color, size: size),
     );
   }
 
-  Widget _celebration() {
-    return IgnorePointer(
-      child: Center(
-        child: TweenAnimationBuilder<double>(
-          key: ValueKey(_celebrateText),
-          tween: Tween(begin: 0.5, end: 1.0),
-          duration: const Duration(milliseconds: 450),
-          curve: Curves.elasticOut,
-          builder: (_, v, child) =>
-              Transform.scale(scale: v, child: Opacity(opacity: v.clamp(0, 1), child: child)),
-          child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 20),
-            decoration: BoxDecoration(
-              color: Colors.deepOrange.withValues(alpha: 0.92),
-              borderRadius: BorderRadius.circular(20),
-              boxShadow: [
-                BoxShadow(
-                    color: Colors.orange.withValues(alpha: 0.6),
-                    blurRadius: 30,
-                    spreadRadius: 4),
-              ],
-            ),
-            child: Text(
-              _celebrateText,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                  height: 1.2),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
+  /// Per-level completion bars.
   Widget _progress() {
     var overallDone = 0;
     var overallTotal = 0;
@@ -532,8 +651,8 @@ class _SpeakingScreenState extends State<SpeakingScreen>
             Expanded(
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(4),
-                child: LinearProgressIndicator(
-                    value: done / count, minHeight: 7),
+                child:
+                    LinearProgressIndicator(value: done / count, minHeight: 7),
               ),
             ),
             const SizedBox(width: 8),
@@ -563,34 +682,46 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     );
   }
 
-  Widget _highlightedSentence() {
-    final words = _target.split(RegExp(r'\s+'));
-    final statuses = _wordStatuses();
-    final green = Colors.green.shade600;
-    final red = Colors.red.shade600;
-    return Wrap(
-      spacing: 6,
-      runSpacing: 2,
-      children: [
-        for (var i = 0; i < words.length; i++)
-          Text(
-            words[i],
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.w600,
-              color: switch (
-                  i < statuses.length ? statuses[i] : _WordStatus.pending) {
-                _WordStatus.correct => green,
-                _WordStatus.wrong => red,
-                _WordStatus.pending => null,
-              },
+  /// The pop-over shown on streak milestones and level-ups.
+  Widget _celebration() {
+    return IgnorePointer(
+      child: Center(
+        child: TweenAnimationBuilder<double>(
+          key: ValueKey(_celebrateText),
+          tween: Tween(begin: 0.5, end: 1.0),
+          duration: const Duration(milliseconds: 450),
+          curve: Curves.elasticOut,
+          builder: (_, v, child) => Transform.scale(
+              scale: v, child: Opacity(opacity: v.clamp(0, 1), child: child)),
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 20),
+            decoration: BoxDecoration(
+              color: Colors.deepOrange.withValues(alpha: 0.92),
+              borderRadius: BorderRadius.circular(20),
+              boxShadow: [
+                BoxShadow(
+                    color: Colors.orange.withValues(alpha: 0.6),
+                    blurRadius: 30,
+                    spreadRadius: 4),
+              ],
+            ),
+            child: Text(
+              _celebrateText,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
+                  height: 1.2),
             ),
           ),
-      ],
+        ),
+      ),
     );
   }
 }
 
+/// Green/red result strip under the mic.
 class _Banner extends StatelessWidget {
   final bool ok;
   final String text;

@@ -15,19 +15,19 @@ void main() {
 
   final words = [for (var i = 1; i <= 30; i++) word(i)];
 
-  test('new cards fill in asset order up to the cap', () {
+  test('new cards fill in asset order up to the session size', () {
     final q = SessionBuilder.build(
       words: words,
       directions: [Direction.enToHu],
       dueStates: [],
       existingKeys: {},
-      newCap: 5,
+      sessionSize: 5,
     );
     expect(q.length, 5);
     expect(q.map((c) => c.wordId), [1, 2, 3, 4, 5]);
   });
 
-  test('due cards come first, oldest-due, capped at 20', () {
+  test('due cards come first, oldest-due, and fill the whole round', () {
     final base = DateTime(2026, 1, 1);
     final due = [
       for (var i = 1; i <= 25; i++)
@@ -44,9 +44,9 @@ void main() {
       directions: [Direction.enToHu],
       dueStates: due,
       existingKeys: {for (var i = 1; i <= 25; i++) '$i:en_hu'},
-      newCap: 0,
+      sessionSize: 20,
     );
-    expect(q.length, 20); // due cap
+    expect(q.length, 20); // the round is full of due cards
     expect(q.first.wordId, 25); // oldest due first
   });
 
@@ -56,11 +56,34 @@ void main() {
       directions: [Direction.enToHu, Direction.huToEn],
       dueStates: [],
       existingKeys: {},
-      newCap: 4,
+      sessionSize: 4,
     );
     expect(q.length, 4);
     expect(q[0].direction, Direction.enToHu);
     expect(q[1].direction, Direction.huToEn);
+  });
+
+  test('due cards leave room for new ones inside the session size', () {
+    final due = [
+      for (var i = 1; i <= 3; i++)
+        ReviewState(
+          wordId: i,
+          direction: Direction.enToHu,
+          dueAt: DateTime(2026, 1, 1),
+          intervalDays: 1,
+          repetitions: 1,
+        )
+    ];
+    final q = SessionBuilder.build(
+      words: words,
+      directions: [Direction.enToHu],
+      dueStates: due,
+      existingKeys: {for (var i = 1; i <= 3; i++) '$i:en_hu'},
+      sessionSize: 8,
+    );
+    expect(q.length, 8); // 3 due + 5 new, never more than asked for
+    expect(q.take(3).map((c) => c.wordId), [1, 2, 3]);
+    expect(q.skip(3).map((c) => c.wordId), [4, 5, 6, 7, 8]);
   });
 
   test('reinsert position is offset ahead, clamped to end', () {

@@ -1,119 +1,489 @@
 {
   "_comment": "Hand-verified EN->HU for common words where the inverted Wiktionary dictionary is wrong or non-canonical. build_vocab.py prefers these over the auto lookup. Verbs use the standard 3rd-person + infinitive so either is accepted.",
-  "water": ["víz"],
-  "bread": ["kenyér"],
-  "milk": ["tej"],
-  "house": ["ház"],
-  "dog": ["kutya"],
-  "cat": ["macska"],
-  "book": ["könyv"],
-  "table": ["asztal"],
-  "chair": ["szék"],
-  "door": ["ajtó"],
-  "window": ["ablak"],
-  "car": ["autó", "kocsi"],
-  "tree": ["fa"],
-  "sun": ["nap"],
-  "name": ["név"],
-  "friend": ["barát"],
-  "family": ["család"],
-  "mother": ["anya"],
-  "father": ["apa"],
-  "child": ["gyerek", "gyermek"],
-  "man": ["férfi"],
-  "woman": ["nő"],
-  "food": ["étel"],
-  "apple": ["alma"],
-  "hand": ["kéz"],
-  "eye": ["szem"],
-  "head": ["fej"],
-  "city": ["város"],
-  "school": ["iskola"],
-  "time": ["idő"],
-  "year": ["év"],
-  "day": ["nap"],
-  "night": ["éjszaka", "éj"],
-  "money": ["pénz"],
-  "street": ["utca"],
-  "big": ["nagy"],
-  "small": ["kicsi", "kis"],
-  "good": ["jó"],
-  "bad": ["rossz"],
-  "new": ["új"],
-  "old": ["régi", "öreg"],
-  "hot": ["forró", "meleg"],
-  "cold": ["hideg"],
-  "happy": ["boldog"],
-  "red": ["piros", "vörös"],
-  "white": ["fehér"],
-  "black": ["fekete"],
-  "blue": ["kék"],
-  "green": ["zöld"],
-  "eat": ["enni", "eszik"],
-  "drink": ["inni", "iszik"],
-  "go": ["menni", "megy"],
-  "come": ["jönni", "jön"],
-  "see": ["látni", "lát"],
-  "know": ["tudni", "ismerni"],
-  "want": ["akarni", "akar"],
-  "like": ["szeretni", "kedvelni"],
-  "speak": ["beszélni", "beszél"],
-  "read": ["olvasni", "olvas"],
-  "write": ["írni", "ír"],
-  "give": ["adni", "ad"],
-  "work": ["munka"],
-  "weather": ["időjárás"],
-  "country": ["ország"],
-  "language": ["nyelv"],
-  "question": ["kérdés"],
-  "answer": ["válasz"],
-  "problem": ["probléma", "gond"],
-  "kitchen": ["konyha"],
-  "garden": ["kert"],
-  "church": ["templom"],
-  "shop": ["bolt", "üzlet"],
-  "restaurant": ["étterem"],
-  "hospital": ["kórház"],
-  "ticket": ["jegy"],
-  "key": ["kulcs"],
-  "beautiful": ["szép", "gyönyörű"],
-  "difficult": ["nehéz"],
-  "easy": ["könnyű"],
-  "important": ["fontos"],
-  "different": ["különböző", "más"],
-  "tired": ["fáradt"],
-  "hungry": ["éhes"],
-  "angry": ["dühös", "mérges"],
-  "travel": ["utazni", "utazik"],
-  "remember": ["emlékezni", "emlékszik"],
-  "forget": ["elfelejteni", "felejteni"],
-  "understand": ["érteni", "megérteni"],
-  "build": ["építeni", "épít"],
-  "choose": ["választani", "választ"],
-  "cook": ["főzni", "főz"],
-  "learn": ["tanulni", "megtanul"],
-  "help": ["segíteni", "segít"],
-  "buy": ["venni", "vásárolni"],
-  "advice": ["tanács"],
-  "experience": ["tapasztalat", "élmény"],
-  "opinion": ["vélemény"],
-  "government": ["kormány"],
-  "environment": ["környezet"],
-  "science": ["tudomány"],
-  "culture": ["kultúra"],
-  "relationship": ["kapcsolat"],
-  "success": ["siker"],
-  "purpose": ["cél"],
-  "result": ["eredmény"],
-  "freedom": ["szabadság"],
-  "necessary": ["szükséges"],
-  "serious": ["komoly"],
-  "useful": ["hasznos"],
-  "honest": ["őszinte"],
-  "explain": ["elmagyarázni", "magyarázni"],
-  "improve": ["javítani", "fejleszteni"],
-  "receive": ["megkapni", "kapni"],
-  "reduce": ["csökkenteni"],
-  "suggest": ["javasolni"],
-  "support": ["támogatni"]
+  "water": [
+    "víz"
+  ],
+  "bread": [
+    "kenyér"
+  ],
+  "milk": [
+    "tej"
+  ],
+  "house": [
+    "ház"
+  ],
+  "dog": [
+    "kutya"
+  ],
+  "cat": [
+    "macska"
+  ],
+  "book": [
+    "könyv"
+  ],
+  "table": [
+    "asztal"
+  ],
+  "chair": [
+    "szék"
+  ],
+  "door": [
+    "ajtó"
+  ],
+  "window": [
+    "ablak"
+  ],
+  "car": [
+    "autó",
+    "kocsi"
+  ],
+  "tree": [
+    "fa"
+  ],
+  "sun": [
+    "nap"
+  ],
+  "name": [
+    "név"
+  ],
+  "friend": [
+    "barát"
+  ],
+  "family": [
+    "család"
+  ],
+  "mother": [
+    "anya"
+  ],
+  "father": [
+    "apa"
+  ],
+  "child": [
+    "gyerek",
+    "gyermek"
+  ],
+  "man": [
+    "férfi"
+  ],
+  "woman": [
+    "nő"
+  ],
+  "food": [
+    "étel"
+  ],
+  "apple": [
+    "alma"
+  ],
+  "hand": [
+    "kéz"
+  ],
+  "eye": [
+    "szem"
+  ],
+  "head": [
+    "fej"
+  ],
+  "city": [
+    "város"
+  ],
+  "school": [
+    "iskola"
+  ],
+  "time": [
+    "idő"
+  ],
+  "year": [
+    "év"
+  ],
+  "day": [
+    "nap"
+  ],
+  "night": [
+    "éjszaka",
+    "éj"
+  ],
+  "money": [
+    "pénz"
+  ],
+  "street": [
+    "utca"
+  ],
+  "big": [
+    "nagy"
+  ],
+  "small": [
+    "kicsi",
+    "kis"
+  ],
+  "good": [
+    "jó"
+  ],
+  "bad": [
+    "rossz"
+  ],
+  "new": [
+    "új"
+  ],
+  "old": [
+    "régi",
+    "öreg"
+  ],
+  "hot": [
+    "forró",
+    "meleg"
+  ],
+  "cold": [
+    "hideg"
+  ],
+  "happy": [
+    "boldog"
+  ],
+  "red": [
+    "piros",
+    "vörös"
+  ],
+  "white": [
+    "fehér"
+  ],
+  "black": [
+    "fekete"
+  ],
+  "blue": [
+    "kék"
+  ],
+  "green": [
+    "zöld"
+  ],
+  "eat": [
+    "enni",
+    "eszik"
+  ],
+  "drink": [
+    "inni",
+    "iszik"
+  ],
+  "go": [
+    "menni",
+    "megy"
+  ],
+  "come": [
+    "jönni",
+    "jön"
+  ],
+  "see": [
+    "látni",
+    "lát"
+  ],
+  "know": [
+    "tudni",
+    "ismerni"
+  ],
+  "want": [
+    "akarni",
+    "akar"
+  ],
+  "like": [
+    "szeretni",
+    "kedvelni"
+  ],
+  "speak": [
+    "beszélni",
+    "beszél"
+  ],
+  "read": [
+    "olvasni",
+    "olvas"
+  ],
+  "write": [
+    "írni",
+    "ír"
+  ],
+  "give": [
+    "adni",
+    "ad"
+  ],
+  "work": [
+    "munka"
+  ],
+  "weather": [
+    "időjárás"
+  ],
+  "country": [
+    "ország"
+  ],
+  "language": [
+    "nyelv"
+  ],
+  "question": [
+    "kérdés"
+  ],
+  "answer": [
+    "válasz"
+  ],
+  "problem": [
+    "probléma",
+    "gond"
+  ],
+  "kitchen": [
+    "konyha"
+  ],
+  "garden": [
+    "kert"
+  ],
+  "church": [
+    "templom"
+  ],
+  "shop": [
+    "bolt",
+    "üzlet"
+  ],
+  "restaurant": [
+    "étterem"
+  ],
+  "hospital": [
+    "kórház"
+  ],
+  "ticket": [
+    "jegy"
+  ],
+  "key": [
+    "kulcs"
+  ],
+  "beautiful": [
+    "szép",
+    "gyönyörű"
+  ],
+  "difficult": [
+    "nehéz"
+  ],
+  "easy": [
+    "könnyű"
+  ],
+  "important": [
+    "fontos"
+  ],
+  "different": [
+    "különböző",
+    "más"
+  ],
+  "tired": [
+    "fáradt"
+  ],
+  "hungry": [
+    "éhes"
+  ],
+  "angry": [
+    "dühös",
+    "mérges"
+  ],
+  "travel": [
+    "utazni",
+    "utazik"
+  ],
+  "remember": [
+    "emlékezni",
+    "emlékszik"
+  ],
+  "forget": [
+    "elfelejteni",
+    "felejteni"
+  ],
+  "understand": [
+    "érteni",
+    "megérteni"
+  ],
+  "build": [
+    "építeni",
+    "épít"
+  ],
+  "choose": [
+    "választani",
+    "választ"
+  ],
+  "cook": [
+    "főzni",
+    "főz"
+  ],
+  "learn": [
+    "tanulni",
+    "megtanul"
+  ],
+  "help": [
+    "segíteni",
+    "segít"
+  ],
+  "buy": [
+    "venni",
+    "vásárolni"
+  ],
+  "advice": [
+    "tanács"
+  ],
+  "experience": [
+    "tapasztalat",
+    "élmény"
+  ],
+  "opinion": [
+    "vélemény"
+  ],
+  "government": [
+    "kormány"
+  ],
+  "environment": [
+    "környezet"
+  ],
+  "science": [
+    "tudomány"
+  ],
+  "culture": [
+    "kultúra"
+  ],
+  "relationship": [
+    "kapcsolat"
+  ],
+  "success": [
+    "siker"
+  ],
+  "purpose": [
+    "cél"
+  ],
+  "result": [
+    "eredmény"
+  ],
+  "freedom": [
+    "szabadság"
+  ],
+  "necessary": [
+    "szükséges"
+  ],
+  "serious": [
+    "komoly"
+  ],
+  "useful": [
+    "hasznos"
+  ],
+  "honest": [
+    "őszinte"
+  ],
+  "explain": [
+    "elmagyarázni",
+    "magyarázni"
+  ],
+  "improve": [
+    "javítani",
+    "fejleszteni"
+  ],
+  "receive": [
+    "megkapni",
+    "kapni"
+  ],
+  "reduce": [
+    "csökkenteni"
+  ],
+  "suggest": [
+    "javasolni"
+  ],
+  "support": [
+    "támogatni"
+  ],
+  "about": [
+    "-ról",
+    "-ről",
+    "körülbelül"
+  ],
+  "in": [
+    "-ban",
+    "-ben",
+    "benne"
+  ],
+  "out": [
+    "-ból",
+    "-ből",
+    "kívül",
+    "ki"
+  ],
+  "on": [
+    "-on",
+    "-en",
+    "-ön",
+    "rajta"
+  ],
+  "at": [
+    "-nál",
+    "-nél"
+  ],
+  "from": [
+    "-tól",
+    "-től",
+    "-ból",
+    "-ből"
+  ],
+  "with": [
+    "-val",
+    "-vel"
+  ],
+  "for": [
+    "-ért",
+    "-nak",
+    "-nek"
+  ],
+  "to": [
+    "-hoz",
+    "-hez",
+    "-höz",
+    "-nak",
+    "-nek"
+  ],
+  "into": [
+    "-ba",
+    "-be"
+  ],
+  "onto": [
+    "-ra",
+    "-re"
+  ],
+  "until": [
+    "-ig"
+  ],
+  "before": [
+    "előtt",
+    "korábban"
+  ],
+  "after": [
+    "után",
+    "utána"
+  ],
+  "over": [
+    "fölött",
+    "felett"
+  ],
+  "under": [
+    "alatt"
+  ],
+  "down": [
+    "le",
+    "lefelé"
+  ],
+  "off": [
+    "le",
+    "-ról",
+    "-ről"
+  ],
+  "around": [
+    "körül",
+    "körülötte"
+  ],
+  "through": [
+    "keresztül",
+    "át"
+  ],
+  "up": [
+    "fel",
+    "fent"
+  ],
+  "then": [
+    "akkor",
+    "majd",
+    "utána"
+  ]
 }

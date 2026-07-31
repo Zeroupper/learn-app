@@ -57,4 +57,34 @@ void main() {
     // a genuinely different verb is still wrong
     expect(huCheck('futni', ['úszni']), Grade.wrong);
   });
+
+  test('case endings match with or without the leading hyphen', () {
+    expect(huCheck('-ban', ['-ban']), Grade.correct);
+    expect(huCheck('ban', ['-ban']), Grade.correct);
+    expect(huCheck('-ban', ['ban']), Grade.correct);
+  });
+
+  test('any vowel-harmony variant of a case ending is accepted', () {
+    // "in" is -ban/-ben; which one is right depends on a word that is not here.
+    expect(huCheck('-ben', ['-ban']), Grade.correct);
+    expect(huCheck('-ban', ['-ben']), Grade.correct);
+    // "about" is -ról/-ről; "at" is -nál/-nél.
+    expect(huCheck('rol', ['-ról']), Grade.correct);
+    expect(huCheck('-ről', ['-ról']), Grade.correct);
+    expect(huCheck('-nel', ['-nál']), Grade.correct);
+    // "to" has a three-way harmony.
+    expect(huCheck('-höz', ['-hoz']), Grade.correct);
+    // Different suffixes stay different: -ban (in) is not -ra (onto).
+    expect(huCheck('-ban', ['-ra']), Grade.wrong);
+    expect(huCheck('-tol', ['-hoz']), Grade.wrong);
+  });
+
+  test('harmony never loosens plain words, whose accents carry meaning', () {
+    // -kor is a suffix, but kör (circle) is a word: still only "almost".
+    expect(huCheck('kor', ['kör']), Grade.almost);
+    // ...whereas the suffix itself accepts the unaccented typing.
+    expect(huCheck('kor', ['-kor']), Grade.correct);
+    // én ("I") must not be swallowed by the -on/-en/-ön group.
+    expect(huCheck('en', ['én']), Grade.almost);
+  });
 }

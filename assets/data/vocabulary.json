@@ -30,8 +30,9 @@
     "en": "about",
     "en_accepted": [],
     "hu": [
-      "körülbelül",
-      "valamennyi"
+      "-ról",
+      "-ről",
+      "körülbelül"
     ],
     "level": "a1",
     "pos": "adverb",
@@ -43,6 +44,8 @@
     "en": "out",
     "en_accepted": [],
     "hu": [
+      "-ból",
+      "-ből",
       "kívül",
       "ki"
     ],
@@ -274,6 +277,7 @@
     "en": "then",
     "en_accepted": [],
     "hu": [
+      "akkor",
       "majd",
       "utána"
     ],
@@ -492,7 +496,8 @@
     "en_accepted": [],
     "hu": [
       "le",
-      "ki"
+      "-ról",
+      "-ről"
     ],
     "level": "a1",
     "pos": "adjective",
@@ -593,7 +598,7 @@
     "en_accepted": [],
     "hu": [
       "le",
-      "alá"
+      "lefelé"
     ],
     "level": "a1",
     "pos": "adverb",
@@ -7614,7 +7619,8 @@
     "en": "in",
     "en_accepted": [],
     "hu": [
-      "ben",
+      "-ban",
+      "-ben",
       "benne"
     ],
     "level": "a2",
@@ -7693,7 +7699,7 @@
     "en_accepted": [],
     "hu": [
       "fölött",
-      "alatt"
+      "felett"
     ],
     "level": "a2",
     "pos": "adverb",
@@ -7784,7 +7790,8 @@
     "en_accepted": [],
     "hu": [
       "le",
-      "ki"
+      "-ról",
+      "-ről"
     ],
     "level": "a2",
     "pos": "adverb",
@@ -16720,7 +16727,7 @@
     "en_accepted": [],
     "hu": [
       "keresztül",
-      "által"
+      "át"
     ],
     "level": "b1",
     "pos": "adverb",

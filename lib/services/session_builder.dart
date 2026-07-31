@@ -19,22 +19,26 @@ class SessionCard {
   int get hashCode => Object.hash(wordId, direction);
 }
 
-/// Pure session-queue construction. Due cards first (oldest-due, capped), then
-/// new cards in frequency (asset) order. Multiple directions interleave.
+/// Pure session-queue construction. Due cards first (oldest-due), then new
+/// cards in frequency (asset) order, up to [sessionSize] in total. Multiple
+/// directions interleave.
 class SessionBuilder {
-  static const int dueCap = 20;
-
   static List<SessionCard> build({
     required List<VocabWord> words, // level-filtered, frequency order
     required List<Direction> directions,
     required List<ReviewState> dueStates, // dueAt <= now, filtered to dirs
     required Set<String> existingKeys, // '$wordId:$dirCode' with a stored state
-    int newCap = 10,
+    int sessionSize = 20,
   }) {
     final due = [...dueStates]..sort((a, b) => a.dueAt!.compareTo(b.dueAt!));
-    final dueCards =
-        due.take(dueCap).map((s) => SessionCard(s.wordId, s.direction)).toList();
+    // ponytail: due cards win the whole round when the backlog is large, which
+    // stalls new vocabulary. Reserve a slice for new cards if that bites.
+    final dueCards = due
+        .take(sessionSize)
+        .map((s) => SessionCard(s.wordId, s.direction))
+        .toList();
 
+    final newCap = sessionSize - dueCards.length;
     final newCards = <SessionCard>[];
     for (final w in words) {
       for (final d in directions) {

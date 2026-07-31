@@ -16,13 +16,20 @@ typedef SaveReview = Future<void> Function(ReviewState updated, int quality);
 class StudyPrompt {
   final VocabWord word;
   final Direction direction;
-  const StudyPrompt(this.word, this.direction);
+
+  /// Every English word that means the same thing, so a Hungarian prompt with
+  /// several English translations accepts any of them. Defaults to the card's
+  /// own English side when no deck-wide index is available.
+  final List<String>? englishSynonyms;
+
+  const StudyPrompt(this.word, this.direction, {this.englishSynonyms});
 
   bool get targetIsHu => direction == Direction.enToHu;
   String get promptText => targetIsHu ? word.en : word.hu.first;
   String get answerText => targetIsHu ? word.hu.join(', ') : word.en;
-  List<String> get accepted =>
-      targetIsHu ? word.hu : [word.en, ...word.enAccepted];
+  List<String> get accepted => targetIsHu
+      ? word.hu
+      : (englishSynonyms ?? [word.en, ...word.enAccepted]);
 
   /// The English string to feed TTS (always the English side of the card).
   String get englishText => word.en;
@@ -41,6 +48,7 @@ class _CardStatus {
 class StudyController extends ChangeNotifier {
   final List<SessionCard> _queue;
   final VocabWord Function(int id) _lookup;
+  final List<String> Function(VocabWord)? _synonyms;
   final LoadState _loadState;
   final SaveReview _saveReview;
   final DateTime Function() _clock;
@@ -60,9 +68,11 @@ class StudyController extends ChangeNotifier {
     required VocabWord Function(int id) lookup,
     required LoadState loadState,
     required SaveReview saveReview,
+    List<String> Function(VocabWord)? synonyms,
     DateTime Function()? clock,
   })  : _queue = List.of(queue),
         _lookup = lookup, // ignore: prefer_initializing_formals
+        _synonyms = synonyms, // ignore: prefer_initializing_formals
         _loadState = loadState, // ignore: prefer_initializing_formals
         _saveReview = saveReview, // ignore: prefer_initializing_formals
         _clock = clock ?? DateTime.now {
@@ -76,11 +86,13 @@ class StudyController extends ChangeNotifier {
     required List<SessionCard> queue,
     required VocabWord Function(int id) lookup,
     required SrsRepository srs,
+    List<String> Function(VocabWord)? synonyms,
     DateTime Function()? clock,
   }) {
     return StudyController(
       queue: queue,
       lookup: lookup,
+      synonyms: synonyms,
       clock: clock,
       loadState: srs.stateFor,
       saveReview: (updated, quality) =>
@@ -100,7 +112,9 @@ class StudyController extends ChangeNotifier {
   StudyPrompt? get prompt {
     if (_index >= _queue.length) return null;
     final c = _queue[_index];
-    return StudyPrompt(_lookup(c.wordId), c.direction);
+    final word = _lookup(c.wordId);
+    return StudyPrompt(word, c.direction,
+        englishSynonyms: _synonyms?.call(word));
   }
 
   Future<void> check(String input) async {

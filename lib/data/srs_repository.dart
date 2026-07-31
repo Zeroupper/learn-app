@@ -54,6 +54,17 @@ class SrsRepository {
     return {for (final r in rows) r['word_id'] as int: r['c'] as int};
   }
 
+  /// When each distinct word was first answered cleanly — i.e. the moment it
+  /// became "learned". Drives the hearts earned back over time.
+  Future<List<DateTime>> learnedAtTimes() async {
+    final rows = await db.rawQuery(
+      'SELECT MIN(reviewed_at) t FROM review_log WHERE quality >= 4 GROUP BY word_id',
+    );
+    return rows
+        .map((r) => DateTime.fromMillisecondsSinceEpoch(r['t'] as int))
+        .toList();
+  }
+
   /// Timestamps of every logged review (for "today" count and streak).
   Future<List<DateTime>> reviewTimes() async {
     final rows = await db.query('review_log', columns: ['reviewed_at']);

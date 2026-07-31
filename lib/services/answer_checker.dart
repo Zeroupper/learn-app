@@ -47,6 +47,8 @@ class AnswerChecker {
     s = s.replaceAll(RegExp(r'\s+'), ' ');
     s = s.replaceAll(RegExp(r'[.!?,;:]+$'), '').trim();
     if (targetIsHu) {
+      // Case endings are written either way: "-ban" and "ban" are the same.
+      s = s.replaceFirst(RegExp(r'^-'), '');
       if (s.startsWith('az ')) {
         s = s.substring(3);
       } else if (s.startsWith('a ')) {
@@ -86,11 +88,52 @@ class AnswerChecker {
       if (normAccepted.any((a) => _verbStem(a) == stemInput)) {
         return Grade.correct;
       }
+      // Accept any vowel-harmony variant of a case ending: -ban/-ben are one
+      // suffix, and which one is correct depends on a word that is not here.
+      // Only for answers the deck writes with a leading hyphen — plain words
+      // must keep their accents, since kor / kór / kör are three words.
+      final group = _harmonyGroup(normInput);
+      if (group != null) {
+        for (var i = 0; i < accepted.length; i++) {
+          if (!accepted[i].trimLeft().startsWith('-')) continue;
+          if (_harmonyGroup(normAccepted[i]) == group) return Grade.correct;
+        }
+      }
     }
     final foldInput = _fold(normInput);
     if (normAccepted.any((a) => _fold(a) == foldInput)) return Grade.almost;
     return Grade.wrong;
   }
+
+  /// Hungarian case endings, grouped by vowel harmony. Every form in a group is
+  /// the same suffix; only the host word decides which one is used, and a
+  /// flashcard shows the suffix on its own — so all of them are correct.
+  /// Listed accent-folded, so -ból/-ből collapse to one entry and only the
+  /// genuine a/e harmony split needs spelling out.
+  static const _harmonyGroups = <List<String>>[
+    ['ban', 'ben'], // in
+    ['ba', 'be'], // into
+    ['bol'], // out of  (-ból/-ből)
+    ['on', 'en', 'n'], // on  (-on/-en/-ön)
+    ['ra', 're'], // onto
+    ['rol'], // about, off  (-ról/-ről)
+    ['nal', 'nel'], // at
+    ['hoz', 'hez'], // to  (-hoz/-hez/-höz)
+    ['tol'], // from  (-tól/-től)
+    ['val', 'vel'], // with
+    ['nak', 'nek'], // for, to
+    ['ert'], // for
+    ['ig'], // until
+    ['kent'], // as
+    ['kor'], // at (a time)
+  ];
+
+  static final Map<String, int> _harmonyIndex = {
+    for (var i = 0; i < _harmonyGroups.length; i++)
+      for (final form in _harmonyGroups[i]) form: i,
+  };
+
+  static int? _harmonyGroup(String s) => _harmonyIndex[_fold(s)];
 
   /// Reduces a Hungarian verb form to its stem so the infinitive (-ni) and the
   /// 3rd-person (-ik) forms compare equal: látni/lát, dolgozni/dolgozik.

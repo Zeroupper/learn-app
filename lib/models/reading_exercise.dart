@@ -1,48 +1,42 @@
-class ReadingQuestion {
-  final String question;
-  final List<String> options;
-  final int correctIndex;
-  const ReadingQuestion(this.question, this.options, this.correctIndex);
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  factory ReadingQuestion.fromJson(Map<String, dynamic> j) => ReadingQuestion(
-        j['question'] as String? ?? '',
-        (j['options'] as List? ?? []).cast<String>(),
-        (j['correct_index'] as num?)?.toInt() ?? 0,
-      );
+part 'reading_exercise.freezed.dart';
+part 'reading_exercise.g.dart';
+
+@freezed
+abstract class ReadingQuestion with _$ReadingQuestion {
+  const factory ReadingQuestion({
+    @Default('') String question,
+    @Default(<String>[]) List<String> options,
+    @Default(0) int correctIndex,
+  }) = _ReadingQuestion;
+
+  factory ReadingQuestion.fromJson(Map<String, dynamic> json) =>
+      _$ReadingQuestionFromJson(json);
 }
 
-class GlossaryEntry {
-  final String en;
-  final String hu;
-  const GlossaryEntry(this.en, this.hu);
+@freezed
+abstract class GlossaryEntry with _$GlossaryEntry {
+  const factory GlossaryEntry({
+    @Default('') String en,
+    @Default('') String hu,
+  }) = _GlossaryEntry;
 
-  factory GlossaryEntry.fromJson(Map<String, dynamic> j) =>
-      GlossaryEntry(j['en'] as String? ?? '', j['hu'] as String? ?? '');
+  factory GlossaryEntry.fromJson(Map<String, dynamic> json) =>
+      _$GlossaryEntryFromJson(json);
 }
 
-class ReadingExercise {
-  final String title;
-  final String text;
-  final List<ReadingQuestion> questions;
-  final List<GlossaryEntry> glossary;
+@freezed
+abstract class ReadingExercise with _$ReadingExercise {
+  const factory ReadingExercise({
+    @Default('') String title,
+    @Default('') String text,
+    @Default(<ReadingQuestion>[]) List<ReadingQuestion> questions,
+    @Default(<GlossaryEntry>[]) List<GlossaryEntry> glossary,
+  }) = _ReadingExercise;
 
-  const ReadingExercise({
-    required this.title,
-    required this.text,
-    required this.questions,
-    required this.glossary,
-  });
-
-  factory ReadingExercise.fromJson(Map<String, dynamic> j) => ReadingExercise(
-        title: j['title'] as String? ?? '',
-        text: j['text'] as String? ?? '',
-        questions: (j['questions'] as List? ?? [])
-            .map((e) => ReadingQuestion.fromJson(e as Map<String, dynamic>))
-            .toList(),
-        glossary: (j['glossary'] as List? ?? [])
-            .map((e) => GlossaryEntry.fromJson(e as Map<String, dynamic>))
-            .toList(),
-      );
+  factory ReadingExercise.fromJson(Map<String, dynamic> json) =>
+      _$ReadingExerciseFromJson(json);
 
   static const schema = {
     'type': 'object',
@@ -59,7 +53,10 @@ class ReadingExercise {
           'required': ['question', 'options', 'correct_index'],
           'properties': {
             'question': {'type': 'string'},
-            'options': {'type': 'array', 'items': {'type': 'string'}},
+            'options': {
+              'type': 'array',
+              'items': {'type': 'string'},
+            },
             'correct_index': {'type': 'integer'},
           },
         },

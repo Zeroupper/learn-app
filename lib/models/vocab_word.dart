@@ -1,3 +1,8 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
+part 'vocab_word.freezed.dart';
+part 'vocab_word.g.dart';
+
 enum CefrLevel {
   a1,
   a2,
@@ -10,35 +15,23 @@ enum CefrLevel {
 }
 
 /// A single vocabulary entry loaded from the bundled asset. Immutable.
-class VocabWord {
-  final int id;
-  final String en;
-  final List<String> enAccepted; // extra accepted English answers (HU->EN)
-  final List<String> hu; // accepted Hungarian answers (EN->HU)
-  final CefrLevel level;
-  final String pos;
-  final String? exampleEn;
-  final String? exampleHu;
+@freezed
+abstract class VocabWord with _$VocabWord {
+  const factory VocabWord({
+    required int id,
+    required String en,
 
-  const VocabWord({
-    required this.id,
-    required this.en,
-    required this.enAccepted,
-    required this.hu,
-    required this.level,
-    required this.pos,
-    this.exampleEn,
-    this.exampleHu,
-  });
+    /// Extra accepted English answers (HU->EN).
+    @Default(<String>[]) List<String> enAccepted,
 
-  factory VocabWord.fromJson(Map<String, dynamic> j) => VocabWord(
-        id: j['id'] as int,
-        en: j['en'] as String,
-        enAccepted: (j['en_accepted'] as List?)?.cast<String>() ?? const [],
-        hu: (j['hu'] as List).cast<String>(),
-        level: CefrLevel.fromString(j['level'] as String),
-        pos: j['pos'] as String? ?? '',
-        exampleEn: j['example_en'] as String?,
-        exampleHu: j['example_hu'] as String?,
-      );
+    /// Accepted Hungarian answers (EN->HU).
+    required List<String> hu,
+    required CefrLevel level,
+    @Default('') String pos,
+    String? exampleEn,
+    String? exampleHu,
+  }) = _VocabWord;
+
+  factory VocabWord.fromJson(Map<String, dynamic> json) =>
+      _$VocabWordFromJson(json);
 }

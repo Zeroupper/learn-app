@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      # Every JSON this app touches — AI responses and bundled assets alike —
+      # uses snake_case keys, so rename globally instead of annotating fields.
+      json_serializable:
+        options:
+          field_rename: snake
+          # Nested models must become real maps, not objects that only turn
+          # into JSON if jsonEncode happens to reach them.
+          explicit_to_json: true

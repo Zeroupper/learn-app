@@ -1,85 +1,70 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
 import 'vocab_word.dart';
 
-class GrammarExample {
-  final String en;
-  final String hu;
-  const GrammarExample(this.en, this.hu);
+part 'grammar_lesson.freezed.dart';
+part 'grammar_lesson.g.dart';
 
-  factory GrammarExample.fromJson(Map<String, dynamic> j) =>
-      GrammarExample(j['en'] as String, j['hu'] as String);
+@freezed
+abstract class GrammarExample with _$GrammarExample {
+  const factory GrammarExample({required String en, required String hu}) =
+      _GrammarExample;
+
+  factory GrammarExample.fromJson(Map<String, dynamic> json) =>
+      _$GrammarExampleFromJson(json);
 }
 
-class GrammarSection {
-  final String headingHu;
-  final String bodyHu;
-  final List<GrammarExample> examples;
-  const GrammarSection(this.headingHu, this.bodyHu, this.examples);
+@freezed
+abstract class GrammarSection with _$GrammarSection {
+  const factory GrammarSection({
+    required String headingHu,
+    required String bodyHu,
+    @Default(<GrammarExample>[]) List<GrammarExample> examples,
+  }) = _GrammarSection;
 
-  factory GrammarSection.fromJson(Map<String, dynamic> j) => GrammarSection(
-        j['heading_hu'] as String,
-        j['body_hu'] as String,
-        (j['examples'] as List? ?? [])
-            .map((e) => GrammarExample.fromJson(e as Map<String, dynamic>))
-            .toList(),
-      );
+  factory GrammarSection.fromJson(Map<String, dynamic> json) =>
+      _$GrammarSectionFromJson(json);
 }
 
-class GrammarExercise {
-  final String promptHu;
-  final List<String> options;
-  final int correctIndex;
-  final String explanationHu;
-  const GrammarExercise(
-      this.promptHu, this.options, this.correctIndex, this.explanationHu);
+@freezed
+abstract class GrammarExercise with _$GrammarExercise {
+  const factory GrammarExercise({
+    required String promptHu,
+    required List<String> options,
+    required int correctIndex,
+    required String explanationHu,
+  }) = _GrammarExercise;
 
-  factory GrammarExercise.fromJson(Map<String, dynamic> j) => GrammarExercise(
-        j['prompt_hu'] as String,
-        (j['options'] as List).cast<String>(),
-        j['correct_index'] as int,
-        j['explanation_hu'] as String,
-      );
+  factory GrammarExercise.fromJson(Map<String, dynamic> json) =>
+      _$GrammarExerciseFromJson(json);
 }
 
 /// Lightweight metadata from index.json (list screen, no full load).
-class GrammarLessonMeta {
-  final String id;
-  final String file;
-  final String titleHu;
-  final String subtitleHu;
-  final CefrLevel level;
-  const GrammarLessonMeta(
-      this.id, this.file, this.titleHu, this.subtitleHu, this.level);
+@freezed
+abstract class GrammarLessonMeta with _$GrammarLessonMeta {
+  const factory GrammarLessonMeta({
+    required String id,
+    required String file,
+    required String titleHu,
+    required String subtitleHu,
+    required CefrLevel level,
+  }) = _GrammarLessonMeta;
 
-  factory GrammarLessonMeta.fromJson(Map<String, dynamic> j) =>
-      GrammarLessonMeta(
-        j['id'] as String,
-        j['file'] as String,
-        j['title_hu'] as String,
-        j['subtitle_hu'] as String,
-        CefrLevel.fromString(j['level'] as String),
-      );
+  factory GrammarLessonMeta.fromJson(Map<String, dynamic> json) =>
+      _$GrammarLessonMetaFromJson(json);
 }
 
-class GrammarLesson {
-  final String id;
-  final String titleHu;
-  final String subtitleHu;
-  final CefrLevel level;
-  final List<GrammarSection> sections;
-  final List<GrammarExercise> exercises;
-  const GrammarLesson(this.id, this.titleHu, this.subtitleHu, this.level,
-      this.sections, this.exercises);
+@freezed
+abstract class GrammarLesson with _$GrammarLesson {
+  const factory GrammarLesson({
+    required String id,
+    required String titleHu,
+    required String subtitleHu,
+    required CefrLevel level,
+    required List<GrammarSection> sections,
+    required List<GrammarExercise> exercises,
+  }) = _GrammarLesson;
 
-  factory GrammarLesson.fromJson(Map<String, dynamic> j) => GrammarLesson(
-        j['id'] as String,
-        j['title_hu'] as String,
-        j['subtitle_hu'] as String,
-        CefrLevel.fromString(j['level'] as String),
-        (j['sections'] as List)
-            .map((e) => GrammarSection.fromJson(e as Map<String, dynamic>))
-            .toList(),
-        (j['exercises'] as List)
-            .map((e) => GrammarExercise.fromJson(e as Map<String, dynamic>))
-            .toList(),
-      );
+  factory GrammarLesson.fromJson(Map<String, dynamic> json) =>
+      _$GrammarLessonFromJson(json);
 }

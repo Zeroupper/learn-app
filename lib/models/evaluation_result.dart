@@ -1,41 +1,32 @@
-class SentenceError {
-  final String original;
-  final String corrected;
-  final String explanationHu;
-  const SentenceError(this.original, this.corrected, this.explanationHu);
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  factory SentenceError.fromJson(Map<String, dynamic> j) => SentenceError(
-        j['original'] as String? ?? '',
-        j['corrected'] as String? ?? '',
-        j['explanation_hu'] as String? ?? '',
-      );
+part 'evaluation_result.freezed.dart';
+part 'evaluation_result.g.dart';
+
+@freezed
+abstract class SentenceError with _$SentenceError {
+  const factory SentenceError({
+    @Default('') String original,
+    @Default('') String corrected,
+    @Default('') String explanationHu,
+  }) = _SentenceError;
+
+  factory SentenceError.fromJson(Map<String, dynamic> json) =>
+      _$SentenceErrorFromJson(json);
 }
 
-class SentenceEvaluation {
-  final int score; // 0-100
-  final bool isCorrect;
-  final String corrected;
-  final List<SentenceError> errors;
-  final String explanationHu;
+@freezed
+abstract class SentenceEvaluation with _$SentenceEvaluation {
+  const factory SentenceEvaluation({
+    @Default(0) int score, // 0-100
+    @Default(false) bool isCorrect,
+    @Default('') String corrected,
+    @Default(<SentenceError>[]) List<SentenceError> errors,
+    @Default('') String explanationHu,
+  }) = _SentenceEvaluation;
 
-  const SentenceEvaluation({
-    required this.score,
-    required this.isCorrect,
-    required this.corrected,
-    required this.errors,
-    required this.explanationHu,
-  });
-
-  factory SentenceEvaluation.fromJson(Map<String, dynamic> j) =>
-      SentenceEvaluation(
-        score: (j['score'] as num?)?.toInt() ?? 0,
-        isCorrect: j['is_correct'] as bool? ?? false,
-        corrected: j['corrected'] as String? ?? '',
-        errors: (j['errors'] as List? ?? [])
-            .map((e) => SentenceError.fromJson(e as Map<String, dynamic>))
-            .toList(),
-        explanationHu: j['explanation_hu'] as String? ?? '',
-      );
+  factory SentenceEvaluation.fromJson(Map<String, dynamic> json) =>
+      _$SentenceEvaluationFromJson(json);
 
   /// JSON schema for OpenRouter structured output.
   static const schema = {

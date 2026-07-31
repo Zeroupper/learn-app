@@ -7,8 +7,17 @@ import 'package:learn_app/models/vocab_word.dart';
 import 'package:learn_app/services/session_builder.dart';
 import 'package:learn_app/services/tts_service.dart';
 import 'package:learn_app/screens/study_screen.dart';
+import 'package:learn_app/controllers/dashboard_controller.dart';
+import 'package:learn_app/data/app_database.dart';
+import 'package:learn_app/data/settings_repository.dart';
+import 'package:learn_app/data/srs_repository.dart';
+import 'package:learn_app/data/vocab_repository.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
+  late StatsStore stats;
+  late SettingsRepository settings;
+
   const word = VocabWord(
     id: 1,
     en: 'dog',
@@ -18,6 +27,23 @@ void main() {
     pos: 'noun',
   );
 
+  setUpAll(() async {
+    sqfliteFfiInit();
+    databaseFactory = databaseFactoryFfi;
+    final db = await databaseFactory.openDatabase(
+      inMemoryDatabasePath,
+      options:
+          OpenDatabaseOptions(version: 1, onCreate: AppDatabase.createSchema),
+    );
+    final srs = SrsRepository(db);
+    settings = SettingsRepository(db);
+    // A session was already finished today, so completing this one is the
+    // day's second — no streak screen over the summary this test checks.
+    await settings.markSessionDone();
+    stats = StatsStore(VocabRepository([word]), srs, settings);
+    await stats.refresh();
+  });
+
   StudyController makeController() => StudyController(
         queue: const [SessionCard(1, Direction.enToHu)],
         lookup: (_) => word,
@@ -26,8 +52,12 @@ void main() {
         saveReview: (_, _) async {},
       );
 
-  Widget wrap(StudyController c) => Provider<TtsService>(
-        create: (_) => TtsService(),
+  Widget wrap(StudyController c) => MultiProvider(
+        providers: [
+          Provider<TtsService>(create: (_) => TtsService()),
+          ChangeNotifierProvider<StatsStore>.value(value: stats),
+          Provider<SettingsRepository>.value(value: settings),
+        ],
         child: MaterialApp(home: StudyScreen(controller: c)),
       );
 
@@ -57,9 +87,11 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Helyes!'), findsOneWidget);
 
-    // Proceed -> session summary.
-    await tester.tap(find.text('Tovább'));
-    await tester.pumpAndSettle();
+    // Proceed -> session summary. runAsync because finishing a session writes
+    // its completion marker and reloads stats through the real database.
+    await tester.runAsync(() => tester.tap(find.text('Tovább')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 500));
     expect(find.text('Kész!'), findsOneWidget);
   });
 }

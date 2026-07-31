@@ -1,11 +1,16 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/grammar_repository.dart';
 import '../data/settings_repository.dart';
 import '../models/grammar_lesson.dart';
+import '../controllers/dashboard_controller.dart';
+import '../services/notifications.dart';
 import '../services/tts_service.dart';
 import '../widgets/feedback_style.dart';
+import 'streak_celebration_screen.dart';
 
 class GrammarLessonScreen extends StatefulWidget {
   final GrammarLessonMeta meta;
@@ -26,12 +31,16 @@ class _GrammarLessonScreenState extends State<GrammarLessonScreen> {
     _lesson = context.read<GrammarRepository>().loadLesson(widget.meta.file);
   }
 
-  void _answer(GrammarLesson lesson, int exercise, int option) {
+  Future<void> _answer(GrammarLesson lesson, int exercise, int option) async {
     setState(() => _answers[exercise] = option);
-    if (_answers.length == lesson.exercises.length && !_markedDone) {
-      _markedDone = true;
-      context.read<SettingsRepository>().setGrammarDone(lesson.id);
-    }
+    if (_answers.length != lesson.exercises.length || _markedDone) return;
+    _markedDone = true;
+    // Must land before the stats reload, otherwise today looks like a skip.
+    await context.read<SettingsRepository>().setGrammarDone(lesson.id);
+    unawaited(scheduleDailyStreakReminder(lastActivity: DateTime.now()));
+    if (!mounted) return;
+    await context.read<StatsStore>().refresh();
+    if (mounted) await maybeCelebrateStreak(context);
   }
 
   @override

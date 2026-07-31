@@ -1,9 +1,15 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../controllers/dashboard_controller.dart';
 import '../controllers/study_controller.dart';
+import '../data/settings_repository.dart';
 import '../models/review_state.dart';
+import '../services/notifications.dart';
 import '../services/tts_service.dart';
+import 'streak_celebration_screen.dart';
 import '../widgets/answer_feedback_banner.dart';
 
 class StudyScreen extends StatefulWidget {
@@ -49,7 +55,15 @@ class _StudyScreenState extends State<StudyScreen> {
   Future<void> _proceed() async {
     _input.clear();
     await c.proceed();
-    if (!c.isFinished) {
+    if (!mounted) return;
+    if (c.isFinished) {
+      // The session counts towards the streak only now that it is complete.
+      await context.read<SettingsRepository>().markSessionDone();
+      unawaited(scheduleDailyStreakReminder(lastActivity: DateTime.now()));
+      if (!mounted) return;
+      await context.read<StatsStore>().refresh();
+      if (mounted) await maybeCelebrateStreak(context);
+    } else {
       _focus.requestFocus();
     }
   }

@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../config.dart';
+import '../controllers/dashboard_controller.dart';
 import '../data/settings_repository.dart';
 import '../services/ai_service.dart';
 import '../text_scale.dart';
+import '../theme.dart';
+import '../widgets/lightning_route.dart';
 import 'about_screen.dart';
+import 'streak_celebration_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -28,7 +32,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Future<void> _load() async {
     final settings = context.read<SettingsRepository>();
     _model.text = await settings.model();
-    _cap.text = (await settings.dailyNewCap()).toString();
+    _cap.text = (await settings.sessionSize()).toString();
     setState(() {});
   }
 
@@ -64,10 +68,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   Future<void> _saveCap() async {
     final n = int.tryParse(_cap.text.trim());
-    if (n != null && n >= 0) {
+    if (n != null && n >= 1) {
       await context
           .read<SettingsRepository>()
-          .set(SettingsRepository.keyDailyNewCap, '$n');
+          .set(SettingsRepository.keySessionSize, '$n');
     }
   }
 
@@ -108,6 +112,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 : const Text('Kapcsolat tesztelése'),
           ),
           const Divider(height: 32),
+          const _ThemeSetting(),
+          const Divider(height: 32),
           const _FontScaleSetting(),
           const Divider(height: 32),
           Text('AI modell', style: Theme.of(context).textTheme.titleMedium),
@@ -122,7 +128,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ),
           const Divider(height: 32),
-          Text('Napi új szavak',
+          Text('Kártyák egy körben',
               style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
           TextField(
@@ -132,8 +138,25 @@ class _SettingsScreenState extends State<SettingsScreen> {
             onTapOutside: (_) => _saveCap(),
             decoration: const InputDecoration(
               border: OutlineInputBorder(),
-              helperText: 'Hány új kártya jöjjön be egy körben',
+              helperText: 'Egy gyakorlás ennyi kártyából áll (esedékes + új)',
             ),
+          ),
+          const Divider(height: 32),
+          ListTile(
+            leading: const Icon(Icons.local_fire_department,
+                color: Colors.deepOrange),
+            title: const Text('Sorozat képernyő megtekintése'),
+            subtitle: const Text('Az ünneplő képernyő napi korlát nélkül'),
+            trailing: const Icon(Icons.chevron_right),
+            contentPadding: EdgeInsets.zero,
+            onTap: () {
+              // Uses the real streak, so it previews exactly what the day's
+              // first finished exercise would show.
+              final streak = context.read<StatsStore>().stats?.streak ?? 0;
+              Navigator.of(context).push(lightningStrikeRoute(
+                StreakCelebrationScreen(streak: streak == 0 ? 1 : streak),
+              ));
+            },
           ),
           const Divider(height: 32),
           ListTile(
@@ -146,6 +169,38 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
         ],
       ),
+    );
+  }
+}
+
+/// Theme picker; the app repaints under it the moment a tile is tapped.
+class _ThemeSetting extends StatelessWidget {
+  const _ThemeSetting();
+
+  @override
+  Widget build(BuildContext context) {
+    final choice = context.watch<ThemeChoice>();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('Téma', style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 4),
+        RadioGroup<AppTheme>(
+          groupValue: choice.value,
+          onChanged: (t) => choice.set(t!),
+          child: Column(
+            children: [
+              for (final theme in AppTheme.values)
+                RadioListTile<AppTheme>(
+                  value: theme,
+                  contentPadding: EdgeInsets.zero,
+                  title: Text(theme.label),
+                  subtitle: Text(theme.blurb),
+                ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }

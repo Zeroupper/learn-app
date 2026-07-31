@@ -6,6 +6,7 @@ import '../data/settings_repository.dart';
 import '../models/grammar_lesson.dart';
 import '../models/vocab_word.dart';
 import 'grammar_lesson_screen.dart';
+import '../widgets/app_shell.dart';
 
 class GrammarListScreen extends StatefulWidget {
   const GrammarListScreen({super.key});
@@ -26,9 +27,9 @@ class _GrammarListScreenState extends State<GrammarListScreen> {
   @override
   Widget build(BuildContext context) {
     final settings = context.read<SettingsRepository>();
-    return Scaffold(
-      appBar: AppBar(title: const Text('Nyelvtan')),
-      body: FutureBuilder<List<GrammarLessonMeta>>(
+    return AppShell(
+      title: 'Nyelvtan',
+      child: FutureBuilder<List<GrammarLessonMeta>>(
         future: _index,
         builder: (context, snap) {
           if (!snap.hasData) {

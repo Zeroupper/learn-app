@@ -9,6 +9,7 @@ import '../models/review_state.dart';
 import '../models/vocab_word.dart';
 import '../services/session_builder.dart';
 import 'study_screen.dart';
+import '../widgets/app_shell.dart';
 
 enum _DirChoice { enToHu, huToEn, mixed }
 
@@ -45,14 +46,14 @@ class _StudySetupScreenState extends State<StudySetupScreen> {
     final existing = (await srs.allStates())
         .map((s) => '${s.wordId}:${s.direction.code}')
         .toSet();
-    final cap = await settings.dailyNewCap();
+    final size = await settings.sessionSize();
 
     return SessionBuilder.build(
       words: words,
       directions: dirs,
       dueStates: due,
       existingKeys: existing,
-      newCap: cap,
+      sessionSize: size,
     );
   }
 
@@ -69,6 +70,7 @@ class _StudySetupScreenState extends State<StudySetupScreen> {
     final controller = StudyController.withRepo(
       queue: queue,
       lookup: (id) => vocab.byId(id)!,
+      synonyms: vocab.englishSynonyms,
       srs: srs,
     );
     await Navigator.of(context).push(
@@ -79,9 +81,9 @@ class _StudySetupScreenState extends State<StudySetupScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Kártyák')),
-      body: Padding(
+    return AppShell(
+      title: 'Kártyák',
+      child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

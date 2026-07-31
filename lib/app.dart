@@ -2,28 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'text_scale.dart';
+import 'theme.dart';
 import 'screens/home_screen.dart';
 import 'screens/study_setup_screen.dart';
 import 'screens/grammar_list_screen.dart';
 import 'screens/ai_hub_screen.dart';
-import 'screens/settings_screen.dart';
 
 class LearnApp extends StatelessWidget {
   const LearnApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final theme = context.watch<ThemeChoice>();
     return MaterialApp(
       title: 'Learn English',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-        useMaterial3: true,
-      ),
-      darkTheme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.indigo, brightness: Brightness.dark),
-        useMaterial3: true,
-      ),
+      theme: theme.light,
+      darkTheme: theme.dark,
       themeMode: ThemeMode.system,
       // Apply the user's chosen font scale (Settings) app-wide, live.
       builder: (context, child) {
@@ -54,7 +48,6 @@ class _HomeShellState extends State<HomeShell> {
     StudySetupScreen(),
     GrammarListScreen(),
     AiHubScreen(),
-    SettingsScreen(),
   ];
 
   @override
@@ -69,7 +62,6 @@ class _HomeShellState extends State<HomeShell> {
           NavigationDestination(icon: Icon(Icons.style_outlined), selectedIcon: Icon(Icons.style), label: 'Kártyák'),
           NavigationDestination(icon: Icon(Icons.school_outlined), selectedIcon: Icon(Icons.school), label: 'Nyelvtan'),
           NavigationDestination(icon: Icon(Icons.auto_awesome_outlined), selectedIcon: Icon(Icons.auto_awesome), label: 'AI'),
-          NavigationDestination(icon: Icon(Icons.settings_outlined), selectedIcon: Icon(Icons.settings), label: 'Beállítások'),
         ],
       ),
     );

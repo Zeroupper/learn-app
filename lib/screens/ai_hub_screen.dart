@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 
 import '../config.dart';
+import 'exam_screen.dart';
 import 'listening_screen.dart';
 import 'reading_screen.dart';
 import 'sentence_practice_screen.dart';
 import 'speaking_screen.dart';
+import '../widgets/app_shell.dart';
 
 class AiHubScreen extends StatelessWidget {
   const AiHubScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('AI gyakorlás')),
-      body: ListView(
+    return AppShell(
+      title: 'AI gyakorlás',
+      child: ListView(
         padding: const EdgeInsets.all(16),
         children: [
           // Free, on-device — no API key needed.
@@ -55,6 +57,14 @@ class AiHubScreen extends StatelessWidget {
               title: 'Hallás utáni értés',
               subtitle: 'Csak hallgatod a szöveget, majd kérdésekre válaszolsz.',
               builder: (_) => const ListeningScreen(),
+            ),
+            const Divider(height: 24),
+            _tile(
+              context,
+              icon: Icons.workspace_premium,
+              title: 'Szintvizsga',
+              subtitle: 'Teljes A1/A2/B1 vizsga öt részből, AI javítással.',
+              builder: (_) => const ExamScreen(),
             ),
           ],
         ],

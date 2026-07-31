@@ -4,7 +4,9 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 import '../models/evaluation_result.dart';
+import '../models/exam.dart';
 import '../models/reading_exercise.dart';
+import 'exam_prompts.dart';
 
 /// A user-facing error with a Hungarian message.
 class AiException implements Exception {
@@ -124,6 +126,72 @@ class AiService {
     return ReadingExercise.fromJson(json);
   }
 
+  /// Builds a whole level exam — all five sections — in one call.
+  Future<Exam> generateExam({required String level}) async {
+    final json = await _chat(
+      system: examGenerationPrompt(level),
+      user: 'Write the complete ${level.toUpperCase()} exam now.',
+      schema: Exam.schema,
+      schemaName: 'exam',
+      // ~60 questions, two passages and two scripts in one response — far more
+      // output than any single exercise, and a truncated exam is a dead exam.
+      maxTokens: 16384,
+      timeout: const Duration(seconds: 180),
+    );
+    return Exam.fromJson(json);
+  }
+
+  /// Marks a completed exam. [answers] maps question id to the student's
+  /// response: the chosen option's text, or their writing. A missing or empty
+  /// entry is presented as unanswered rather than omitted, so the marker
+  /// returns a zero for it instead of skipping the question.
+  Future<({List<QuestionMark> marks, String feedbackHu})> gradeExam({
+    required Exam exam,
+    required Map<String, String> answers,
+  }) async {
+    final sb = StringBuffer();
+    for (final part in exam.parts) {
+      if (part.questions.isEmpty) continue;
+      sb.writeln('## SECTION: ${part.section.name}');
+      if (part.passage.isNotEmpty) {
+        sb.writeln('Passage the student worked from:');
+        sb.writeln(part.passage);
+      }
+      for (final q in part.questions) {
+        final given = answers[q.id]?.trim() ?? '';
+        sb.writeln('---');
+        sb.writeln('id: ${q.id}');
+        sb.writeln('question: ${q.prompt}');
+        if (!q.isFreeText) {
+          sb.writeln('options: ${q.options.join(' | ')}');
+          final i = q.correctIndex;
+          final correct =
+              (i >= 0 && i < q.options.length) ? q.options[i] : '(unknown)';
+          sb.writeln('correct answer: $correct');
+        }
+        sb.writeln('student answer: ${given.isEmpty ? '(no answer)' : given}');
+      }
+      sb.writeln();
+    }
+
+    final json = await _chat(
+      system: examGradingPrompt(exam.level),
+      user: sb.toString(),
+      schema: QuestionMark.schema,
+      schemaName: 'exam_marks',
+      // One Hungarian explanation per question, for every question sat.
+      maxTokens: 16384,
+      timeout: const Duration(seconds: 180),
+    );
+
+    return (
+      marks: (json['marks'] as List? ?? [])
+          .map((e) => QuestionMark.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      feedbackHu: json['overall_feedback_hu'] as String? ?? '',
+    );
+  }
+
   /// Level-specific marking framework so corrections match the CEFR level.
   static String _rubric(String level) => switch (level.toLowerCase()) {
         'a1' =>
@@ -152,6 +220,7 @@ class AiService {
     required Map<String, dynamic> schema,
     required String schemaName,
     required int maxTokens,
+    Duration? timeout,
   }) async {
     final key = await getApiKey();
     if (key == null || key.isEmpty) {
@@ -183,7 +252,7 @@ class AiService {
                   'content-type': 'application/json',
                 },
                 body: body)
-            .timeout(_timeout);
+            .timeout(timeout ?? _timeout);
       } on TimeoutException {
         throw AiException('Időtúllépés. Ellenőrizd az internetet és próbáld újra.');
       } on AiException {

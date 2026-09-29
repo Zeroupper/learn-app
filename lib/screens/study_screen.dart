@@ -11,6 +11,7 @@ import '../services/notifications.dart';
 import '../services/tts_service.dart';
 import 'streak_celebration_screen.dart';
 import '../widgets/answer_feedback_banner.dart';
+import '../widgets/dictation_button.dart';
 
 class StudyScreen extends StatefulWidget {
   final StudyController controller;
@@ -142,6 +143,11 @@ class _StudyScreenState extends State<StudyScreen> {
                     hintText: p.direction == Direction.enToHu
                         ? 'Írd be magyarul'
                         : 'Type in English',
+                    suffixIcon: DictationButton(
+                      controller: _input,
+                      localeId: p.targetIsHu ? 'hu_HU' : 'en_US',
+                      enabled: !checked,
+                    ),
                   ),
                 ),
               ],

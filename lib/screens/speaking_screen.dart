@@ -277,6 +277,11 @@ class _SpeakingScreenState extends State<SpeakingScreen>
       _judge();
       return;
     }
+    // SpeechToText is a singleton shared with DictationButton; initialize()
+    // only registers listeners once, so reclaim them per attempt.
+    _stt
+      ..statusListener = _onStatus
+      ..errorListener = _onError;
     setState(() {
       _heard = '';
       _phase = _Phase.listening;

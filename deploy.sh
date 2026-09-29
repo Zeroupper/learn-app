@@ -10,12 +10,12 @@ ADB="$(command -v adb || echo "$HOME/Library/Android/sdk/platform-tools/adb")"
 APK="build/app/outputs/flutter-apk/app-$MODE.apk"
 
 echo "▶ Building $MODE APK..."
-# Key from the shell env (e.g. ~/.zshrc), else .env. The key ends up inside
-# the APK — never publish a build made with it.
-if [ -n "${OPENROUTER_API_KEY:-}" ]; then
-  flutter build apk --"$MODE" --dart-define=OPENROUTER_API_KEY="$OPENROUTER_API_KEY"
-else
+# Key from .env if it has one, else the shell env (e.g. ~/.zshrc). The key
+# ends up inside the APK — never publish a build made with it.
+if grep -q '^OPENROUTER_API_KEY=.' .env 2>/dev/null; then
   flutter build apk --"$MODE" --dart-define-from-file=.env
+else
+  flutter build apk --"$MODE" --dart-define=OPENROUTER_API_KEY="${OPENROUTER_API_KEY:-}"
 fi
 
 echo "▶ Installing on device..."
